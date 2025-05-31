@@ -1,0 +1,68 @@
+[
+  {
+    "id": "q1",
+    "question": "Which phase of ethical hacking involves gathering information about a target without directly interacting with the target's systems?",
+    "type": "MCQ",
+    "options": ["Scanning", "Gaining Access", "Reconnaissance", "Maintaining Access"],
+    "answer": "Reconnaissance",
+    "description": "Reconnaissance (or footprinting) is the preparatory phase where an attacker gathers as much information as possible about a target prior to launching an attack. This can be passive (not interacting with target) or active.",
+    "hints": ["Think about the very first step before any active engagement.", "This phase is like intelligence gathering."]
+  },
+  {
+    "id": "q2",
+    "question": "Nmap is primarily used for network scanning and host discovery.",
+    "type": "TF",
+    "answer": true,
+    "description": "Nmap (Network Mapper) is a free and open-source utility for network discovery and security auditing. Many systems and network administrators also find it useful for tasks such as network inventory, managing service upgrade schedules, and monitoring host or service uptime.",
+    "hints": ["Consider what Nmap stands for.", "It's a very popular tool in cybersecurity."]
+  },
+  {
+    "id": "q3",
+    "question": "The three main goals of security are Confidentiality, __________, and Availability (CIA Triad).",
+    "type": "FILL_IN",
+    "answer": ["Integrity"],
+    "description": "The CIA Triad (Confidentiality, Integrity, Availability) is a model designed to guide policies for information security within an organization. Integrity means maintaining the consistency, accuracy, and trustworthiness of data over its entire lifecycle.",
+    "hints": ["It starts with the letter 'I'.", "It refers to the trustworthiness and accuracy of data."]
+  },
+  {
+    "id": "q4",
+    "question": "What is the common term for a malicious software that encrypts a user's files and demands payment for their release?",
+    "type": "INPUT",
+    "answer": "Ransomware",
+    "description": "Ransomware is a type of malware that threatens to publish the victim's personal data or perpetually block access to it unless a ransom is paid. More advanced malware uses a technique called cryptoviral extortion.",
+    "hints": ["It often involves a 'ransom' note.", "Think of holding data hostage."]
+  },
+  {
+    "id": "q5",
+    "question": "Which of the following is NOT a type of phishing attack?",
+    "type": "MCQ",
+    "options": ["Spear Phishing", "Whaling", "Smishing", "Port Scanning"],
+    "answer": "Port Scanning",
+    "description": "Spear phishing targets specific individuals, whaling targets high-profile executives, and smishing is phishing via SMS. Port scanning is a reconnaissance technique, not a type of phishing.",
+    "hints": ["Phishing involves social engineering to trick users.", "One of these options is a technical network probing technique."]
+  },
+  {
+    "id": "q6",
+    "question": "A SYN flood attack is a type of Denial of Service (DoS) attack.",
+    "type": "TF",
+    "answer": true,
+    "description": "In a SYN flood attack, an attacker sends a succession of SYN requests to a target's system in an attempt to consume enough server resources to make the system unresponsive to legitimate traffic.",
+    "hints": ["Consider what 'flood' implies in an attack context.", "This attack exploits the TCP three-way handshake."]
+  },
+  {
+    "id": "q7",
+    "question": "The process of converting data into a format that is unreadable without a decryption key is called _________.",
+    "type": "FILL_IN",
+    "answer": ["Encryption"],
+    "description": "Encryption is the process of encoding information. This process converts the original representation of the information, known as plaintext, into an alternative form known as ciphertext. Ideally, only authorized parties can decipher a ciphertext back to plaintext and access the original information.",
+    "hints": ["It's the opposite of decryption.", "It's a fundamental concept in data protection."]
+  },
+  {
+    "id": "q8",
+    "question": "What command-line tool in Windows is used to display TCP/IP network configuration values?",
+    "type": "INPUT",
+    "answer": "ipconfig",
+    "description": "The `ipconfig` command in Windows displays all current TCP/IP network configuration values and can modify Dynamic Host Configuration Protocol (DHCP) and Domain Name System (DNS) settings. The equivalent command in Linux/macOS is `ifconfig` or `ip addr`.",
+    "hints": ["It's similar to `ifconfig` on Linux systems.", "It shows IP address, subnet mask, default gateway, etc."]
+  }
+]
