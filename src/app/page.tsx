@@ -18,7 +18,7 @@ export default function HomePage() {
 
       <div className="w-full max-w-4xl mb-12">
         <Image 
-          src="https://placehold.co/1200x400.png" 
+          src="/cybersecurity-concept-collage-design-min.jpg" 
           alt="Cybersecurity concept" 
           data-ai-hint="cybersecurity ethical hacking"
           width={1200} 
