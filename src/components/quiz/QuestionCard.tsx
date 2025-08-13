@@ -44,11 +44,6 @@ export default function QuestionCard({
     const currentAnswer = state.userAnswers.get(question.id)?.answer;
     if (currentAnswer !== undefined) {
       setSelectedAnswer(currentAnswer);
-      if (question.type === 'FILL_IN' && Array.isArray(currentAnswer)) {
-        setFillInAnswers(currentAnswer);
-      } else if (question.type === 'FILL_IN' && typeof currentAnswer === 'string') {
-        setFillInAnswers([currentAnswer]);
-      }
     } else {
       setSelectedAnswer('');
       setFillInAnswers(Array.isArray(question.answer) ? Array(question.answer.length).fill('') : ['']);
@@ -59,19 +54,8 @@ export default function QuestionCard({
     setSelectedAnswer(value);
   };
 
-  const handleFillInChange = (index: number, value: string) => {
-    const newAnswers = [...fillInAnswers];
-    newAnswers[index] = value;
-    setFillInAnswers(newAnswers);
-    setSelectedAnswer(newAnswers);
-  };
-
   const handleSubmit = () => {
-    if (question.type === 'FILL_IN') {
-      submitAndShowAnswer(question.id, fillInAnswers);
-    } else {
-      submitAndShowAnswer(question.id, selectedAnswer);
-    }
+    submitAndShowAnswer(question.id, selectedAnswer);
   };
 
   const renderInputType = () => {
@@ -95,11 +79,11 @@ export default function QuestionCard({
             ))}
           </RadioGroup>
         );
-      case 'TF':
+      case 'TRUE_FALSE':
         return (
           <RadioGroup
             value={String(selectedAnswer)}
-            onValueChange={(value) => handleInputChange(value === 'true')}
+            onValueChange={(value) => handleInputChange(value?.toLowerCase() === 'true')}
             className="space-y-2"
             disabled={isAnswerSubmitted}
           >
@@ -113,25 +97,6 @@ export default function QuestionCard({
               </div>
             ))}
           </RadioGroup>
-        );
-      case 'FILL_IN':
-        return (
-          <div className="space-y-3">
-            {fillInAnswers.map((ans, index) => (
-              <Input
-                key={index}
-                type="text"
-                value={ans}
-                onChange={(e) => handleFillInChange(index, e.target.value)}
-                placeholder={`Blank ${index + 1}`}
-                className={`
-                  ${isAnswerSubmitted && Array.isArray(question.answer) && question.answer[index]?.toLowerCase() === ans.toLowerCase() ? 'border-green-500 ring-green-500' : ''}
-                  ${isAnswerSubmitted && Array.isArray(question.answer) && question.answer[index]?.toLowerCase() !== ans.toLowerCase() ? 'border-red-500 ring-red-500' : ''}
-                `}
-                disabled={isAnswerSubmitted}
-              />
-            ))}
-          </div>
         );
       case 'INPUT':
         return (

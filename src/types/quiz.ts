@@ -1,11 +1,11 @@
-export type QuestionType = "MCQ" | "TF" | "FILL_IN" | "INPUT";
+export type QuestionType = "MCQ" | "TRUE_FALSE" | "INPUT";
 
 export interface Question {
     id: string;
     question: string;
     type: QuestionType;
     options?: string[]; // For MCQ
-    answer: string | string[] | boolean; // boolean for TF, string[] for FILL_IN with multiple blanks
+    answer: string | string[] | boolean; // boolean for TF, string[] for with multiple blanks
     description: string;
     hints: string[];
     tags?: string[]; // Optional: for stretch goal

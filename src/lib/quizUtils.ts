@@ -21,15 +21,14 @@ export function calculateScore(questions: Question[], userAnswers: Map<string, U
 }
 
 export function checkAnswerCorrectness(question: Question, userAnswer: string | string[] | boolean): boolean {
-  if (question.type === "FILL_IN" && Array.isArray(question.answer) && Array.isArray(userAnswer)) {
-    if (question.answer.length !== userAnswer.length) return false;
-    return question.answer.every((ans, index) => ans.toLowerCase() === userAnswer[index]?.toLowerCase());
-  }
   if (typeof question.answer === 'string' && typeof userAnswer === 'string') {
     return question.answer.toLowerCase() === userAnswer.toLowerCase();
   }
   if (typeof question.answer === 'boolean' && typeof userAnswer === 'boolean') {
     return question.answer === userAnswer;
+  }
+  if (typeof question.answer === 'string' && typeof userAnswer === 'boolean') {
+    return Boolean(question.answer.toLowerCase()) === userAnswer;
   }
   // For MCQ, TF (if answer stored as string "true"/"false")
   if (typeof question.answer === 'string' && typeof userAnswer === 'string') {
