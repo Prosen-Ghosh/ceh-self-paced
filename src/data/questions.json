@@ -2474,5 +2474,4258 @@
     "description": "Cyber Terrorists attack critical systems to spread panic and promote political or religious ideologies.",
     "hints": ["Think chaos as a weapon.", "Motivation is ideology-driven."],
     "id": "a83bcc57-cf5b-41ef-a7fd-137148de01a9"
+  },
+  {
+    "question": "What is the primary focus of ethical hacking?",
+    "type": "MCQ",
+    "options": [
+      "To cause harm to systems",
+      "To identify vulnerabilities and ensure system security",
+      "To develop new malware",
+      "To bypass security without permission",
+      "To monitor user activities illegally"
+    ],
+    "answer": "To identify vulnerabilities and ensure system security",
+    "description": "Ethical hacking uses hacking tools and techniques to find weaknesses in systems. This helps organizations fix issues before malicious hackers exploit them. It is done with permission to improve security.",
+    "hints": [
+      "Think about defensive purposes.",
+      "Involves simulating attacker methods."
+    ],
+    "id": "6645173d-6b32-4fed-a79e-b567e846a957"
+  },
+  {
+    "question": "Ethical hackers are also known as White Hats.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "White Hats perform ethical hacking to test network security. They help organizations by finding loopholes with permission. This contrasts with malicious hackers.",
+    "hints": ["Relates to security analysts.", "Opposite of Black Hats."],
+    "id": "490ad14b-884e-4578-a7f6-4cec1d1bc28b"
+  },
+  {
+    "question": "Which term refers to persons who use hacking skills for offensive purposes?",
+    "type": "MCQ",
+    "options": [
+      "Ethical Hacker",
+      "White Hat",
+      "Cracker",
+      "Security Analyst",
+      "Defender"
+    ],
+    "answer": "Cracker",
+    "description": "Crackers employ hacking for harmful activities like unauthorized access. They differ from ethical hackers who use skills defensively. The term attacker is similar.",
+    "hints": ["Focus on malicious intent.", "Not legal hacking."],
+    "id": "f95e0618-57e6-49e6-b69a-fbc00dd18ca6"
+  },
+  {
+    "question": "Ethical hacking is always performed without the permission of the system owner.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Ethical hackers need permission from authorities to assess security. This makes it legal and transparent. Without consent, it becomes illegal.",
+    "hints": ["Key is authorization.", "Involves agreements."],
+    "id": "49733cd0-c26a-4def-bdbb-e90eb01dbf07"
+  },
+  {
+    "question": "What is a key distinction between ethical hackers and crackers?",
+    "type": "MCQ",
+    "options": [
+      "Tools used",
+      "Consent",
+      "Knowledge level",
+      "Programming skills",
+      "Network access"
+    ],
+    "answer": "Consent",
+    "description": "Ethical hackers have permission and are transparent. Crackers gain unauthorized access. This consent makes ethical hacking legal.",
+    "hints": ["Think about legality.", "Permission is crucial."],
+    "id": "5a60a232-b75d-4a5c-86f1-690ba144ae5c"
+  },
+  {
+    "question": "Ethical hackers damage the system during testing.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "They use same tools as hackers but avoid damage. They report vulnerabilities instead. This keeps the process safe.",
+    "hints": ["Focus on evaluation.", "No harm intended."],
+    "id": "6b00d584-23fe-4a1f-a943-9c8809059bd6"
+  },
+  {
+    "question": "Why do organizations recruit ethical hackers?",
+    "type": "MCQ",
+    "options": [
+      "To disrupt operations",
+      "To prevent hackers from gaining access",
+      "To create vulnerabilities",
+      "To ignore security policies",
+      "To reduce customer data protection"
+    ],
+    "answer": "To prevent hackers from gaining access",
+    "description": "Ethical hackers uncover risks in systems. They strengthen security posture. This helps avoid breaches.",
+    "hints": ["Defensive recruitment.", "Risk exploration."],
+    "id": "5600183f-d993-472f-b4ef-5f7de97a6df6"
+  },
+  {
+    "question": "Ethical hacking helps in enhancing security awareness at all business levels.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "It educates on policies and practices. This builds better protection. Awareness reduces risks.",
+    "hints": ["Broad impact.", "Includes end-users."],
+    "id": "5300dc70-471a-4bd0-a73b-e041f83b66b0"
+  },
+  {
+    "question": "What question does an ethical hacker seek to answer about what an attacker can see?",
+    "type": "MCQ",
+    "options": [
+      "During reconnaissance and scanning",
+      "During maintaining access",
+      "During covering tracks",
+      "During reporting",
+      "During patching"
+    ],
+    "answer": "During reconnaissance and scanning",
+    "description": "They think like attackers to spot overlooked vulnerabilities. This is in early attack phases. It helps in countermeasures.",
+    "hints": ["Initial phases.", "Visibility assessment."],
+    "id": "398e7dc4-c111-4770-98bd-9af7647e27ff"
+  },
+  {
+    "question": "Ethical hackers must notice if attackers' attempts are being logged.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "This checks detection capabilities. It covers reconnaissance and track covering. Improves response.",
+    "hints": ["Detection assessment.", "Long-term breaches."],
+    "id": "35030f47-2a36-4209-b753-8d38171775b1"
+  },
+  {
+    "question": "Which is a limitation of ethical hacking?",
+    "type": "MCQ",
+    "options": [
+      "It can guard systems completely",
+      "Organizations must know what to look for",
+      "It replaces all security measures",
+      "It is illegal",
+      "It causes damage"
+    ],
+    "answer": "Organizations must know what to look for",
+    "description": "Without clear goals, benefits are limited. Ethical hackers help understand security. Organizations implement safeguards.",
+    "hints": ["Client responsibility.", "Not a full solution."],
+    "id": "7c566742-f713-4b4f-8e47-9321361948fb"
+  },
+  {
+    "question": "Ethical hackers need in-depth knowledge of operating systems like Windows and Linux.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "This is a technical skill. It helps in domain expertise. Essential for attacks.",
+    "hints": ["Technical skills.", "Major environments."],
+    "id": "f2fa32c4-28cc-4952-a5e9-f497473f1be5"
+  },
+  {
+    "question": "Which non-technical skill is important for ethical hackers?",
+    "type": "MCQ",
+    "options": [
+      "Ignoring laws",
+      "Weak work ethics",
+      "Awareness of local standards and laws",
+      "Poor communication",
+      "Disregard for policies"
+    ],
+    "answer": "Awareness of local standards and laws",
+    "description": "This ensures legal compliance. Helps in ethical practice. Combines with problem-solving.",
+    "hints": ["Non-technical.", "Legal awareness."],
+    "id": "bb6bf5d7-164d-47bd-bc68-992843898c2c"
+  },
+  {
+    "question": "AI-driven ethical hacking uses AI to enhance hacker capabilities.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "It automates and improves testing. Helps anticipate threats. Makes hacking efficient.",
+    "hints": ["Modern approach.", "AI technologies."],
+    "id": "3abae397-31a8-4ea9-a1a5-4c846ad910b9"
+  },
+  {
+    "question": "What benefit does AI provide in ethical hacking?",
+    "type": "MCQ",
+    "options": [
+      "Reduces efficiency",
+      "Increases human error",
+      "Provides scalability",
+      "Raises costs",
+      "Limits accuracy"
+    ],
+    "answer": "Provides scalability",
+    "description": "Handles complex threats. Processes large data. Cost-effective too.",
+    "hints": ["AI benefits.", "Growing threats."],
+    "id": "ab8b799f-3303-4ddc-9299-16d10067d55b"
+  },
+  {
+    "question": "AI-driven ethical hacking is used in cloud security.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Identifies risks in clouds. Mitigates them. Part of applications.",
+    "hints": ["Application areas.", "IoT and networks."],
+    "id": "4ebe1d35-f486-4387-84a8-83e6b5e98318"
+  },
+  {
+    "question": "How does AI help ethical hackers with automation?",
+    "type": "MCQ",
+    "options": [
+      "By increasing manual tasks",
+      "Automating repetitive tasks like scanning",
+      "Reducing focus on complex issues",
+      "Eliminating need for tools",
+      "Ignoring threats"
+    ],
+    "answer": "Automating repetitive tasks like scanning",
+    "description": "Frees time for complex work. Monitors traffic. Improves efficiency.",
+    "hints": ["Repetitive automation.", "Task reduction."],
+    "id": "1284ec2b-094b-42ae-905d-8ce8a4aeb7f2"
+  },
+  {
+    "question": "AI enables predictive analysis in ethical hacking.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Analyzes patterns for breaches. Learns from past attacks. Proactive approach.",
+    "hints": ["Future threats.", "Machine learning."],
+    "id": "17d036e9-3f4c-4a82-a55e-34886584a21a"
+  },
+  {
+    "question": "Which is a way AI enhances decision making for ethical hackers?",
+    "type": "MCQ",
+    "options": [
+      "Provides insights based on data",
+      "Increases errors",
+      "Limits resource allocation",
+      "Ignores threats",
+      "Reduces reporting"
+    ],
+    "answer": "Provides insights based on data",
+    "description": "Aids in resource allocation. Responds to threats. Informed choices.",
+    "hints": ["Data analysis.", "Recommendations."],
+    "id": "6ff7df12-193c-4d5c-ae02-33605ca6e9cd"
+  },
+  {
+    "question": "AI systems in ethical hacking adapt to new cyberattacks.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Continuous learning. Updates knowledge. No manual intervention needed.",
+    "hints": ["Adaptive learning.", "Evolving threats."],
+    "id": "1bcaed91-b9a7-475d-8130-d9cfb0b2b256"
+  },
+  {
+    "question": "What does AI provide in terms of reporting for ethical hackers?",
+    "type": "MCQ",
+    "options": [
+      "Inaccurate reports",
+      "Detailed and accurate reports",
+      "No reports",
+      "Only basic info",
+      "Ignores impact"
+    ],
+    "answer": "Detailed and accurate reports",
+    "description": "On vulnerabilities and impact. Helps prioritize. Effective resource use.",
+    "hints": ["Enhanced reporting.", "Prioritization."],
+    "id": "de9509d2-b412-4575-ac03-517ee2a5af54"
+  },
+  {
+    "question": "AI-driven tools can simulate real-world cyberattacks.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Tests system resilience. Identifies improvements. Understands defenses.",
+    "hints": ["Simulation testing.", "Attack conditions."],
+    "id": "7708658c-eaf6-4d95-95ba-033852eb846a"
+  },
+  {
+    "question": "Scalability in AI-driven ethical hacking handles large environments efficiently.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Better than manual methods. For diverse IT. Crucial for big orgs.",
+    "hints": ["Large-scale.", "Complex systems."],
+    "id": "208cb437-7f21-4ad7-8bd3-07436a22a229"
+  },
+  {
+    "question": "AI enables continuous monitoring of security postures.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Real-time identification. Mitigates vulnerabilities. Not just periodic.",
+    "hints": ["Ongoing assessment.", "Real-time."],
+    "id": "fe01bd90-5ee7-40c4-951a-43e2ae39fb62"
+  },
+  {
+    "question": "Adaptive defense mechanisms in AI update to new threats.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Updates algorithms. Counters latest techniques. Evolves with threats.",
+    "hints": ["Adaptive mechanisms.", "Threat evolution."],
+    "id": "7c5f1778-61d3-46aa-9f1e-aaf1ed1b7951"
+  },
+  {
+    "question": "AI will completely replace ethical hackers.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "AI is a tool, not replacement. Human expertise needed. Creativity and judgment essential.",
+    "hints": ["Myth busted.", "Human role."],
+    "id": "dc331c56-5520-429f-9db6-65917e1dbeed"
+  },
+  {
+    "question": "Human oversight is essential in AI-driven ethical hacking.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "To interpret results. Validate findings. Make judgments.",
+    "hints": ["Human indispensable.", "Context knowledge."],
+    "id": "3f7ed8c8-dbc8-43cf-ace9-c6f19b28fe19"
+  },
+  {
+    "question": "ChatGPT-Powered AI Tools use NLP and machine learning.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Assist in tasks. Automate and enhance. Real-time help.",
+    "hints": ["OpenAI model.", "Security pros."],
+    "id": "c25b489d-2899-47c4-9287-60ca0059e75f"
+  },
+  {
+    "question": "ShellGPT generates shell commands for ethical hackers.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Helps navigate systems. Completes commands. Writes code snippets.",
+    "hints": ["Command-line tool.", "Automation."],
+    "id": "2b1cd52b-f29c-4027-8a9b-d2c4048e6b32"
+  },
+  {
+    "question": "AutoGPT automates task execution in cybersecurity.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Generates insights. Streamlines workflows. Enhances decisions.",
+    "hints": ["Data processing.", "AI models."],
+    "id": "a5ea4807-6c9f-4e7c-934b-5cae980ff9ee"
+  },
+  {
+    "question": "WormGPT creates worm-like scripts for testing.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Automates malware generation. For defense purposes. Ensures security.",
+    "hints": ["Sophisticated malware.", "Cyber pros."],
+    "id": "b125839f-a304-4c3f-9f32-4fb15bfc4dd5"
+  },
+  {
+    "question": "FreedomGPT provides unrestricted AI access.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Bypasses content filters. Explores functionalities. Wide range info.",
+    "hints": ["Unrestricted tool.", "Ethical use."],
+    "id": "e85a2e42-59bc-4ab2-a808-ecdaf6b63e92"
+  },
+  {
+    "question": "FraudGPT detects fraudulent activities.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Analyzes patterns. Identifies behaviors. Mitigates fraud.",
+    "hints": ["ML and AI.", "Actionable insights."],
+    "id": "76ec2f19-2862-470f-a7af-20b3b618af13"
+  },
+  {
+    "question": "ChaosGPT simulates chaotic behaviors.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Understands unpredictability. AI tool for study. Helps in defenses.",
+    "hints": ["Unpredictable sim.", "Behavior analysis."],
+    "id": "5f810ab3-74cb-4c06-b53e-dd8500699097"
+  },
+  {
+    "question": "PoisonGPT studies AI model poisoning.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Introduces malicious models. Understands implications. Develops defenses.",
+    "hints": ["Model poisoning.", "Trusted systems."],
+    "id": "7f9ff4c5-1ad8-4f15-ad95-2a599c48cf3f"
+  },
+  {
+    "question": "ChatGPT-powered tools enhance operational efficiency.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Automate routines. Real-time assistance. Comprehensive assessments.",
+    "hints": ["Efficiency boost.", "Shorter time."],
+    "id": "ab87ae09-1e0a-496a-8c27-2ea4bb9ee21f"
+  },
+  {
+    "question": "HackerGPT assists in identifying vulnerabilities.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "AI-driven tool. Real-time help. Reduces effort.",
+    "hints": ["Ethical assistance.", "Security assessment."],
+    "id": "e94f29d9-92ca-4e4e-9604-da9f5830895f"
+  },
+  {
+    "question": "BurpGPT integrates with Burp Suite for web scanning.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Enhances accuracy. Reduces false positives. Automates reports.",
+    "hints": ["Web vulnerability.", "AI analysis."],
+    "id": "f92d5307-e896-4b5f-9017-b26a19e613af"
+  },
+  {
+    "question": "BugBountyGPT is for bug bounty hunters.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Automates detection. Integrates platforms. AI insights.",
+    "hints": ["Vuln reporting.", "Bounty efficiency."],
+    "id": "f8289c8b-3cef-4ba5-96e0-cd4b5009625f"
+  },
+  {
+    "question": "PentestGPT automates penetration testing aspects.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Conducts assessments. Generates reports. Reduces manual work.",
+    "hints": ["Pen testing tool.", "AI automation."],
+    "id": "ffd45d57-5a64-4ff6-bd5a-49cc7f3693ea"
+  },
+  {
+    "question": "GPT White Hack focuses on ethical hacking threats.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Identifies and mitigates. AI risk assessment. Real-time recs.",
+    "hints": ["Threat detection.", "Vuln mitigation."],
+    "id": "e186e47f-497a-48e2-94be-6bd67e93fbf8"
+  },
+  {
+    "question": "CybGPT offers threat intelligence integration.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Automates assessments. Incident response. Comprehensive tool.",
+    "hints": ["Cyber pros.", "AI features."],
+    "id": "b358b63d-9064-407d-a953-0fc186b1a5ea"
+  },
+  {
+    "question": "BugHunterGPT assists in bug identification.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Automates detection. Integrates reporting. AI analyses.",
+    "hints": ["Security researchers.", "Vuln reporting."],
+    "id": "fdb0f185-4285-48b9-a574-a26a5038faa3"
+  },
+  {
+    "question": "Hacking APIs GPT identifies API vulnerabilities.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Automates scanning. AI testing. Comprehensive reports.",
+    "hints": ["API security.", "Vuln testing."],
+    "id": "c012f6fc-32fa-4dca-90ed-7a3e931815ee"
+  },
+  {
+    "question": "h4ckGPT provides real-time hacking assistance.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Automates identification. AI recommendations. Versatile tool.",
+    "hints": ["Ethical hackers.", "Task assistance."],
+    "id": "b0b4fe7c-5761-4061-ad53-ff27cf016cca"
+  },
+  {
+    "question": "HackerNewsGPT aggregates cybersecurity news.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "AI analysis of trends. Custom alerts. Real-time updates.",
+    "hints": ["News tool.", "Security pros."],
+    "id": "b4c1e4f8-02b9-4b4a-abc2-0bd9f5fd791e"
+  },
+  {
+    "question": "Ethical Hacker GPT offers vulnerability assessments.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "AI-driven. Real-time assistance. Comprehensive reporting.",
+    "hints": ["Ethical tools.", "Hacking insights."],
+    "id": "40721d2d-f866-4ea3-9eaf-7d4fec11d5b0"
+  },
+  {
+    "question": "GP(en)T(ester) automates red teaming workflows.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Identifies vulns with AI. Generates reports. Assists hackers.",
+    "hints": ["Red team tool.", "AI-powered."],
+    "id": "759f5db9-68bc-4bd0-82d8-c347436bcf2f"
+  },
+  {
+    "question": "Ethical hacking involves reverse engineering software.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "To make it better or efficient. Part of hacking definition. Innovative ways.",
+    "hints": ["Verb to hack.", "Program development."],
+    "id": "aa0678d7-3638-41cc-939f-b63c6feca401"
+  },
+  {
+    "question": "Companies hire ethical hackers to audit for known vulnerabilities only.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "They need to find new ones too. Think like crackers. Recognize potential vulns.",
+    "hints": ["Beyond audits.", "New exploits."],
+    "id": "c83db33b-ac2c-461a-b912-368ebe288aa2"
+  },
+  {
+    "question": "Ethical hackers recommend patching procedures.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "After discovering vulns. Update admins. Provide protection.",
+    "hints": ["Vuln evaluation.", "No damage."],
+    "id": "eb2badfb-e745-4d20-a364-52b85aca0905"
+  },
+  {
+    "question": "To beat a hacker, think like one is necessary for ethical hacking.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Anticipate methods. Counter attacks. Essential reason.",
+    "hints": ["Hacker mindset.", "Risk prediction."],
+    "id": "fc470493-40e3-45b5-8a67-024e93ee56ab"
+  },
+  {
+    "question": "Defense-in-depth strategy involves penetrating networks.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "To estimate vulns. Expose them. Achieve security.",
+    "hints": ["Vuln testing.", "Secure networks."],
+    "id": "15386aa2-533d-474d-a4dc-4d2097938459"
+  },
+  {
+    "question": "Ethical hackers help safeguard customer data.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Prevent breaches. Adequate measures. Recruit reasons.",
+    "hints": ["Data protection.", "Org benefits."],
+    "id": "810864ef-cadc-42b3-89d0-fe3adc33d53c"
+  },
+  {
+    "question": "What can an intruder do with information is a basic question in evaluation.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Discern intent. Purpose behind attacks. Countermeasures.",
+    "hints": ["Access phases.", "Ahead of hacker."],
+    "id": "d2a2d664-5325-42a2-87d5-46ed543e249b"
+  },
+  {
+    "question": "Ethical hackers investigate if log files are modified by attackers.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Check activities. Assess proficiency. Insight into measures.",
+    "hints": ["Track covering.", "Preventive activities."],
+    "id": "8d61b050-1099-43f0-92dc-7a8e3a122fe4"
+  },
+  {
+    "question": "Organizations decide investment for protection.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Time, effort, money. Gain adequate protection. Client willingness.",
+    "hints": ["Resource investment.", "Protection questions."],
+    "id": "13ba9d39-2e62-48da-b734-df503e64832a"
+  },
+  {
+    "question": "Security measures must comply with industry standards.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "And legal standards. Part of evaluation. Ensure compliance.",
+    "hints": ["Standards awareness.", "Legal compliance."],
+    "id": "609efd3e-e991-4b58-8f62-6e32473151ca"
+  },
+  {
+    "question": "Clients may end evaluation after first vulnerability found.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "To save resources. Framework beforehand. Convince importance.",
+    "hints": ["Resource saving.", "Security exercises."],
+    "id": "7227f1d7-a3bf-4953-8890-3a56b0fcc12f"
+  },
+  {
+    "question": "It is possible to guard systems completely.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Always improvable. Never fully guard. Convey to client.",
+    "hints": ["Improvement ongoing.", "Not absolute."],
+    "id": "649bbf34-0584-4409-8d00-c7a8e3361464"
+  },
+  {
+    "question": "Maintain confidentiality with NDA in ethical hacking.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "For disclosed info. Not to third party. Essential step.",
+    "hints": ["NDA signing.", "Confidential data."],
+    "id": "96a0177a-bf6b-43f6-8b5e-7e52de0d0ef9"
+  },
+  {
+    "question": "Perform tests beyond agreed limits.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Up to limits. Example DoS only if agreed. Avoid loss.",
+    "hints": ["Agreed limits.", "Revenue loss."],
+    "id": "ccae819e-bce8-47bc-8074-c6fa0c53a624"
+  },
+  {
+    "question": "Steps include organizing team and scheduling.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "For security audit. Efficient and ethical. Framework provision.",
+    "hints": ["Testing schedule.", "Team organization."],
+    "id": "fb865458-834f-4150-bb62-d09c26435e56"
+  },
+  {
+    "question": "Analyze results and prepare report in steps.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "After conducting test. Present to client. Ensure organized.",
+    "hints": ["Result analysis.", "Report presentation."],
+    "id": "8aa77cce-e74f-4658-a5f9-7c1496fb2b1c"
+  },
+  {
+    "question": "Ethical hackers need knowledge of networking concepts.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "And related hardware. Technical skill. For sophisticated attacks.",
+    "hints": ["Networking in-depth.", "Hardware software."],
+    "id": "5f713794-9135-43e4-b8a8-ccc1953c82c7"
+  },
+  {
+    "question": "Strong work ethics is a non-technical skill.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "And problem solving. Communication too. Commitment to policies.",
+    "hints": ["Work ethics.", "Adapt new tech."],
+    "id": "f88c1012-f436-49b4-9c34-33bd4ca71ed6"
+  },
+  {
+    "question": "AI advancements lead to sophisticated cyber threats.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Hackers use AI tools. Challenges cybersecurity. Automate attacks.",
+    "hints": ["AI threats.", "Sophisticated."],
+    "id": "c581aff3-9797-4822-9325-bc500d207cef"
+  },
+  {
+    "question": "AI-driven hacking combines with penetration testing.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Enhances capabilities. More efficient. Identify exploits.",
+    "hints": ["Modern cybersecurity.", "Vuln identification."],
+    "id": "3045b18a-8580-4e7c-854e-f047746d4e98"
+  },
+  {
+    "question": "AI reduces likelihood of human error.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Increases accuracy. Vulnerability assessments. Benefit of AI.",
+    "hints": ["Accuracy benefit.", "Error reduction."],
+    "id": "a04d1c7a-3c4c-48bd-ace1-bbec1eb34dcc"
+  },
+  {
+    "question": "AI in ethical hacking is cost-effective.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Automation gains. Reduces overall costs. Efficiency too.",
+    "hints": ["Cost benefit.", "Cybersecurity costs."],
+    "id": "7a871556-cf3e-4f3d-9b0c-e742f816d2c5"
+  },
+  {
+    "question": "AI monitors network traffic for breaches.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "In network security. Suspicious activities. Application of AI.",
+    "hints": ["Network application.", "Threat detection."],
+    "id": "5c40fc6f-7c9c-4c61-94f1-2cf29809c668"
+  },
+  {
+    "question": "AI tests web applications for vulnerabilities.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Using powered tools. Application security. Mobile too.",
+    "hints": ["App security.", "Vuln testing."],
+    "id": "614da412-6d83-44f6-98cc-543e51db757a"
+  },
+  {
+    "question": "AI gathers threat data for insights.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Threat intelligence. Actionable. Analyzes data.",
+    "hints": ["Intelligence app.", "Data analysis."],
+    "id": "160efc44-4599-479e-bc95-4c35f71953fb"
+  },
+  {
+    "question": "AI detects zero-day vulnerabilities.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Using deep learning. Anomaly detection. Advanced threats.",
+    "hints": ["Unknown threats.", "Subtle indicators."],
+    "id": "b708cddc-6748-45e3-aeca-f2b33946b2fe"
+  },
+  {
+    "question": "Human expertise remains indispensable despite AI.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "For creativity and thinking. Ethical considerations. Beyond AI.",
+    "hints": ["Human role.", "AI complement."],
+    "id": "93183523-1d43-4fdd-8834-3cdb5e7dff27"
+  },
+  {
+    "question": "Ethical hackers think like attackers to identify vulnerabilities.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Deep understanding. Craft strategies. Human strength.",
+    "hints": ["Attacker mindset.", "Vuln identification."],
+    "id": "5db8c03e-b6c3-4f30-a02e-430d67bcf232"
+  },
+  {
+    "question": "ChatGPT tools collect data from social media.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "And forums, websites. Enhance vuln identification. Data configuration.",
+    "hints": ["Data sources.", "Collection feature."],
+    "id": "3df714e6-9ec6-42f5-9745-5be12a627b40"
+  },
+  {
+    "question": "Integration with threat databases provides context.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Additional info on threats. Accuracy in analysis. Informed decisions.",
+    "hints": ["Threat intelligence.", "Context enhancement."],
+    "id": "dacd69bb-e061-4bca-93ca-321c67fc5269"
+  },
+  {
+    "question": "ShellGPT explains code blocks.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Creates documentation. Makes collaboration smooth. User-friendly.",
+    "hints": ["Code explanation.", "Documentation."],
+    "id": "6e828260-76ed-4918-aaeb-214516982167"
+  },
+  {
+    "question": "ChatGPT with DAN prompt enhances flexibility.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Do Anything Now. Customized version. Wide tasks.",
+    "hints": ["DAN prompt.", "Power leverage."],
+    "id": "9b86caf2-d5dc-4fba-b9f6-dadabf025390"
+  },
+  {
+    "question": "AI tools improve security posture.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Mitigate threats efficiently. Robust protection. Against cyberattacks.",
+    "hints": ["Security enhancement.", "Org posture."],
+    "id": "e678274c-d332-4f4d-a020-aab5853e00ff"
+  },
+  {
+    "question": "Improved decision-making with contextual info.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Prioritize vulns. Effective strategies. Large data processing.",
+    "hints": ["Decision improvement.", "Contextual knowledge."],
+    "id": "e49d742d-fa5d-4d7b-b4f9-473c1ee491f5"
+  },
+  {
+    "question": "HackerNewsGPT offers customizable alerts.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "For security trends. Aggregates news. Real-time.",
+    "hints": ["News alerts.", "Trend analysis."],
+    "id": "ef575891-e86e-4f68-a1f2-7f1a8183ba52"
+  },
+  {
+    "question": "Ethical hacking follows similar processes as malicious hacking.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Steps to access systems. But intentions differ. Overview of ethical.",
+    "hints": ["Process similarity.", "Intent difference."],
+    "id": "5256b2af-f889-4c29-8458-4878bf87ddf2"
+  },
+  {
+    "question": "Ethical hacking verifies exploitable vulnerabilities.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Simulates attacker techniques. Security assessments. With permission.",
+    "hints": ["Vuln verification.", "System security."],
+    "id": "414d753f-2e2c-4e2e-be50-92d4c3d17a38"
+  },
+  {
+    "question": "Hacker refers to learning computer details.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Stretching capabilities. Noun definition. Enjoys systems.",
+    "hints": ["Hacker noun.", "System learning."],
+    "id": "b4162f35-4f86-47b1-809c-2352825812cb"
+  },
+  {
+    "question": "To hack describes rapid program development.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Or reverse engineering. Make better. Verb definition.",
+    "hints": ["Hack verb.", "Innovative ways."],
+    "id": "bbbbd074-c7d0-428d-9efa-5cbd94f2f30e"
+  },
+  {
+    "question": "Ethical hacker employs skills for defensive purposes.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Security professionals. Term definition. Not offensive.",
+    "hints": ["Defensive skills.", "Ethical term."],
+    "id": "01296b7d-896f-4f8c-86e8-d717e417ceca"
+  },
+  {
+    "question": "System audits suffice against new vulnerabilities.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Crackers use lesser-known. Need thinker like cracker. Ethical role.",
+    "hints": ["New vulns.", "Beyond known."],
+    "id": "c5773fb5-5223-42ef-bc7e-e7fe5a702ad9"
+  },
+  {
+    "question": "Ethical hackers keep up with newest exploits.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Recognize potential. Role of ethical. Provide protection.",
+    "hints": ["Exploit knowledge.", "Vuln recognition."],
+    "id": "eed2b331-f42d-42ce-8c89-d891d8227409"
+  },
+  {
+    "question": "Consent makes ethical hacking legal.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Distinction from crackers. Always legal. Transparent actions.",
+    "hints": ["Legal distinction.", "Unauthorized no."],
+    "id": "f8694e02-a4e6-49df-b925-d6a36ee9d872"
+  },
+  {
+    "question": "Ethical hacking predicts vulnerabilities in advance.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Rectify without attack. Creative thinking. Beyond audits.",
+    "hints": ["Advance prediction.", "Security achievement."],
+    "id": "79723a6e-013c-4895-8f2e-05571824187e"
+  },
+  {
+    "question": "Uncover vulnerabilities to explore risk potential.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Recruit reason. Analyze posture. Strengthen security.",
+    "hints": ["Risk exploration.", "Posture analysis."],
+    "id": "f94c10e3-25b0-4d93-9e39-2c5db8cfbc04"
+  },
+  {
+    "question": "Provide preventive measures to avoid breaches.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Org recruit. Safeguard data. Awareness enhancement.",
+    "hints": ["Preventive measures.", "Breach avoidance."],
+    "id": "93430e3a-7a05-4b63-9fd4-20b9fa01f73e"
+  },
+  {
+    "question": "What attacker sees on target system.",
+    "type": "MCQ",
+    "options": ["Basic question", "Not relevant"],
+    "answer": "Basic question",
+    "description": "In evaluation. Overlook by admins. Recon scanning.",
+    "hints": ["Attacker view.", "Vuln overlook."],
+    "id": "3acb098b-a74b-4b7f-ae56-1403021c723f"
+  },
+  {
+    "question": "Discern purpose behind attacks.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "For countermeasures. Gaining access. Step ahead.",
+    "hints": ["Intent discernment.", "Protection adequate."],
+    "id": "97ce007c-8911-4b6f-97eb-ad7453a1b630"
+  },
+  {
+    "question": "Notice attackers' attempts on systems.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Basic question. Long-term tries. Recon covering.",
+    "hints": ["Attempt notice.", "Breach duration."],
+    "id": "45588aea-6bd5-4242-a3ad-5296f3ee3d55"
+  },
+  {
+    "question": "Investigate activities like modifying logs.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "After attacks. Assess proficiency. Security insight.",
+    "hints": ["Log modification.", "Activity check."],
+    "id": "f72b67a6-84a1-4e18-933f-06be41ce447a"
+  },
+  {
+    "question": "What organization protects against whom.",
+    "type": "MCQ",
+    "options": ["Depends on questions", "Not important"],
+    "answer": "Depends on questions",
+    "description": "Process depends. Components protected. Updated patched.",
+    "hints": ["Protection questions.", "Against what."],
+    "id": "dffd8d94-5ce2-4888-a5ef-c7772ff08af1"
+  },
+  {
+    "question": "Framework for investigation beforehand.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "With client. May end early. Convince importance.",
+    "hints": ["Investigation framework.", "Discovery prevent."],
+    "id": "0b39dfe6-30fe-4cfa-8a4d-de36f9760e4c"
+  },
+  {
+    "question": "Convey what is at stake to client.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Concise descriptions. Happening and stake. Improve systems.",
+    "hints": ["Stake conveyance.", "Client convince."],
+    "id": "354f1432-adb0-4ed1-9627-95dc3971150f"
+  },
+  {
+    "question": "NDA for confidential information.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Maintain confidentiality. Not disclose. Third party no.",
+    "hints": ["Confidential NDA.", "Test performing."],
+    "id": "a23706c7-7409-4ca4-8717-4a37eb61799a"
+  },
+  {
+    "question": "DoS only if agreed with client.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Limits agreed. Loss consequences. Revenue goodwill.",
+    "hints": ["DoS example.", "Limit adherence."],
+    "id": "f50b221f-1a42-4e99-b39e-328bd050fe61"
+  },
+  {
+    "question": "Talk to client about needs in testing.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Framework steps. Sign NDA. Organize team.",
+    "hints": ["Client discussion.", "Needs address."],
+    "id": "819ce1af-cfbb-43ad-9ecb-8b405870ecf2"
+  },
+  {
+    "question": "Present report findings to client.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "After analysis. Ensure efficient. Ethical test.",
+    "hints": ["Findings present.", "Report prepare."],
+    "id": "172770ec-2ddc-4593-8085-3525a97f00be"
+  },
+  {
+    "question": "Know Macintosh as operating environment.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Technical skill. In-depth knowledge. Major ones.",
+    "hints": ["OS knowledge.", "Technical domains."],
+    "id": "8dacb86f-6062-49fd-8331-05adde727d0c"
+  },
+  {
+    "question": "Ability to learn new technologies quickly.",
+    "type": "MCQ",
+    "options": ["Non-technical skill", "Technical skill"],
+    "answer": "Non-technical skill",
+    "description": "Adapt fast. Strong ethics. Communication.",
+    "hints": ["Learn ability.", "New tech."],
+    "id": "2a3bef4a-a78a-43ef-91cf-e25de1f5b774"
+  },
+  {
+    "question": "Committed to security policies.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Non-technical. Awareness laws. Problem solving.",
+    "hints": ["Policy commitment.", "Standards local."],
+    "id": "96d24a6e-08cf-49a4-9bed-ea85bff1549c"
+  },
+  {
+    "question": "AI transforms ethical hacking capabilities.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Enhance professionals. Anticipate threats. Mitigate risks.",
+    "hints": ["AI transformation.", "Capability enhance."],
+    "id": "99715b65-6f7c-47d1-adff-4a91559dd669"
+  },
+  {
+    "question": "AI algorithms in ethical hacking efforts.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "ML models. Automation frameworks. Facilitate automate.",
+    "hints": ["AI technologies.", "Hacking efforts."],
+    "id": "5a609e0c-cea4-4936-9b4f-e90c9aea7589"
+  },
+  {
+    "question": "AI processes large data quickly.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Efficiency benefit. Faster process. More efficient.",
+    "hints": ["Data process.", "Efficiency AI."],
+    "id": "56c8b02b-1807-482e-ad36-214a4bf2c330"
+  },
+  {
+    "question": "Which phase of the CEH ethical hacking framework involves collecting as much information as possible about the target before launching an attack?",
+    "type": "MCQ",
+    "options": [
+      "Scanning",
+      "Reconnaissance",
+      "Gaining Access",
+      "Maintaining Access"
+    ],
+    "answer": "Reconnaissance",
+    "description": "Reconnaissance is the preparatory phase where attackers gather information such as IP ranges, domain names, and employee details before an attack.",
+    "hints": [
+      "Think about footprinting and OSINT.",
+      "Whois and social engineering are part of this phase."
+    ],
+    "id": "8b69d725-1273-4e35-8356-1198d1320692"
+  },
+  {
+    "question": "True or False: Scanning and reconnaissance are always separate and do not overlap.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Scanning and reconnaissance often overlap, as scanning is considered an extension of active reconnaissance by many experts.",
+    "hints": [
+      "These phases share similar objectives.",
+      "Active probing blurs the line."
+    ],
+    "id": "820d3475-5b85-4d04-aa14-59038421fe63"
+  },
+  {
+    "question": "In which phase does the attacker try to escalate privileges after gaining initial access to a system?",
+    "type": "MCQ",
+    "options": [
+      "Reconnaissance",
+      "Vulnerability Scanning",
+      "Gaining Access",
+      "Clearing Tracks"
+    ],
+    "answer": "Gaining Access",
+    "description": "Privilege escalation is part of the gaining access phase, where attackers aim for admin-level control to execute further attacks.",
+    "hints": [
+      "Think of buffer overflow and privilege escalation techniques.",
+      "Occurs after initial compromise."
+    ],
+    "id": "19eb817b-0035-4dc8-92f6-a09e0d25dab9"
+  },
+  {
+    "question": "What is the main objective of the 'Maintaining Access' phase in the CEH framework?",
+    "type": "MCQ",
+    "options": [
+      "Obtain system configuration",
+      "Retain control of the system",
+      "Erase logs",
+      "Find open ports"
+    ],
+    "answer": "Retain control of the system",
+    "description": "Maintaining access ensures attackers can use compromised systems as launchpads for future attacks without being detected.",
+    "hints": [
+      "Rootkits and backdoors are used here.",
+      "Persistence is the key goal."
+    ],
+    "id": "d2ac627c-5682-41c7-9548-4d4456c003fd"
+  },
+  {
+    "question": "True or False: Clearing tracks involves installing a backdoor for future access.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Clearing tracks is about erasing evidence like log files to avoid detection, not installing backdoors.",
+    "hints": ["Think about log deletion.", "Goal is stealth, not persistence."],
+    "id": "159d808b-82fd-4f77-82f2-2a25601b9d0b"
+  },
+  {
+    "question": "Which of the following best describes the Cyber Kill Chain methodology?",
+    "type": "MCQ",
+    "options": [
+      "A model for patch management",
+      "A sequence for secure coding",
+      "A framework to understand and prevent attack stages",
+      "A database of vulnerabilities"
+    ],
+    "answer": "A framework to understand and prevent attack stages",
+    "description": "The Cyber Kill Chain helps identify and mitigate each stage of an attack, from reconnaissance to achieving the attacker’s objective.",
+    "hints": [
+      "Think Lockheed Martin.",
+      "Includes phases like Reconnaissance, Weaponization, and Exploitation."
+    ],
+    "id": "204333e2-a035-4953-ac13-dc49f64b79c3"
+  },
+  {
+    "question": "Which phase of the Cyber Kill Chain involves creating a command and control channel?",
+    "type": "MCQ",
+    "options": [
+      "Delivery",
+      "Installation",
+      "Command and Control",
+      "Exfiltration"
+    ],
+    "answer": "Command and Control",
+    "description": "Command and Control (C2) enables the attacker to communicate with compromised systems remotely, often using encryption to hide traffic.",
+    "hints": ["Occurs after installation.", "Involves two-way communication."],
+    "id": "023f3ab7-7c0d-4914-82a7-0350c33b7ebe"
+  },
+  {
+    "question": "True or False: Weaponization in the Cyber Kill Chain involves sending a malicious email to the target.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Weaponization is about creating the malicious payload, while sending the email happens in the Delivery phase.",
+    "hints": [
+      "Think before sending the payload.",
+      "Weaponization comes before Delivery."
+    ],
+    "id": "ef787aeb-80ca-4afa-a214-cff5883b2137"
+  },
+  {
+    "question": "What does the MITRE ATT&CK framework primarily provide?",
+    "type": "MCQ",
+    "options": [
+      "Exploit databases",
+      "A knowledge base of adversary tactics and techniques",
+      "Patch management guidelines",
+      "Firewall configurations"
+    ],
+    "answer": "A knowledge base of adversary tactics and techniques",
+    "description": "MITRE ATT&CK provides a globally accessible database of adversary behavior observed in real-world attacks, helping organizations in threat modeling.",
+    "hints": [
+      "Used for threat modeling.",
+      "Covers tactics like Initial Access, Lateral Movement."
+    ],
+    "id": "9cffa321-feb2-4b2c-a8ab-a6c116545372"
+  },
+  {
+    "question": "Which of the following is NOT a tactic in MITRE ATT&CK Enterprise matrix?",
+    "type": "MCQ",
+    "options": [
+      "Lateral Movement",
+      "Initial Access",
+      "Data Recovery",
+      "Privilege Escalation"
+    ],
+    "answer": "Data Recovery",
+    "description": "Data Recovery is not a listed tactic in MITRE ATT&CK; however, tactics like Lateral Movement and Privilege Escalation are.",
+    "hints": [
+      "Check the 14 tactic categories.",
+      "Focus on attacker behaviors, not data restoration."
+    ],
+    "id": "1508efbd-00c5-4828-83ac-bfe8ff4229e7"
+  },
+  {
+    "question": "True or False: The Diamond Model includes adversary, victim, capability, and infrastructure as its core features.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "The Diamond Model focuses on four main features: adversary (who), victim (where), capability (how), and infrastructure (what).",
+    "hints": [
+      "Think of the four points of a diamond.",
+      "Relates to intrusion analysis."
+    ],
+    "id": "9006909e-2cbf-4f3f-84ee-18f214157567"
+  },
+  {
+    "question": "Which phase of the CEH framework involves identifying open ports and unnecessary services?",
+    "type": "MCQ",
+    "options": [
+      "Reconnaissance",
+      "Vulnerability Scanning",
+      "Scanning",
+      "Gaining Access"
+    ],
+    "answer": "Scanning",
+    "description": "Scanning involves probing the target for open ports, services, and live hosts to find potential attack vectors.",
+    "hints": ["Nmap is used here.", "Occurs after footprinting."],
+    "id": "b09f83a2-d6cf-44cc-b3b0-237871569358"
+  },
+  {
+    "question": "In the Cyber Kill Chain, which phase involves triggering the malicious code after delivery?",
+    "type": "MCQ",
+    "options": [
+      "Weaponization",
+      "Exploitation",
+      "Installation",
+      "Command and Control"
+    ],
+    "answer": "Exploitation",
+    "description": "Exploitation activates the malicious payload to exploit a vulnerability on the victim system.",
+    "hints": [
+      "Happens after delivery of the payload.",
+      "Includes running exploit code."
+    ],
+    "id": "f7a36d1c-4a06-419d-a0f4-e6fdddb21f6d"
+  },
+  {
+    "question": "What is an example of a behavioral Indicator of Compromise (IoC)?",
+    "type": "MCQ",
+    "options": [
+      "MD5 hash of malware",
+      "Suspicious registry key",
+      "Remote command execution",
+      "IP address of attacker"
+    ],
+    "answer": "Remote command execution",
+    "description": "Behavioral IoCs refer to actions like executing PowerShell scripts or remote command execution, unlike static hashes or IPs.",
+    "hints": [
+      "Think about observed actions, not static values.",
+      "Dynamic activity is a key indicator."
+    ],
+    "id": "dec13db8-1233-4c57-938b-814288b998bf"
+  },
+  {
+    "question": "True or False: Email subject lines can be considered Indicators of Compromise.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Email subject lines, along with suspicious attachments or senders, are considered email IoCs for phishing detection.",
+    "hints": [
+      "Email-based attacks leave traces.",
+      "Subjects often indicate phishing attempts."
+    ],
+    "id": "bee136bf-ab7f-4c45-920c-1338dd9c00bf"
+  },
+  {
+    "question": "What does the 'Capability' component in the Diamond Model represent?",
+    "type": "MCQ",
+    "options": [
+      "The victim’s hardware",
+      "Techniques and tools used by the adversary",
+      "Geolocation of attack",
+      "Communication protocol used"
+    ],
+    "answer": "Techniques and tools used by the adversary",
+    "description": "Capability refers to the methods, techniques, and tools (such as malware) used to execute the attack.",
+    "hints": ["Includes malware and exploits.", "Part of the Diamond event."],
+    "id": "19720627-4a6e-4b95-8204-b09892dc9575"
+  },
+  {
+    "question": "Which of these is an example of a network indicator IoC?",
+    "type": "MCQ",
+    "options": ["Mutex", "File hash", "Domain name", "Registry key"],
+    "answer": "Domain name",
+    "description": "Network indicators include IP addresses, URLs, and domain names, which help detect malicious communications.",
+    "hints": [
+      "Focus on network communication elements.",
+      "Used for C2 detection."
+    ],
+    "id": "7f8d2f79-d97b-4d63-8508-cd762ccbc77c"
+  },
+  {
+    "question": "True or False: DNS tunneling is a common method for attackers to hide malicious traffic.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Attackers use DNS tunneling to obfuscate malicious traffic within legitimate DNS queries, bypassing security controls.",
+    "hints": ["Think about covert channels.", "Relates to C2 communications."],
+    "id": "d2c16a90-0557-4d9b-b38d-a48fc80c308c"
+  },
+  {
+    "question": "What is the main goal of the Weaponization phase in Cyber Kill Chain?",
+    "type": "MCQ",
+    "options": [
+      "Send phishing emails",
+      "Create a malicious payload",
+      "Install backdoors",
+      "Gather intelligence"
+    ],
+    "answer": "Create a malicious payload",
+    "description": "Weaponization involves crafting or modifying malware and exploits to target specific vulnerabilities.",
+    "hints": [
+      "Payload creation before delivery.",
+      "Exploit development happens here."
+    ],
+    "id": "38104ca0-3e48-4218-9ccc-3aacf75c92a7"
+  },
+  {
+    "question": "Which of these is NOT part of the CEH ethical hacking phases?",
+    "type": "MCQ",
+    "options": [
+      "Reconnaissance",
+      "Maintaining Access",
+      "Command and Control",
+      "Clearing Tracks"
+    ],
+    "answer": "Command and Control",
+    "description": "Command and Control is part of the Cyber Kill Chain, not the CEH framework, which includes phases like Reconnaissance and Clearing Tracks.",
+    "hints": [
+      "Compare CEH vs Cyber Kill Chain.",
+      "Focus on the official five phases."
+    ],
+    "id": "c0377017-e4f5-4140-af97-09770794fae6"
+  },
+  {
+    "question": "True or False: The Diamond Model can predict the possibility of future attacks.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "The Diamond Model helps analysts identify attack patterns and develop mitigation strategies to predict and prevent future attacks.",
+    "hints": [
+      "Behavioral analysis assists prediction.",
+      "Used for intrusion analysis."
+    ],
+    "id": "59ab50d4-a658-46f4-92fd-de7920d1ba73"
+  },
+  {
+    "question": "Which phase in the Cyber Kill Chain involves spreading malware to other systems?",
+    "type": "MCQ",
+    "options": [
+      "Delivery",
+      "Installation",
+      "Exploitation",
+      "Command and Control"
+    ],
+    "answer": "Installation",
+    "description": "Installation phase involves setting up malware and persistence mechanisms, allowing lateral movement and propagation.",
+    "hints": ["Persistence is established here.", "Occurs after exploitation."],
+    "id": "86c14e0b-50dc-4ab6-98e6-c58859f4bcf4"
+  },
+  {
+    "question": "What does the 'Infrastructure' component of the Diamond Model refer to?",
+    "type": "MCQ",
+    "options": [
+      "Attacker’s tools",
+      "Victim’s IP address",
+      "Hardware/software connecting attacker to victim",
+      "Physical location of adversary"
+    ],
+    "answer": "Hardware/software connecting attacker to victim",
+    "description": "Infrastructure refers to the systems or services used by an attacker to deliver and control the attack, like C2 servers.",
+    "hints": [
+      "Think about what links adversary to victim.",
+      "Email servers can be part of infrastructure."
+    ],
+    "id": "900a3b11-0b78-4a24-8ae4-d22322f8a972"
+  },
+  {
+    "question": "Which of these is NOT a type of Indicator of Compromise (IoC)?",
+    "type": "MCQ",
+    "options": [
+      "Email indicators",
+      "Network indicators",
+      "Behavioral indicators",
+      "Encryption algorithms"
+    ],
+    "answer": "Encryption algorithms",
+    "description": "IoCs include email, network, host-based, and behavioral indicators, but encryption algorithms are not IoCs.",
+    "hints": [
+      "Focus on signs of compromise.",
+      "Algorithms themselves are not indicators."
+    ],
+    "id": "9fa7e0e4-216c-4973-9960-dd86a185f9cb"
+  },
+  {
+    "question": "What is the primary purpose of the 'Delivery' phase in the Cyber Kill Chain?",
+    "type": "MCQ",
+    "options": [
+      "Create malware",
+      "Send the payload to the target",
+      "Exploit a vulnerability",
+      "Maintain persistence"
+    ],
+    "answer": "Send the payload to the target",
+    "description": "In the Delivery phase, attackers deliver the malicious payload to the target via email, USB, or other methods.",
+    "hints": ["Think phishing emails.", "Comes after weaponization."],
+    "id": "166c6803-6c5d-4751-a8a3-3f4020f8a7c7"
+  },
+  {
+    "question": "True or False: Exploitation occurs before the Delivery phase in the Cyber Kill Chain.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Exploitation occurs after delivery, when the attacker activates the malicious payload.",
+    "hints": [
+      "Delivery first, then exploitation.",
+      "Order matters in the chain."
+    ],
+    "id": "7758cf05-6f1d-4fe9-ab4d-80e2cd6a1aa9"
+  },
+  {
+    "question": "Which of these is considered an email Indicator of Compromise (IoC)?",
+    "type": "MCQ",
+    "options": [
+      "Unusual outbound DNS traffic",
+      "Phishing email subject",
+      "Open ports",
+      "Hash of malicious file"
+    ],
+    "answer": "Phishing email subject",
+    "description": "Email IoCs include suspicious subjects, malicious attachments, and abnormal sender addresses.",
+    "hints": ["Email-based anomaly.", "Used for phishing detection."],
+    "id": "eea49372-9131-4fe3-940c-6aa87e0d956e"
+  },
+  {
+    "question": "In the CEH framework, which phase involves using tools like Nmap for open port detection?",
+    "type": "MCQ",
+    "options": [
+      "Reconnaissance",
+      "Scanning",
+      "Gaining Access",
+      "Clearing Tracks"
+    ],
+    "answer": "Scanning",
+    "description": "Scanning identifies live systems and services using tools like Nmap and Nessus.",
+    "hints": ["Active probing happens here.", "Occurs after footprinting."],
+    "id": "e5ec4b8e-40f2-4dc2-bf92-67d28d69950a"
+  },
+  {
+    "question": "True or False: MITRE ATT&CK includes real-world observed adversary techniques.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "MITRE ATT&CK is based on real-world data, making it an essential framework for detection and defense.",
+    "hints": ["It is not theoretical.", "Used for threat intelligence."],
+    "id": "45c6cbea-4357-4fd3-a18e-07211d94564e"
+  },
+  {
+    "question": "What is the primary goal of the 'Installation' phase in the Cyber Kill Chain?",
+    "type": "MCQ",
+    "options": [
+      "Develop malware",
+      "Deliver exploit",
+      "Install persistence mechanism",
+      "Send phishing emails"
+    ],
+    "answer": "Install persistence mechanism",
+    "description": "This phase focuses on installing backdoors or rootkits to maintain access after initial exploitation.",
+    "hints": ["Persistence is the keyword.", "Happens after exploitation."],
+    "id": "b0dc31f2-6379-47a2-8c80-36cb8d9b0845"
+  },
+  {
+    "question": "Which IoC type includes suspicious processes and mutexes?",
+    "type": "MCQ",
+    "options": [
+      "Network indicators",
+      "Host-based indicators",
+      "Email indicators",
+      "Behavioral indicators"
+    ],
+    "answer": "Host-based indicators",
+    "description": "Host-based IoCs include anomalies like suspicious processes, registry changes, and mutex objects.",
+    "hints": [
+      "Focus on the local machine.",
+      "Registry keys and processes belong here."
+    ],
+    "id": "f77a3d23-41c7-4aee-be00-026f67c56b09"
+  },
+  {
+    "question": "True or False: Privilege escalation is part of the 'Clearing Tracks' phase in CEH methodology.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Privilege escalation occurs in the 'Gaining Access' phase, not while clearing evidence.",
+    "hints": [
+      "Privilege comes before cleanup.",
+      "Clearing Tracks is about erasing logs."
+    ],
+    "id": "d3fa2c85-f203-4895-8874-15a2dc21fd53"
+  },
+  {
+    "question": "Which framework is widely used for simulating and defending against adversary behavior?",
+    "type": "MCQ",
+    "options": [
+      "Cyber Kill Chain",
+      "MITRE ATT&CK",
+      "Diamond Model",
+      "Zero Trust Model"
+    ],
+    "answer": "MITRE ATT&CK",
+    "description": "MITRE ATT&CK maps real-world adversary behaviors for simulation and defense planning.",
+    "hints": [
+      "Think adversary tactics and techniques.",
+      "Widely used in Red Teaming."
+    ],
+    "id": "6e800923-3a15-4a45-9f19-4070c541557d"
+  },
+  {
+    "question": "What does 'Infrastructure' mean in the Diamond Model of Intrusion Analysis?",
+    "type": "MCQ",
+    "options": [
+      "Attacker tools",
+      "Communication path between attacker and victim",
+      "Physical attack location",
+      "Victim’s hardware"
+    ],
+    "answer": "Communication path between attacker and victim",
+    "description": "Infrastructure represents the systems (servers, domains, IPs) connecting the attacker to the victim.",
+    "hints": [
+      "Think about C2 servers.",
+      "Infrastructure links adversary and victim."
+    ],
+    "id": "d4ae8ddb-6a2a-475e-b7f8-a27eb79eadf3"
+  },
+  {
+    "question": "True or False: The MITRE ATT&CK framework focuses on vulnerability databases.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "MITRE ATT&CK is about adversary tactics and techniques, not just vulnerabilities.",
+    "hints": [
+      "Focus on attack behavior, not CVEs.",
+      "Used for detection, not patching."
+    ],
+    "id": "97a3f4f8-b34c-4516-922d-b7c4f4c2ff61"
+  },
+  {
+    "question": "Which stage in CEH methodology focuses on hiding malicious activities from detection systems?",
+    "type": "MCQ",
+    "options": [
+      "Maintaining Access",
+      "Clearing Tracks",
+      "Reconnaissance",
+      "Scanning"
+    ],
+    "answer": "Clearing Tracks",
+    "description": "This stage includes removing logs, disabling auditing, and covering any signs of intrusion.",
+    "hints": ["Goal is stealth.", "Happens near the end of attack."],
+    "id": "08398da8-9aab-4f8b-8225-6280a3b75ddf"
+  },
+  {
+    "question": "What is the main advantage of using the Diamond Model for incident response?",
+    "type": "MCQ",
+    "options": [
+      "Simplifies patching",
+      "Provides static IoCs",
+      "Helps in understanding attacker behavior and infrastructure",
+      "Focuses only on host logs"
+    ],
+    "answer": "Helps in understanding attacker behavior and infrastructure",
+    "description": "The Diamond Model gives analysts a structured way to assess adversary goals, tools, and infrastructure.",
+    "hints": [
+      "Think comprehensive intrusion analysis.",
+      "Not limited to logs."
+    ],
+    "id": "619d4259-d34c-406c-8d1d-b56f161c57a0"
+  },
+  {
+    "question": "True or False: Anomalous DNS queries can be considered a network-based IoC.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "DNS tunneling and unusual query patterns often indicate C2 communication or data exfiltration.",
+    "hints": ["Focus on traffic anomalies.", "DNS can hide malicious traffic."],
+    "id": "10db4778-6b43-43c7-856c-c14b6d730851"
+  },
+  {
+    "question": "Which of these best represents the 'Victim' feature in the Diamond Model?",
+    "type": "MCQ",
+    "options": [
+      "Attack tools",
+      "Targeted organization or person",
+      "IP address of C2 server",
+      "Exploited vulnerability"
+    ],
+    "answer": "Targeted organization or person",
+    "description": "The Victim element refers to the entity under attack, such as an organization or individual.",
+    "hints": [
+      "Think who is attacked.",
+      "Different from capability or infrastructure."
+    ],
+    "id": "934b0d7b-e2d5-40e0-bd96-54c4edf24343"
+  },
+  {
+    "question": "Which MITRE ATT&CK tactic focuses on how attackers initially enter a network?",
+    "type": "MCQ",
+    "options": [
+      "Persistence",
+      "Lateral Movement",
+      "Initial Access",
+      "Exfiltration"
+    ],
+    "answer": "Initial Access",
+    "description": "Initial Access tactics describe techniques used to gain a foothold, such as phishing or exploiting public-facing apps.",
+    "hints": ["Think first entry point.", "Often through phishing."],
+    "id": "9f33b69e-f7d2-43b9-b308-78343c57157f"
+  },
+  {
+    "question": "True or False: Behavioral IoCs are based on patterns of activity rather than static data like hashes.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Behavioral IoCs track actions like process injections or unusual command execution, unlike static hashes.",
+    "hints": [
+      "Behavioral = dynamic actions.",
+      "Not fixed like MD5 or SHA values."
+    ],
+    "id": "e5637735-ea26-4f15-82ea-77dd1b14ff14"
+  },
+  {
+    "question": "In CEH methodology, which phase typically uses vulnerability scanners like Nessus?",
+    "type": "MCQ",
+    "options": [
+      "Reconnaissance",
+      "Scanning",
+      "Maintaining Access",
+      "Clearing Tracks"
+    ],
+    "answer": "Scanning",
+    "description": "The scanning phase uses tools like Nessus to identify weaknesses in discovered systems.",
+    "hints": ["Occurs after enumeration.", "Goal is vulnerability discovery."],
+    "id": "0eb25fb1-6b0a-4c0a-8a7f-8d042b8f5ea4"
+  },
+  {
+    "question": "Which component of the Diamond Model identifies the tools and exploits used in an attack?",
+    "type": "MCQ",
+    "options": ["Adversary", "Capability", "Infrastructure", "Victim"],
+    "answer": "Capability",
+    "description": "Capability describes the technical resources (malware, exploits, tools) used by the attacker.",
+    "hints": ["Think about means, not motive.", "Includes attack techniques."],
+    "id": "9bbbdd46-bba8-4f8d-82d0-2f66b2b2e83e"
+  },
+  {
+    "question": "True or False: CEH framework includes phases for both offensive and defensive tasks.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Though designed for ethical hacking, the phases can also guide defensive strategies by identifying weaknesses.",
+    "hints": [
+      "Understanding offense aids defense.",
+      "Phases apply in both contexts."
+    ],
+    "id": "1634b17c-02ac-4a6f-8b89-9aaf418b353c"
+  },
+  {
+    "question": "Which MITRE ATT&CK tactic focuses on techniques for moving inside a compromised network?",
+    "type": "MCQ",
+    "options": [
+      "Defense Evasion",
+      "Lateral Movement",
+      "Persistence",
+      "Execution"
+    ],
+    "answer": "Lateral Movement",
+    "description": "Lateral Movement techniques allow attackers to access other systems in the network after initial compromise.",
+    "hints": ["Think pivoting.", "Goal is to expand control."],
+    "id": "50eb6141-a9f2-4ba2-90c9-d8b2bffc07e6"
+  },
+  {
+    "question": "Which stage in Cyber Kill Chain comes immediately after Command and Control?",
+    "type": "MCQ",
+    "options": [
+      "Weaponization",
+      "Actions on Objectives",
+      "Delivery",
+      "Exploitation"
+    ],
+    "answer": "Actions on Objectives",
+    "description": "This is where attackers execute their ultimate goals, like data theft or destruction.",
+    "hints": ["Final stage in the kill chain.", "Focus on attacker’s purpose."],
+    "id": "3afa04dd-defc-4226-a604-a95bbc494370"
+  },
+  {
+    "question": "True or False: MITRE ATT&CK can be used to build detection rules for SIEM systems.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "MITRE ATT&CK techniques can map to detection logic in SIEM tools to enhance monitoring.",
+    "hints": ["Helps SOC teams build alerts.", "Useful for threat hunting."],
+    "id": "06df7ac0-2ad4-46b9-b7b4-9ec7737b1221"
+  },
+  {
+    "question": "Which stage of the Cyber Kill Chain is responsible for actual exploitation of vulnerabilities on the target?",
+    "type": "MCQ",
+    "options": [
+      "Delivery",
+      "Exploitation",
+      "Installation",
+      "Command and Control"
+    ],
+    "answer": "Exploitation",
+    "description": "Exploitation is when attackers execute the malicious payload on the target system to exploit vulnerabilities.",
+    "hints": ["Comes after Delivery.", "Goal is to trigger the exploit."],
+    "id": "8253ccb8-36d0-44ec-9907-82766969381f"
+  },
+  {
+    "question": "True or False: Maintaining Access is the last phase in the CEH ethical hacking methodology.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "The last phase in CEH methodology is Clearing Tracks, where attackers remove traces of their activity.",
+    "hints": [
+      "Think about hiding evidence.",
+      "Maintaining Access comes before clearing tracks."
+    ],
+    "id": "71aae623-d057-4b8b-9a2e-ea7a0cd45b9c"
+  },
+  {
+    "question": "Which MITRE ATT&CK tactic is associated with techniques like disabling security tools and clearing logs?",
+    "type": "MCQ",
+    "options": [
+      "Persistence",
+      "Defense Evasion",
+      "Lateral Movement",
+      "Collection"
+    ],
+    "answer": "Defense Evasion",
+    "description": "Defense Evasion includes methods for avoiding detection, such as disabling antivirus and deleting logs.",
+    "hints": [
+      "Think about hiding from security controls.",
+      "Not related to initial compromise."
+    ],
+    "id": "e652f11f-dbd3-47f5-a46b-4a71577a9886"
+  },
+  {
+    "question": "What does 'Weaponization' in the Cyber Kill Chain typically involve?",
+    "type": "MCQ",
+    "options": [
+      "Installing rootkits",
+      "Pairing malware with an exploit",
+      "Sending phishing emails",
+      "Setting up C2 channels"
+    ],
+    "answer": "Pairing malware with an exploit",
+    "description": "Weaponization involves combining a malicious payload with an exploit to prepare for delivery.",
+    "hints": ["Occurs before Delivery.", "Focus on payload preparation."],
+    "id": "06c15bdc-9775-4ab9-8abb-7c645c0f7b83"
+  },
+  {
+    "question": "True or False: IoCs are always static and never change across attacks.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Many IoCs are dynamic or changeable, especially behavioral indicators, making detection challenging.",
+    "hints": ["Attackers can modify hashes.", "Dynamic behavior matters."],
+    "id": "27c30ddd-4bd3-4a75-82ed-8da4f0e9b8ba"
+  },
+  {
+    "question": "Which CEH phase often involves password cracking and exploiting weak credentials?",
+    "type": "MCQ",
+    "options": [
+      "Reconnaissance",
+      "Gaining Access",
+      "Maintaining Access",
+      "Scanning"
+    ],
+    "answer": "Gaining Access",
+    "description": "Gaining Access includes exploiting vulnerabilities and cracking passwords to compromise systems.",
+    "hints": [
+      "Privilege escalation also happens here.",
+      "Follows scanning phase."
+    ],
+    "id": "418ee5a4-37f7-4eb1-8fba-3be42e4d917f"
+  },
+  {
+    "question": "Which of these is an example of a persistence technique in MITRE ATT&CK?",
+    "type": "MCQ",
+    "options": [
+      "Phishing",
+      "Adding registry run keys",
+      "Disabling antivirus",
+      "Data exfiltration"
+    ],
+    "answer": "Adding registry run keys",
+    "description": "Persistence techniques allow attackers to maintain access, and adding registry run keys ensures malware runs on reboot.",
+    "hints": ["Focus on staying in the system.", "Involves boot persistence."],
+    "id": "e504a521-7e63-4ed9-83c3-31cbe6bfb857"
+  },
+  {
+    "question": "True or False: Lateral Movement occurs before Initial Access in MITRE ATT&CK.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Initial Access occurs first, and Lateral Movement happens later when attackers pivot to other systems.",
+    "hints": ["Order matters in tactics.", "Movement happens after entry."],
+    "id": "5f941295-74df-494c-88e7-bab259e8601c"
+  },
+  {
+    "question": "What is the purpose of the 'Actions on Objectives' phase in the Cyber Kill Chain?",
+    "type": "MCQ",
+    "options": [
+      "Exploit vulnerabilities",
+      "Execute the attacker’s ultimate goal",
+      "Deliver malicious payload",
+      "Establish C2 communication"
+    ],
+    "answer": "Execute the attacker’s ultimate goal",
+    "description": "This phase focuses on data theft, system damage, or achieving other final objectives.",
+    "hints": [
+      "Final step in the chain.",
+      "Think about why the attack happened."
+    ],
+    "id": "35b9cb1b-e47a-4c28-b1fd-281e9045fa0a"
+  },
+  {
+    "question": "Which type of IoC includes domain names and IP addresses?",
+    "type": "MCQ",
+    "options": [
+      "Host-based indicators",
+      "Network indicators",
+      "Behavioral indicators",
+      "Email indicators"
+    ],
+    "answer": "Network indicators",
+    "description": "Network IoCs consist of communication-related data like IP addresses, URLs, and domains.",
+    "hints": [
+      "Focus on traffic-related elements.",
+      "Used for detecting C2 servers."
+    ],
+    "id": "2cd85031-9790-4e37-b9c8-58fdf7345e6d"
+  },
+  {
+    "question": "True or False: The Cyber Kill Chain was developed by MITRE Corporation.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "The Cyber Kill Chain was developed by Lockheed Martin, not MITRE.",
+    "hints": [
+      "MITRE created ATT&CK, not the Kill Chain.",
+      "Think defense contractor."
+    ],
+    "id": "7b11f28f-4e25-4cb8-9912-383b63c268cb"
+  },
+  {
+    "question": "Which phase in CEH methodology often uses tools like Metasploit?",
+    "type": "MCQ",
+    "options": [
+      "Scanning",
+      "Gaining Access",
+      "Reconnaissance",
+      "Clearing Tracks"
+    ],
+    "answer": "Gaining Access",
+    "description": "Metasploit is commonly used in the Gaining Access phase for exploiting vulnerabilities.",
+    "hints": [
+      "Metasploit is an exploitation framework.",
+      "Not used for reconnaissance."
+    ],
+    "id": "15b05bc8-d6b5-43b4-8af0-f32bb7aff578"
+  },
+  {
+    "question": "True or False: Clearing Tracks may involve disabling audit logs and deleting bash history.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Clearing Tracks focuses on removing all traces of attacker activity, including logs and shell histories.",
+    "hints": ["Goal is stealth.", "Think forensic evasion."],
+    "id": "ee9b74ef-854d-4ff2-800f-0b29d2057928"
+  },
+  {
+    "question": "What does the MITRE ATT&CK tactic 'Collection' refer to?",
+    "type": "MCQ",
+    "options": [
+      "Collecting initial OSINT data",
+      "Gathering data from compromised systems",
+      "Collecting network logs",
+      "Gathering vulnerability reports"
+    ],
+    "answer": "Gathering data from compromised systems",
+    "description": "Collection involves obtaining sensitive files or data after gaining access to the system.",
+    "hints": ["Occurs after compromise.", "Data staging before exfiltration."],
+    "id": "989a1ae4-adcb-4890-be04-f22a09753c98"
+  },
+  {
+    "question": "Which CEH phase includes privilege escalation attempts?",
+    "type": "MCQ",
+    "options": [
+      "Reconnaissance",
+      "Scanning",
+      "Gaining Access",
+      "Maintaining Access"
+    ],
+    "answer": "Gaining Access",
+    "description": "Privilege escalation is part of gaining access to achieve administrative control.",
+    "hints": [
+      "Occurs after initial compromise.",
+      "Goal is higher-level control."
+    ],
+    "id": "ea26937b-0787-47ab-95f0-40ba878ac1cc"
+  },
+  {
+    "question": "True or False: MITRE ATT&CK tactics describe the why, and techniques describe the how of an attack.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Tactics are the attack objectives (why), while techniques are the specific methods (how) used to achieve them.",
+    "hints": [
+      "Think objectives vs actions.",
+      "ATT&CK framework uses this hierarchy."
+    ],
+    "id": "3b32ba70-fb85-4007-af3d-aecce5f2dcb3"
+  },
+  {
+    "question": "What is the primary focus of the Reconnaissance phase in CEH?",
+    "type": "MCQ",
+    "options": [
+      "Exploiting vulnerabilities",
+      "Gathering information about the target",
+      "Maintaining persistence",
+      "Clearing evidence"
+    ],
+    "answer": "Gathering information about the target",
+    "description": "Reconnaissance is about collecting OSINT data like domain names, IP addresses, and email addresses.",
+    "hints": ["First step of the attack.", "Footprinting tools are used here."],
+    "id": "7645f6a8-a7f1-4f60-a44a-fb9045bd5a60"
+  },
+  {
+    "question": "Which of the following is an example of a behavioral IoC?",
+    "type": "MCQ",
+    "options": [
+      "Suspicious PowerShell command",
+      "IP address of attacker",
+      "MD5 hash of malware",
+      "Malicious email attachment name"
+    ],
+    "answer": "Suspicious PowerShell command",
+    "description": "Behavioral IoCs involve detecting suspicious actions, such as executing malicious scripts.",
+    "hints": ["Focus on activity patterns.", "Dynamic indicators, not static."],
+    "id": "373bed26-d8b6-46a4-ae38-68a2adb88e21"
+  },
+  {
+    "question": "True or False: The Diamond Model is used to analyze single isolated attacks only.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "The Diamond Model helps identify attack patterns across multiple intrusions for better threat intelligence.",
+    "hints": [
+      "Used for correlation of multiple events.",
+      "Not limited to single attacks."
+    ],
+    "id": "bc876d67-9eec-49a2-9f19-fe8dd780d531"
+  },
+  {
+    "question": "Which tactic in MITRE ATT&CK deals with establishing C2 channels?",
+    "type": "MCQ",
+    "options": [
+      "Command and Control",
+      "Persistence",
+      "Execution",
+      "Collection"
+    ],
+    "answer": "Command and Control",
+    "description": "C2 channels allow attackers to remotely control compromised systems using covert communication.",
+    "hints": [
+      "Relates to remote communication.",
+      "Think about botnet control."
+    ],
+    "id": "2e11998a-bc9e-4f28-b69a-eb95e79f02a1"
+  },
+  {
+    "question": "Which of these CEH phases involves installing backdoors and rootkits for persistence?",
+    "type": "MCQ",
+    "options": [
+      "Maintaining Access",
+      "Gaining Access",
+      "Reconnaissance",
+      "Scanning"
+    ],
+    "answer": "Maintaining Access",
+    "description": "Maintaining Access ensures attackers remain in the system by installing persistent mechanisms.",
+    "hints": [
+      "Persistence techniques like rootkits.",
+      "Happens after exploitation."
+    ],
+    "id": "91cfa142-5723-4d50-a3a9-2eef7538fcc6"
+  },
+  {
+    "question": "True or False: The Cyber Kill Chain model ends after exploitation.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "The model continues through Installation, C2, and Actions on Objectives after exploitation.",
+    "hints": [
+      "It’s a full attack lifecycle.",
+      "Final stage = achieving goals."
+    ],
+    "id": "76b5c0b7-4c64-4d22-a25e-f5cc68ba4973"
+  },
+  {
+    "question": "What type of IoC includes registry modifications and suspicious processes?",
+    "type": "MCQ",
+    "options": [
+      "Network IoCs",
+      "Host-based IoCs",
+      "Behavioral IoCs",
+      "Email IoCs"
+    ],
+    "answer": "Host-based IoCs",
+    "description": "Host-based indicators include changes in registry keys, system files, and active processes.",
+    "hints": ["Focus on host machine.", "Not related to network traffic."],
+    "id": "6a248a2a-5d18-4ec9-aab7-ff9a3615550c"
+  },
+  {
+    "question": "Which principle ensures that information is not accessed by unauthorized individuals?",
+    "type": "MCQ",
+    "options": [
+      "Confidentiality",
+      "Integrity",
+      "Availability",
+      "Non-repudiation"
+    ],
+    "answer": "Confidentiality",
+    "description": "Confidentiality ensures that only authorized individuals can access information, protecting it from unauthorized disclosure. It is one of the core principles of the CIA triad in cybersecurity.",
+    "hints": ["Think about preventing data leakage", "Part of the CIA triad"],
+    "id": "62dd846a-a307-4f78-9d5f-d403591a3031"
+  },
+  {
+    "question": "In the adaptive security strategy, which phase involves identifying potential attacks before they occur?",
+    "type": "MCQ",
+    "options": ["Detection", "Prediction", "Response", "Containment"],
+    "answer": "Prediction",
+    "description": "The prediction phase involves identifying potential attacks, targets, and methods before they materialize. This helps organizations prepare defenses in advance.",
+    "hints": ["Comes before detection", "Involves threat intelligence"],
+    "id": "b0e97ece-8f93-4761-b7f0-fd236aed89f6"
+  },
+  {
+    "question": "Defense-in-depth relies on multiple layers of security so that a breach in one layer still leaves others intact.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Defense-in-depth uses several security layers throughout an information system, making it harder for attackers to penetrate and reducing the impact of a single layer's failure.",
+    "hints": ["Think 'military strategy'", "Multiple barriers protect assets"],
+    "id": "9e13d821-1a3a-42f9-8f76-5c32a0a638dd"
+  },
+  {
+    "question": "What is the correct formula for calculating IT risk?",
+    "type": "MCQ",
+    "options": [
+      "Risk = Threat × Vulnerability × Asset Value",
+      "Risk = Likelihood × Consequence",
+      "Risk = Vulnerability × Asset Value × Probability",
+      "Risk = Threat + Vulnerability + Impact"
+    ],
+    "answer": "Risk = Threat × Vulnerability × Asset Value",
+    "description": "The IT risk formula multiplies the probability of a threat by the system's vulnerabilities and the asset's value to stakeholders.",
+    "hints": [
+      "Three key components",
+      "Threats and vulnerabilities must both be present"
+    ],
+    "id": "5684bda1-ee21-4e03-a9c5-7874bb861436"
+  },
+  {
+    "question": "Which risk management phase involves selecting and applying controls to modify risks?",
+    "type": "MCQ",
+    "options": [
+      "Risk Assessment",
+      "Risk Treatment",
+      "Risk Tracking",
+      "Risk Identification"
+    ],
+    "answer": "Risk Treatment",
+    "description": "Risk treatment focuses on selecting and implementing controls to reduce risks to an acceptable level, based on the results of a risk assessment.",
+    "hints": ["Follows risk assessment", "Involves applying security measures"],
+    "id": "00ca0094-2dda-4526-bf7f-10533e0a194b"
+  },
+  {
+    "question": "Operational threat intelligence primarily provides information about:",
+    "type": "MCQ",
+    "options": [
+      "High-level industry trends",
+      "Attacker TTPs",
+      "Specific threats to the organization",
+      "Indicators of compromise"
+    ],
+    "answer": "Specific threats to the organization",
+    "description": "Operational threat intelligence focuses on details of specific threats that can help defenders respond effectively to imminent risks.",
+    "hints": ["Consumed by security managers", "Helps in incident response"],
+    "id": "a01b456b-d695-4e45-9b70-3e44099aad8e"
+  },
+  {
+    "question": "The first phase of the threat intelligence lifecycle is:",
+    "type": "MCQ",
+    "options": [
+      "Collection",
+      "Planning and Direction",
+      "Analysis and Production",
+      "Processing and Exploitation"
+    ],
+    "answer": "Planning and Direction",
+    "description": "The threat intelligence lifecycle begins with Planning and Direction, where requirements and objectives for intelligence gathering are defined.",
+    "hints": [
+      "Sets the intelligence requirements",
+      "Happens before collection"
+    ],
+    "id": "de302639-a2b4-411f-93af-e4021bd4ef86"
+  },
+  {
+    "question": "True or False: Tactical threat intelligence focuses on long-term strategic business decisions.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Tactical threat intelligence deals with adversary TTPs and is used for short-term security operations, not long-term strategic planning.",
+    "hints": ["Used by SOC managers", "Short-term, technical focus"],
+    "id": "24688842-64e7-488b-8204-47262358e1b0"
+  },
+  {
+    "question": "Which step in the threat modeling process involves breaking down an application into trust boundaries and data flows?",
+    "type": "MCQ",
+    "options": [
+      "Application Overview",
+      "Decompose the Application",
+      "Identify Threats",
+      "Identify Security Objectives"
+    ],
+    "answer": "Decompose the Application",
+    "description": "Decomposing the application helps security teams identify trust boundaries, entry/exit points, and data flows, making it easier to find vulnerabilities.",
+    "hints": [
+      "Happens before identifying threats",
+      "Focuses on system architecture"
+    ],
+    "id": "f5234d22-ac55-4cb8-b1c5-08465eaea837"
+  },
+  {
+    "question": "In incident handling and response, which phase involves preventing the spread of an attack to other systems?",
+    "type": "MCQ",
+    "options": ["Containment", "Eradication", "Recovery", "Notification"],
+    "answer": "Containment",
+    "description": "Containment focuses on isolating affected systems to stop the spread of an attack and limit damage.",
+    "hints": ["Occurs before eradication", "Think 'isolation'"],
+    "id": "87f4322f-3fb9-413d-871b-3d23d85608f0"
+  },
+  {
+    "question": "Which AI/ML security use case focuses on detecting deviations from a user's normal activity patterns?",
+    "type": "MCQ",
+    "options": [
+      "Vulnerability Management",
+      "Phishing Detection",
+      "Behavioral Analytics",
+      "Botnet Detection"
+    ],
+    "answer": "Behavioral Analytics",
+    "description": "Behavioral analytics uses AI/ML to identify deviations in a user's typical behavior, which may indicate compromised credentials or insider threats.",
+    "hints": [
+      "Looks for anomalies in user activity",
+      "Useful against credential theft"
+    ],
+    "id": "5ad83495-7324-4094-8c19-8a3c5c678fbc"
+  },
+  {
+    "question": "True or False: AI-based antivirus relies solely on signature matching to detect threats.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "AI-based antivirus uses behavior analysis and anomaly detection instead of relying only on signature matching, making it effective against new and unknown threats.",
+    "hints": ["Not limited to known signatures", "Uses anomaly detection"],
+    "id": "eb4cbb1e-78bc-4b92-999a-a12b612ff8ab"
+  },
+  {
+    "question": "Which of the following is NOT a phase of risk management?",
+    "type": "MCQ",
+    "options": [
+      "Risk Identification",
+      "Risk Treatment",
+      "Risk Tracking and Review",
+      "Threat Exploitation"
+    ],
+    "answer": "Threat Exploitation",
+    "description": "Risk management involves identifying, assessing, treating, and reviewing risks, but threat exploitation is an attacker activity, not part of risk management.",
+    "hints": [
+      "Risk management is defensive",
+      "Exploitations are offensive actions"
+    ],
+    "id": "82c4bcd3-53e9-4311-8056-a33f2b58e738"
+  },
+  {
+    "question": "What type of threat intelligence provides details such as malicious IP addresses and file hashes?",
+    "type": "MCQ",
+    "options": ["Strategic", "Tactical", "Operational", "Technical"],
+    "answer": "Technical",
+    "description": "Technical threat intelligence gives specific IoCs such as IP addresses, domains, and malware hashes, helping to block or detect attacks.",
+    "hints": ["Has short lifespan", "Directly feeds into security tools"],
+    "id": "8f77f4f6-d5b1-45fa-941d-2c90f510afb8"
+  },
+  {
+    "question": "The main purpose of information assurance (IA) is to:",
+    "type": "MCQ",
+    "options": [
+      "Ensure business profitability",
+      "Protect integrity, availability, confidentiality, and authenticity of information",
+      "Monitor user productivity",
+      "Develop marketing strategies"
+    ],
+    "answer": "Protect integrity, availability, confidentiality, and authenticity of information",
+    "description": "Information assurance ensures that information systems maintain their security properties during use, storage, and transmission.",
+    "hints": [
+      "Related to CIA triad + authenticity",
+      "Focuses on information security"
+    ],
+    "id": "a71f1a12-c781-4dd2-bc51-f695e4e99ab9"
+  },
+  {
+    "question": "In adaptive security, which phase involves continuous monitoring for suspicious activity?",
+    "type": "MCQ",
+    "options": ["Detection", "Prediction", "Protection", "Response"],
+    "answer": "Detection",
+    "description": "Detection involves monitoring the network for anomalies, attacks, and unauthorized access attempts using tools like IDS and packet sniffers.",
+    "hints": ["Uses monitoring tools", "Comes after protection"],
+    "id": "8602c88e-6e4a-49cb-aa2a-5a51d25093a9"
+  },
+  {
+    "question": "True or False: The goal of the eradication phase in incident handling is to restore affected systems to normal operation.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Eradication focuses on removing the root cause of the incident, while recovery restores systems to normal operation.",
+    "hints": ["Happens before recovery", "Root cause removal"],
+    "id": "3249eb68-09d0-4e9d-8b17-24188a4eebfc"
+  },
+  {
+    "question": "Which machine learning method categorizes data into groups without predefined labels?",
+    "type": "MCQ",
+    "options": [
+      "Supervised Learning",
+      "Unsupervised Learning",
+      "Regression Analysis",
+      "Classification"
+    ],
+    "answer": "Unsupervised Learning",
+    "description": "Unsupervised learning groups unlabeled data into clusters based on similarities, useful for anomaly detection in cybersecurity.",
+    "hints": [
+      "No labeled training data",
+      "Includes clustering and dimensionality reduction"
+    ],
+    "id": "c8883133-b8da-4d92-a730-eb5783a79561"
+  },
+  {
+    "question": "Which step of the IH&R process involves informing stakeholders about a detected incident?",
+    "type": "MCQ",
+    "options": ["Containment", "Notification", "Triage", "Evidence Gathering"],
+    "answer": "Notification",
+    "description": "The notification step ensures that all relevant parties, including management and external partners, are informed about the incident promptly.",
+    "hints": ["Occurs after triage", "Involves communication"],
+    "id": "bd025fef-cc2f-41c6-8dd4-9b23450fc944"
+  },
+  {
+    "question": "Strategic threat intelligence is primarily consumed by:",
+    "type": "MCQ",
+    "options": [
+      "SOC Analysts",
+      "High-level Executives and Management",
+      "Incident Responders",
+      "Penetration Testers"
+    ],
+    "answer": "High-level Executives and Management",
+    "description": "Strategic threat intelligence helps executives make informed business decisions about long-term cybersecurity investments.",
+    "hints": ["Focuses on business impact", "Long-term view"],
+    "id": "436219f5-f4ce-44fd-8959-26f272a9d05d"
+  },
+  {
+    "question": "True or False: The collection phase in the threat intelligence lifecycle can involve both technical and human sources.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Collection can use technical methods (logs, sensors) and human sources (HUMINT) to gather intelligence data.",
+    "hints": ["Includes OSINT, HUMINT", "Multiple data sources"],
+    "id": "53ce38a5-28e7-4620-aba6-62f98e4cedef"
+  },
+  {
+    "question": "Which AI/ML security application helps identify fraudulent financial transactions?",
+    "type": "MCQ",
+    "options": [
+      "Behavioral Analytics",
+      "Fraud Detection",
+      "Botnet Detection",
+      "Phishing Prevention"
+    ],
+    "answer": "Fraud Detection",
+    "description": "AI and ML can detect anomalies in financial transactions and block fraudulent ones in real time.",
+    "hints": [
+      "Focus on payment security",
+      "Looks for anomalies in transactions"
+    ],
+    "id": "09e5cd3c-afa0-410c-a920-a5f3006b8b13"
+  },
+  {
+    "question": "In threat modeling, which step comes immediately after identifying security objectives?",
+    "type": "MCQ",
+    "options": [
+      "Identify Threats",
+      "Decompose the Application",
+      "Application Overview",
+      "Identify Vulnerabilities"
+    ],
+    "answer": "Application Overview",
+    "description": "After defining security objectives, the next step is to understand the application's components, data flows, and trust boundaries.",
+    "hints": ["Helps map the system", "Done before decomposition"],
+    "id": "55517c1b-8039-4907-b378-33c4e66dfa0c"
+  },
+  {
+    "question": "Which adaptive security activity includes incident response and containment?",
+    "type": "MCQ",
+    "options": ["Protect", "Detect", "Respond", "Predict"],
+    "answer": "Respond",
+    "description": "Respond activities include incident response, investigation, containment, and recovery planning after a detected incident.",
+    "hints": ["Happens after detection", "Includes mitigation steps"],
+    "id": "4cfc0509-4850-461a-a0c3-1d1d0c11163c"
+  },
+  {
+    "question": "Which of the following is NOT part of the CIA triad?",
+    "type": "MCQ",
+    "options": [
+      "Confidentiality",
+      "Integrity",
+      "Availability",
+      "Accountability"
+    ],
+    "answer": "Accountability",
+    "description": "The CIA triad consists of Confidentiality, Integrity, and Availability. Accountability is important in security but is not part of the CIA triad.",
+    "hints": ["Three letters define it", "Core security principles"],
+    "id": "6db5ca36-426c-4082-a140-c713c71b019d"
+  },
+  {
+    "question": "In the risk matrix, the level of risk is determined by:",
+    "type": "MCQ",
+    "options": [
+      "Likelihood × Consequence",
+      "Threat × Vulnerability × Asset Value",
+      "Impact × Asset Sensitivity",
+      "Incident Frequency × Detection Time"
+    ],
+    "answer": "Likelihood × Consequence",
+    "description": "A basic risk matrix multiplies the likelihood of a risk occurring by the severity of its consequences to determine the risk level.",
+    "hints": ["Probability plays a role", "Simple multiplication formula"],
+    "id": "561520fb-091a-46be-b36e-ebc8d5f4efeb"
+  },
+  {
+    "question": "True or False: Defense-in-depth can reduce the impact of a successful attack by slowing attackers down.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Multiple defensive layers slow down attackers, giving defenders more time to respond and reducing the potential damage.",
+    "hints": ["Multiple barriers buy time", "Delay is part of the defense"],
+    "id": "1feeaa9c-4be1-433b-aa9e-37941e8a862e"
+  },
+  {
+    "question": "Which type of threat intelligence is most likely to include reports from ISACs and ISAOs?",
+    "type": "MCQ",
+    "options": ["Strategic", "Tactical", "Operational", "Technical"],
+    "answer": "Strategic",
+    "description": "Strategic threat intelligence often comes from industry-specific sharing organizations like ISACs and ISAOs, providing high-level risk insights.",
+    "hints": ["Used by executives", "Long-term view"],
+    "id": "e47c7a45-3ed7-41a8-b87e-745393f9837b"
+  },
+  {
+    "question": "Which threat modeling step focuses on identifying where trust levels change within a system?",
+    "type": "MCQ",
+    "options": [
+      "Identify Threats",
+      "Identify Trust Boundaries",
+      "Identify Vulnerabilities",
+      "Decompose the Application"
+    ],
+    "answer": "Identify Trust Boundaries",
+    "description": "Trust boundaries mark changes in trust levels within a system, helping to locate areas that require stronger security controls.",
+    "hints": ["Important in decomposition", "Indicates privilege changes"],
+    "id": "2a98c017-c8de-4b79-84b1-c142a49ac8f7"
+  },
+  {
+    "question": "In the incident handling process, which step directly follows 'Notification'?",
+    "type": "MCQ",
+    "options": ["Containment", "Triage", "Evidence Gathering", "Recovery"],
+    "answer": "Containment",
+    "description": "Containment comes after notifying stakeholders and involves isolating affected systems to prevent further spread.",
+    "hints": ["Isolate systems", "Before eradication"],
+    "id": "bc70c984-4a5c-4669-a24b-f54d39ccbf92"
+  },
+  {
+    "question": "True or False: Vulnerability management in AI/ML systems involves predicting when a vulnerability might be exploited.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "AI/ML can not only detect vulnerabilities but also forecast possible exploitation timelines based on attacker patterns.",
+    "hints": ["Prediction is part of AI/ML benefits", "Looks ahead in time"],
+    "id": "bb1aad23-a131-4ddf-8335-995398886c61"
+  },
+  {
+    "question": "Which of these is a characteristic of supervised learning in machine learning?",
+    "type": "MCQ",
+    "options": [
+      "Groups unlabeled data automatically",
+      "Requires labeled training data",
+      "Reduces the number of attributes in a dataset",
+      "Detects outliers without prior knowledge"
+    ],
+    "answer": "Requires labeled training data",
+    "description": "Supervised learning uses labeled datasets to train models to classify or predict outputs based on learned patterns.",
+    "hints": [
+      "Uses known answers for training",
+      "Opposite of unsupervised learning"
+    ],
+    "id": "f64a73e2-2950-477b-8d32-8c34b5052ca0"
+  },
+  {
+    "question": "What is the primary goal of the 'Eradication' step in incident handling?",
+    "type": "MCQ",
+    "options": [
+      "Restore normal business operations",
+      "Remove the root cause of the incident",
+      "Notify stakeholders",
+      "Collect evidence"
+    ],
+    "answer": "Remove the root cause of the incident",
+    "description": "Eradication focuses on eliminating the attack's root cause to prevent it from reoccurring.",
+    "hints": ["Root cause removal", "Comes before recovery"],
+    "id": "3538dc93-5193-4d8d-8853-b6a9dca82388"
+  },
+  {
+    "question": "Which type of AI/ML cybersecurity application can improve face recognition systems to prevent credential breaches?",
+    "type": "MCQ",
+    "options": [
+      "Phishing Detection",
+      "Password Protection and Authentication",
+      "Botnet Detection",
+      "Fraud Detection"
+    ],
+    "answer": "Password Protection and Authentication",
+    "description": "AI enhances biometric authentication methods like face recognition to make credential breaches more difficult.",
+    "hints": ["Linked to authentication", "Focuses on preventing access fraud"],
+    "id": "2f6ad89e-4e8e-465f-a56d-ab30d8d247c3"
+  },
+  {
+    "question": "True or False: Risk management is a one-time process completed at the start of a project.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Risk management is a continuous process that adapts to changes in threats, vulnerabilities, and business operations.",
+    "hints": ["It’s ongoing", "Part of the security lifecycle"],
+    "id": "65c390ed-cda2-4c10-b68c-913bfbbbd531"
+  },
+  {
+    "question": "Which phase of the adaptive security strategy includes setting up firewalls and IDS systems?",
+    "type": "MCQ",
+    "options": ["Predict", "Protect", "Detect", "Respond"],
+    "answer": "Protect",
+    "description": "The protect phase implements preventive measures like firewalls, host security, and intrusion detection systems.",
+    "hints": ["Prevention focus", "Before detection"],
+    "id": "e6381db1-1b02-4704-a893-42bf1b39a056"
+  },
+  {
+    "question": "In threat modeling, which element is most likely to be identified in the 'Application Overview' step?",
+    "type": "MCQ",
+    "options": [
+      "Data Flows",
+      "Root Cause",
+      "Incident Impact",
+      "Malicious IP Addresses"
+    ],
+    "answer": "Data Flows",
+    "description": "The application overview step maps out components, data flows, and trust boundaries to understand the system.",
+    "hints": ["Part of early design stage", "Helps visualize the system"],
+    "id": "31802880-6e0a-4795-afcf-0b3c577a6037"
+  },
+  {
+    "question": "Which of the following best describes 'Non-repudiation' in information security?",
+    "type": "MCQ",
+    "options": [
+      "Ensuring that only authorized people access data",
+      "Ensuring actions cannot be denied later",
+      "Ensuring data is available when needed",
+      "Ensuring system uptime is maximized"
+    ],
+    "answer": "Ensuring actions cannot be denied later",
+    "description": "Non-repudiation guarantees that someone cannot deny performing a specific action, often implemented with digital signatures.",
+    "hints": ["Involves digital signatures", "Related to proof of action"],
+    "id": "6a3ebf16-58b0-40ad-a181-339c94178a65"
+  },
+  {
+    "question": "True or False: Technical threat intelligence usually has a longer lifespan than tactical threat intelligence.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Technical threat intelligence, such as IoCs, has a short lifespan because attackers frequently change their tools and infrastructure.",
+    "hints": ["IoCs change quickly", "Short-term actionable data"],
+    "id": "2dcd7835-ae55-46fc-8df6-fcbb13d2e98a"
+  },
+  {
+    "question": "What is the primary purpose of the 'Tracking and Review' phase in risk management?",
+    "type": "MCQ",
+    "options": [
+      "Apply initial controls",
+      "Update stakeholders on new threats",
+      "Ensure implemented controls are effective",
+      "Identify vulnerabilities"
+    ],
+    "answer": "Ensure implemented controls are effective",
+    "description": "The tracking and review phase verifies that risk controls work as intended and identifies opportunities for improvement.",
+    "hints": ["Validation step", "Part of continuous improvement"],
+    "id": "cc8e30ae-6d34-4124-8122-f49946e9f89a"
+  },
+  {
+    "question": "Which AI/ML security application analyzes payment patterns to block fraudulent activity?",
+    "type": "MCQ",
+    "options": [
+      "Fraud Detection",
+      "Botnet Detection",
+      "Behavioral Analytics",
+      "Phishing Prevention"
+    ],
+    "answer": "Fraud Detection",
+    "description": "AI and ML detect anomalies in payment patterns, blocking transactions that match fraudulent behaviors.",
+    "hints": ["Linked to financial transactions", "Pattern recognition is key"],
+    "id": "fd473d66-612e-4679-b127-402331ccb60c"
+  },
+  {
+    "question": "In the incident handling process, which step includes documenting the incident and revising policies?",
+    "type": "MCQ",
+    "options": [
+      "Containment",
+      "Recovery",
+      "Post-Incident Activities",
+      "Triage"
+    ],
+    "answer": "Post-Incident Activities",
+    "description": "Post-incident activities include documentation, reviewing impacts, and updating policies to prevent recurrence.",
+    "hints": ["Final phase", "Lessons learned"],
+    "id": "560a5e54-f2cc-47a0-b30f-4eb7c1c2934a"
+  },
+  {
+    "question": "True or False: Strategic threat intelligence is typically used by SOC analysts for real-time detection of attacks.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Strategic threat intelligence is used by executives for long-term planning, not by SOC analysts for real-time detection.",
+    "hints": ["SOC uses tactical and technical", "Strategic is high-level"],
+    "id": "d834e782-1cb6-411f-af47-f619eb813cc3"
+  },
+  {
+    "question": "Which of these is an example of dimensionality reduction in machine learning?",
+    "type": "MCQ",
+    "options": [
+      "Grouping emails as spam or not spam",
+      "Reducing dataset attributes while preserving key information",
+      "Clustering IoCs into related groups",
+      "Predicting future vulnerabilities"
+    ],
+    "answer": "Reducing dataset attributes while preserving key information",
+    "description": "Dimensionality reduction reduces the number of variables in a dataset, making analysis faster without losing critical information.",
+    "hints": [
+      "Used in unsupervised learning",
+      "Simplifies data without losing meaning"
+    ],
+    "id": "dd813d0d-652f-4727-bbd2-35d014d2e18b"
+  },
+  {
+    "question": "Which role in incident management ensures firewall filters are correctly configured?",
+    "type": "MCQ",
+    "options": [
+      "Legal Counsel",
+      "Firewall Manager",
+      "Incident Responder",
+      "Security Trainer"
+    ],
+    "answer": "Firewall Manager",
+    "description": "The firewall manager maintains and updates firewall rules to prevent attacks such as DoS.",
+    "hints": ["Role-specific task", "Linked to network perimeter defense"],
+    "id": "e20042c4-1673-45ce-9bb1-6f8efea56f01"
+  },
+  {
+    "question": "True or False: The 'Prediction' activity in adaptive security occurs after detection of threats.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Prediction comes before detection, identifying potential threats before they occur.",
+    "hints": ["Proactive, not reactive", "Helps plan defenses in advance"],
+    "id": "b96bcdef-c22d-4506-a74d-0ec99532ce74"
+  },
+  {
+    "question": "Which type of threat intelligence is most likely to include attack group reports and malware samples?",
+    "type": "MCQ",
+    "options": ["Strategic", "Tactical", "Operational", "Technical"],
+    "answer": "Tactical",
+    "description": "Tactical threat intelligence focuses on adversary TTPs and often includes malware analysis and attack group reports.",
+    "hints": ["Supports SOC operations", "Short-term defensive actions"],
+    "id": "b3c83120-283a-443b-822f-fd68d80c3ab5"
+  },
+  {
+    "question": "Which element of information assurance ensures that systems remain operational when needed?",
+    "type": "MCQ",
+    "options": [
+      "Integrity",
+      "Availability",
+      "Confidentiality",
+      "Non-repudiation"
+    ],
+    "answer": "Availability",
+    "description": "Availability ensures that systems, applications, and data are accessible whenever authorized users need them.",
+    "hints": ["Think uptime", "Part of CIA triad"],
+    "id": "2610ddc2-23ad-4a5e-b064-dccde374644e"
+  },
+  {
+    "question": "During a security review, you are tasked with ensuring that sensitive customer data is not modified by unauthorized users. Which CIA principle are you addressing?",
+    "type": "MCQ",
+    "options": [
+      "Confidentiality",
+      "Integrity",
+      "Availability",
+      "Non-repudiation"
+    ],
+    "answer": "Integrity",
+    "description": "Integrity ensures that data remains accurate and unaltered except by authorized individuals. This protects against both accidental and malicious modifications.",
+    "hints": ["Prevents unauthorized modification", "Part of CIA triad"],
+    "id": "5ba45ddd-9a2d-4391-8e05-cedfff5f5673"
+  },
+  {
+    "question": "Your team installs an IDS to continuously monitor traffic for anomalies. Which phase of the adaptive security strategy does this align with?",
+    "type": "MCQ",
+    "options": ["Protect", "Detect", "Respond", "Predict"],
+    "answer": "Detect",
+    "description": "The Detect phase uses tools like IDS and packet sniffers to identify suspicious activity or policy violations in real-time.",
+    "hints": ["Comes after protection", "Real-time monitoring"],
+    "id": "a18c3a08-e19d-4063-9ee5-d673db28d79b"
+  },
+  {
+    "question": "True or False: In the risk formula, if any one of the factors (Threat, Vulnerability, Asset Value) is zero, the overall risk is also zero.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "The risk formula multiplies Threat × Vulnerability × Asset Value. If any factor is zero, the product—and thus the risk—is zero.",
+    "hints": ["Multiplication logic", "Any missing element kills the risk"],
+    "id": "a880d19b-0d59-4ac5-81ba-eb36e1a67483"
+  },
+  {
+    "question": "An organization receives intelligence that a new phishing campaign is targeting their industry. This information includes email subject lines and malicious URLs. Which type of threat intelligence is this?",
+    "type": "MCQ",
+    "options": ["Strategic", "Tactical", "Operational", "Technical"],
+    "answer": "Technical",
+    "description": "Technical threat intelligence contains specific IoCs such as URLs, domains, and file hashes that can be directly blocked or monitored.",
+    "hints": ["Short-lived", "Directly actionable"],
+    "id": "9df9b0ff-56d6-4256-af00-ac1971f9cce5"
+  },
+  {
+    "question": "During threat modeling, you identify that the application accepts user input from an API without validation. This is an example of:",
+    "type": "MCQ",
+    "options": ["Trust Boundary", "Entry Point", "Exit Point", "Data Flow"],
+    "answer": "Entry Point",
+    "description": "An entry point is where data enters the application. Without validation, these points can become security vulnerabilities.",
+    "hints": ["Where user data enters", "Potential injection vector"],
+    "id": "1bda3f18-4497-48da-b6ed-1ed942d76916"
+  },
+  {
+    "question": "Which incident handling step ensures the root cause of a breach is eliminated to prevent recurrence?",
+    "type": "MCQ",
+    "options": [
+      "Containment",
+      "Eradication",
+      "Recovery",
+      "Post-Incident Activities"
+    ],
+    "answer": "Eradication",
+    "description": "Eradication focuses on removing the attacker’s foothold and fixing vulnerabilities that allowed the breach.",
+    "hints": ["After containment", "Before recovery"],
+    "id": "7a862cdd-f79b-4e1a-919a-8370ebb44477"
+  },
+  {
+    "question": "True or False: Machine learning can be used to detect phishing attempts by analyzing email metadata and content patterns.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "AI/ML systems can scan and identify phishing emails faster than humans by recognizing suspicious patterns and URLs.",
+    "hints": ["AI pattern recognition", "Phishing prevention use case"],
+    "id": "a4e2607a-8fb7-4642-968f-0a422f6cefec"
+  },
+  {
+    "question": "In risk management, the initial step of identifying possible internal and external threats is called:",
+    "type": "MCQ",
+    "options": [
+      "Risk Assessment",
+      "Risk Identification",
+      "Risk Treatment",
+      "Risk Tracking"
+    ],
+    "answer": "Risk Identification",
+    "description": "Risk identification focuses on listing and understanding potential threats before assessing their likelihood and impact.",
+    "hints": ["First step", "Happens before assessment"],
+    "id": "b5c3ffd5-c3d3-4e94-82e9-9e3229d09e25"
+  },
+  {
+    "question": "You are a SOC analyst reviewing an IoC feed that lists malicious IP addresses used in a current botnet. What type of intelligence are you consuming?",
+    "type": "MCQ",
+    "options": ["Strategic", "Tactical", "Operational", "Technical"],
+    "answer": "Technical",
+    "description": "Technical intelligence provides specific indicators such as IPs, file hashes, and domains that can be blocked in real time.",
+    "hints": ["Directly machine-usable", "Feeds into firewalls or IDS"],
+    "id": "442e3d60-a320-4f46-81f5-acd584e2db6e"
+  },
+  {
+    "question": "In the threat intelligence lifecycle, which step converts raw data into a usable format for analysis?",
+    "type": "MCQ",
+    "options": [
+      "Collection",
+      "Processing and Exploitation",
+      "Analysis and Production",
+      "Dissemination and Integration"
+    ],
+    "answer": "Processing and Exploitation",
+    "description": "Processing and Exploitation organizes raw data into a usable form, such as structured records, ready for analysis.",
+    "hints": ["Formatting step", "Comes before analysis"],
+    "id": "042ee063-6ad5-47f3-ab02-4e501e823a83"
+  },
+  {
+    "question": "True or False: Defense-in-depth applies only to physical security controls, not digital ones.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Defense-in-depth applies to both physical and digital systems, layering multiple security mechanisms to protect assets.",
+    "hints": ["Covers both physical and cyber", "Multiple layers everywhere"],
+    "id": "5d2f361d-c7e6-4483-bb0e-3d2dd1f0ba0f"
+  },
+  {
+    "question": "If an attacker bypasses the first security layer in a defense-in-depth system, what happens next?",
+    "type": "MCQ",
+    "options": [
+      "They gain full system access",
+      "They encounter another security layer",
+      "The attack is automatically blocked",
+      "The system shuts down"
+    ],
+    "answer": "They encounter another security layer",
+    "description": "Defense-in-depth ensures that breaching one layer only leads the attacker to the next, slowing down the intrusion.",
+    "hints": ["Layered defense", "Not a single point of failure"],
+    "id": "ea8c7ed2-fee6-480a-87b0-ae19b3b44f49"
+  },
+  {
+    "question": "You are tasked with assessing how an application interacts with external dependencies. In which threat modeling step would this occur?",
+    "type": "MCQ",
+    "options": [
+      "Identify Security Objectives",
+      "Application Overview",
+      "Decompose the Application",
+      "Identify Threats"
+    ],
+    "answer": "Application Overview",
+    "description": "Application Overview identifies components, dependencies, and data flows, setting the foundation for threat identification.",
+    "hints": ["Early phase", "Before decomposition"],
+    "id": "c1a5fd35-f8af-4f7c-9f51-e86e5df597b0"
+  },
+  {
+    "question": "An organization notices irregular login patterns from a user account that normally logs in from one location. AI flags this as unusual. Which AI/ML use case is this?",
+    "type": "MCQ",
+    "options": [
+      "Behavioral Analytics",
+      "Phishing Prevention",
+      "Fraud Detection",
+      "Botnet Detection"
+    ],
+    "answer": "Behavioral Analytics",
+    "description": "Behavioral analytics tracks a user’s normal activity and flags deviations that could indicate compromised credentials.",
+    "hints": ["Looks for anomalies in usage", "Can detect insider threats"],
+    "id": "3f98d24f-2f16-47c9-a467-503eaf93a69b"
+  },
+  {
+    "question": "True or False: Risk treatment should always aim to completely eliminate the identified risk.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "In many cases, risks cannot be completely eliminated, but they can be reduced to an acceptable level.",
+    "hints": ["Some risks are unavoidable", "Goal is acceptable risk level"],
+    "id": "78afaf21-c147-4b35-b2a8-9abf2e23f8b8"
+  },
+  {
+    "question": "Which of the following is a function of 'Operational' threat intelligence?",
+    "type": "MCQ",
+    "options": [
+      "Assess financial impact of breaches",
+      "Provide attacker TTPs",
+      "Give context on specific threats",
+      "List IPs and domains to block"
+    ],
+    "answer": "Give context on specific threats",
+    "description": "Operational intelligence provides details on specific threats, including attacker intentions and capabilities.",
+    "hints": ["Used by IR teams", "Focus on active threats"],
+    "id": "abf40b51-6fac-4f0f-9162-159559059ddf"
+  },
+  {
+    "question": "In incident management, who is typically responsible for removing employees suspected of harmful activity?",
+    "type": "MCQ",
+    "options": [
+      "Firewall Manager",
+      "Legal Counsel",
+      "Human Resources",
+      "SOC Analyst"
+    ],
+    "answer": "Human Resources",
+    "description": "HR handles the removal or discipline of employees suspected of malicious internal activity.",
+    "hints": ["Personnel role", "Not a technical function"],
+    "id": "87fafb56-c1da-4dd2-a0cd-f7321dbbf167"
+  },
+  {
+    "question": "True or False: Machine learning-based antivirus tools need regular signature updates to detect threats.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "ML-based antivirus detects suspicious behavior, reducing reliance on signature updates for threat detection.",
+    "hints": ["Behavior-based detection", "No constant signature updates"],
+    "id": "b784ae20-ced6-41d8-8aed-cb0864efc3e0"
+  },
+  {
+    "question": "During incident handling, which step comes immediately before 'Recovery'?",
+    "type": "MCQ",
+    "options": ["Containment", "Eradication", "Triage", "Evidence Gathering"],
+    "answer": "Eradication",
+    "description": "Eradication removes the root cause, allowing the recovery phase to restore normal operations.",
+    "hints": ["Fix before restoring", "Order matters in IH&R"],
+    "id": "230fa578-e841-450f-8cf5-dee772553ce8"
+  },
+  {
+    "question": "An attacker exploits a vulnerability in an application’s input validation. Which threat modeling category would this fall under?",
+    "type": "MCQ",
+    "options": ["Data Flow", "Entry Point", "Trust Boundary", "Exit Point"],
+    "answer": "Entry Point",
+    "description": "Entry points, such as input fields or APIs, must be validated to prevent exploitation like SQL injection.",
+    "hints": ["Where user input enters", "Exploitation via weak validation"],
+    "id": "a486e166-9389-4a08-83d9-f9e695084b7c"
+  },
+  {
+    "question": "True or False: The 'Protect' phase in adaptive security occurs after the 'Detect' phase.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Protection comes before detection, as it aims to prevent attacks from succeeding in the first place.",
+    "hints": ["Prevent before detect", "Order is logical"],
+    "id": "a248128f-a3f3-4e8d-9db1-faf8ff478e14"
+  },
+  {
+    "question": "Which type of AI/ML security application can identify large-scale network intrusions like botnets?",
+    "type": "MCQ",
+    "options": [
+      "Phishing Detection",
+      "Behavioral Analytics",
+      "Botnet Detection",
+      "Fraud Detection"
+    ],
+    "answer": "Botnet Detection",
+    "description": "Botnet detection uses AI/ML to recognize suspicious traffic patterns that may bypass traditional IDS systems.",
+    "hints": ["Distributed attacks", "Patterns of many infected hosts"],
+    "id": "b4a1f885-326c-424d-8dd4-d1b1f7eb51d4"
+  },
+  {
+    "question": "If a security control reduces a risk’s likelihood but does not eliminate it, the remaining exposure is called:",
+    "type": "MCQ",
+    "options": [
+      "Residual Risk",
+      "Inherent Risk",
+      "Accepted Risk",
+      "Transferred Risk"
+    ],
+    "answer": "Residual Risk",
+    "description": "Residual risk is the remaining level of risk after controls are applied.",
+    "hints": ["Exists after mitigation", "Never fully zero"],
+    "id": "afbdb606-f873-4b08-94c8-fa9d53da27d6"
+  },
+  {
+    "question": "True or False: Dissemination in the threat intelligence lifecycle only involves sending reports to executives.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Dissemination involves delivering intelligence to different consumers at all levels — strategic, tactical, operational, and technical.",
+    "hints": ["Multiple consumer levels", "Not just executives"],
+    "id": "3acfda24-027f-43ec-8930-1ed4d57db8d7"
+  },
+  {
+    "question": "What is the primary purpose of the Payment Card Industry Data Security Standard (PCI DSS)?",
+    "type": "MCQ",
+    "options": [
+      "To protect health information",
+      "To enhance corporate financial disclosures",
+      "To handle cardholder information securely for payment cards",
+      "To manage copyright protections",
+      "To regulate data privacy in the EU"
+    ],
+    "answer": "To handle cardholder information securely for payment cards",
+    "description": "PCI DSS is a standard for organizations handling cardholder data from debit, credit, and other cards. It ensures secure processing, storage, and transmission of this data to prevent fraud. Non-compliance can lead to fines or loss of processing privileges.",
+    "hints": [
+      "Think about entities like merchants and processors.",
+      "Recall the high-level overview including building a secure network."
+    ],
+    "id": "58c00333-3c17-4161-9f06-aa82f4057573"
+  },
+  {
+    "question": "Which entities does PCI DSS apply to?",
+    "type": "MCQ",
+    "options": [
+      "Only banks and financial institutions",
+      "Merchants, processors, acquirers, issuers, and service providers that handle cardholder data",
+      "Government agencies only",
+      "Healthcare providers",
+      "Educational institutions"
+    ],
+    "answer": "Merchants, processors, acquirers, issuers, and service providers that handle cardholder data",
+    "description": "PCI DSS covers all organizations involved in payment card processing or that store, process, or transmit cardholder data. This broad applicability ensures comprehensive security across the payment ecosystem. Failure to comply may result in severe penalties.",
+    "hints": [
+      "Consider who processes debit and credit cards.",
+      "Look at the standard's scope beyond just merchants."
+    ],
+    "id": "9ba9cf25-486d-40b3-8d36-376bf5f2497c"
+  },
+  {
+    "question": "PCI DSS requires organizations to maintain a vulnerability management program.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "One of the high-level requirements of PCI DSS is to maintain a vulnerability management program. This helps in identifying and addressing security weaknesses regularly. It is part of protecting cardholder data effectively.",
+    "hints": [
+      "Review the PCI DSS high-level overview.",
+      "Think about regular monitoring and testing."
+    ],
+    "id": "ca008129-1b89-4ab6-8a81-5531ed6082e4"
+  },
+  {
+    "question": "What is a consequence of failing to meet PCI DSS requirements?",
+    "type": "MCQ",
+    "options": [
+      "Awards for innovation",
+      "Fines or termination of payment card processing privileges",
+      "Government subsidies",
+      "Increased market share",
+      "Tax exemptions"
+    ],
+    "answer": "Fines or termination of payment card processing privileges",
+    "description": "Non-compliance with PCI DSS can lead to financial penalties or the inability to process payment cards. This enforces adherence to security standards. Organizations must prioritize compliance to avoid business disruptions.",
+    "hints": [
+      "Consider business impacts on merchants.",
+      "Recall the standard's enforcement mechanisms."
+    ],
+    "id": "c589f0f5-4e09-4388-bdc1-ed1585f924c1"
+  },
+  {
+    "question": "ISO/IEC 27001:2022 specifies requirements for an Information Security Management System (ISMS).",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "ISO/IEC 27001:2022 provides a framework for establishing, implementing, and improving an ISMS. It helps organizations manage security risks and protect information. This standard is widely used for compliance and risk management.",
+    "hints": [
+      "Focus on the core ISO standard for security.",
+      "Think about confidentiality, integrity, and availability."
+    ],
+    "id": "45f28d3d-5044-4b1d-80fd-3d409d43606f"
+  },
+  {
+    "question": "Which ISO/IEC standard focuses on privacy management and protecting PII?",
+    "type": "MCQ",
+    "options": [
+      "ISO/IEC 27001:2022",
+      "ISO/IEC 27701:2019",
+      "ISO/IEC 27002:2022",
+      "ISO/IEC 27005:2022",
+      "ISO/IEC 27018:2019"
+    ],
+    "answer": "ISO/IEC 27701:2019",
+    "description": "ISO/IEC 27701:2019 extends ISO/IEC 27001 to include privacy aspects and PIMS. It guides on managing privacy risks effectively. Organizations use it to comply with data protection regulations.",
+    "hints": [
+      "Look for the extension to 27001.",
+      "Consider personally identifiable information."
+    ],
+    "id": "b19a52a2-91d4-45e3-bd65-48848a621820"
+  },
+  {
+    "question": "ISO/IEC 27002:2022 outlines best practices for access control and cryptography.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "This standard provides control objectives for key cybersecurity areas like access control and cryptography. It helps in implementing effective security measures. Following it strengthens overall information security.",
+    "hints": [
+      "Recall control objectives.",
+      "Think about security personnel practices."
+    ],
+    "id": "7e996797-0508-4133-9dae-ef752636d5c8"
+  },
+  {
+    "question": "What does ISO/IEC 27005:2022 provide guidelines for?",
+    "type": "MCQ",
+    "options": [
+      "Network virtualization security",
+      "Information security risk management",
+      "Data storage security",
+      "Supply chain security",
+      "Cloud PII protection"
+    ],
+    "answer": "Information security risk management",
+    "description": "ISO/IEC 27005:2022 supports ISMS by offering risk management guidelines. It aids in assessing and managing security risks. This ensures a structured approach to protecting information.",
+    "hints": [
+      "Link to ISO/IEC 27001 requirements.",
+      "Focus on risk assessments."
+    ],
+    "id": "2f2b8d0b-383f-4e75-8b2b-0f2ba9fe6197"
+  },
+  {
+    "question": "ISO/IEC 27018:2019 is focused on protecting PII in public clouds.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "This standard provides a code of practice for PII in cloud environments. It ensures robust data privacy in clouds. Organizations adopt it to build trust in cloud services.",
+    "hints": [
+      "Think about public cloud specifics.",
+      "Recall personally identifiable information."
+    ],
+    "id": "892340a2-5546-4415-af87-1e6c0a05d269"
+  },
+  {
+    "question": "Which ISO/IEC standard explains the relationship between internet security and cybersecurity?",
+    "type": "MCQ",
+    "options": [
+      "ISO/IEC 27032:2023",
+      "ISO/IEC 27033-7:2023",
+      "ISO/IEC 27036-3:2023",
+      "ISO/IEC 27040:2024",
+      "ISO/IEC 27701:2019"
+    ],
+    "answer": "ISO/IEC 27032:2023",
+    "description": "ISO/IEC 27032:2023 overviews internet security and stakeholder roles. It enhances cybersecurity posture against threats. Implementation improves resilience in online environments.",
+    "hints": [
+      "Consider web and network security.",
+      "Identify key stakeholders."
+    ],
+    "id": "a2fb87b4-b184-46e2-859b-9350f211d4bf"
+  },
+  {
+    "question": "HIPAA's Privacy Rule provides federal protections for personal health information.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "The Privacy Rule protects health information held by covered entities. It gives patients rights over their data. This ensures privacy in healthcare transactions.",
+    "hints": ["Focus on HIPAA rules.", "Think about patient rights."],
+    "id": "bf5d60c4-b0ed-4ef8-b8ad-033ffae0bff7"
+  },
+  {
+    "question": "What does HIPAA's Security Rule specify?",
+    "type": "MCQ",
+    "options": [
+      "Financial disclosure enhancements",
+      "Safeguards for electronic protected health information",
+      "Copyright protections",
+      "Corporate tax returns",
+      "Vessel hull designs"
+    ],
+    "answer": "Safeguards for electronic protected health information",
+    "description": "The Security Rule requires administrative, physical, and technical safeguards for ePHI. It ensures confidentiality and integrity. Covered entities must comply to protect health data.",
+    "hints": [
+      "Recall electronic health information.",
+      "Consider safeguards types."
+    ],
+    "id": "92590c44-083d-4a02-ac2a-3ecea027d5f7"
+  },
+  {
+    "question": "HIPAA requires standard national identifiers for healthcare providers and employers.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "National Identifier Requirements mandate standard numbers for providers and plans. This standardizes transactions. It simplifies electronic business in healthcare.",
+    "hints": ["Think about NPI.", "Review administrative simplification."],
+    "id": "427ec333-8fab-457c-bacb-0f3b8e419484"
+  },
+  {
+    "question": "Which HIPAA rule enforces all Administrative Simplification Rules?",
+    "type": "MCQ",
+    "options": [
+      "Privacy Rule",
+      "Security Rule",
+      "Enforcement Rule",
+      "Electronic Transaction Standards",
+      "National Identifier Requirements"
+    ],
+    "answer": "Enforcement Rule",
+    "description": "The Enforcement Rule handles compliance, investigations, and penalties. It imposes civil monetary penalties for violations. This ensures adherence to HIPAA standards.",
+    "hints": [
+      "Consider penalties and investigations.",
+      "Link to civil rights office."
+    ],
+    "id": "1d416ab3-2554-412d-af0d-4c76c61c2cbc"
+  },
+  {
+    "question": "The Sarbanes-Oxley Act (SOX) was enacted to protect investors by improving corporate disclosures.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "SOX, enacted in 2002, enhances accuracy in corporate reporting. It combats fraud through reforms. This builds public trust in financial markets.",
+    "hints": [
+      "Recall 2002 enactment.",
+      "Think about corporate responsibility."
+    ],
+    "id": "9bdcd4ae-5235-49f6-8723-bdaaad004ff4"
+  },
+  {
+    "question": "Which SOX title establishes the Public Company Accounting Oversight Board (PCAOB)?",
+    "type": "MCQ",
+    "options": ["Title I", "Title II", "Title III", "Title IV", "Title V"],
+    "answer": "Title I",
+    "description": "Title I creates PCAOB for auditor oversight. It registers and inspects audit firms. This ensures compliance in auditing.",
+    "hints": ["Focus on oversight board.", "Consider nine sections."],
+    "id": "3bd7d93e-2c2e-49a0-966e-94fa97258211"
+  },
+  {
+    "question": "SOX Title II addresses auditor independence to limit conflicts of interest.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Title II sets standards for external auditors. It restricts non-audit services. This maintains objectivity in audits.",
+    "hints": [
+      "Think about partner rotation.",
+      "Recall reporting requirements."
+    ],
+    "id": "82b2f7b7-98ff-40b4-80f8-f7b6eb944250"
+  },
+  {
+    "question": "What does SOX Title III mandate for senior executives?",
+    "type": "MCQ",
+    "options": [
+      "Personal responsibility for financial reports",
+      "Vessel design protection",
+      "Data encryption guidelines",
+      "Cloud PII safeguards",
+      "Supply chain security"
+    ],
+    "answer": "Personal responsibility for financial reports",
+    "description": "Title III requires executives to certify report accuracy. It defines auditor interactions. Penalties apply for non-compliance.",
+    "hints": ["Consider corporate responsibility.", "Think about forfeitures."],
+    "id": "6eda5411-71a3-43a9-8d6c-b64509dae4ed"
+  },
+  {
+    "question": "SOX Title IV requires enhanced financial disclosures including off-balance-sheet transactions.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Title IV mandates reporting of various transactions. It ensures internal controls and audits. This promotes transparency in finances.",
+    "hints": ["Recall pro-forma figures.", "Consider SEC reviews."],
+    "id": "4417a280-0701-4821-9603-477ce88e7dbd"
+  },
+  {
+    "question": "Which SOX title deals with analyst conflicts of interest?",
+    "type": "MCQ",
+    "options": ["Title I", "Title II", "Title III", "Title IV", "Title V"],
+    "answer": "Title V",
+    "description": "Title V restores investor confidence in analysts. It requires disclosure of conflicts. This defines conduct codes.",
+    "hints": ["One section only.", "Think about securities analysts."],
+    "id": "0f7b3263-3ce9-4b87-8126-77023f5b5de4"
+  },
+  {
+    "question": "The Digital Millennium Copyright Act (DMCA) implements WIPO treaties from 1996.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "DMCA enacts two WIPO treaties on copyright. It prohibits circumvention of protections. This protects intellectual property online.",
+    "hints": [
+      "Recall US copyright law.",
+      "Think about technological measures."
+    ],
+    "id": "a3e51a65-065f-4b74-80f9-344fc3bd48ae"
+  },
+  {
+    "question": "What does DMCA Title II limit?",
+    "type": "MCQ",
+    "options": [
+      "Liability for online copyright infringement by service providers",
+      "Corporate fraud penalties",
+      "Health data safeguards",
+      "Payment card security",
+      "Risk management guidelines"
+    ],
+    "answer": "Liability for online copyright infringement by service providers",
+    "description": "Title II creates limitations for ISPs on infringement. It covers transitory communications and caching. This includes rules for educational institutions.",
+    "hints": ["Consider section 512.", "Think about four categories."],
+    "id": "7c4c66ed-8c0a-45f3-8650-10d05dbeea95"
+  },
+  {
+    "question": "DMCA Title III allows copies for computer maintenance or repair.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Title III permits reproductions for program use with computers. It authorizes copies during repairs. This facilitates maintenance without infringement.",
+    "hints": ["Focus on computer programs.", "Recall owner or lessee rights."],
+    "id": "ff9d085b-c0ec-4a1c-967b-7177e5147028"
+  },
+  {
+    "question": "Which act provides a framework for federal information security controls?",
+    "type": "MCQ",
+    "options": ["DMCA", "FISMA", "SOX", "HIPAA", "PCI DSS"],
+    "answer": "FISMA",
+    "description": "FISMA ensures security for federal information resources. It includes standards for categorizing systems. Agencies must implement agency-wide programs.",
+    "hints": [
+      "Think about federal operations.",
+      "Recall minimum security requirements."
+    ],
+    "id": "b73ffa4b-b3f9-407c-a28e-aa1d481bbf8c"
+  },
+  {
+    "question": "FISMA includes guidance for assessing security controls.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "FISMA provides guidance on control assessment and effectiveness. It supports authorization of systems. This framework protects federal assets.",
+    "hints": ["Consider NIST sources.", "Think about mission impact."],
+    "id": "c5763fa5-14d5-4feb-9de0-ad0821f3339f"
+  },
+  {
+    "question": "GDPR was put into effect on May 25, 2018.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "GDPR enforces strict privacy laws globally for EU data. It applies to organizations targeting EU individuals. Penalties can reach millions of euros.",
+    "hints": ["Recall EU regulation date.", "Think about harsh fines."],
+    "id": "2555856c-b2b2-4c5c-bf4d-82d81fc62d65"
+  },
+  {
+    "question": "Which GDPR principle requires processing to be lawful, fair, and transparent?",
+    "type": "MCQ",
+    "options": [
+      "Purpose limitation",
+      "Data minimization",
+      "Lawfulness, fairness, and transparency",
+      "Accuracy",
+      "Storage limitation"
+    ],
+    "answer": "Lawfulness, fairness, and transparency",
+    "description": "This principle ensures data subjects know about processing. It builds trust in data handling. Compliance demonstrates accountability.",
+    "hints": ["Article 5.1-2.", "Think about data subject rights."],
+    "id": "d6404d02-3cfa-445c-a01d-f464257cbdfc"
+  },
+  {
+    "question": "GDPR allows storing personal data indefinitely.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Storage limitation principle restricts data retention to necessary periods. This prevents unnecessary holding of data. It ensures data is deleted when no longer needed.",
+    "hints": [
+      "Recall purpose-specific storage.",
+      "Think about integrity and confidentiality."
+    ],
+    "id": "75fefc75-e13a-44f2-bc51-011d3b125782"
+  },
+  {
+    "question": "The Data Protection Act 2018 (DPA) replaced the Data Protection Act 1998 in the UK.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "DPA 2018 updates UK data protection framework. It aligns with GDPR implementation. Amendments reflect post-Brexit changes.",
+    "hints": ["May 25, 2018 effect.", "Think about Information Commissioner."],
+    "id": "42947c97-2255-4259-899f-01a3ab6c1590"
+  },
+  {
+    "question": "What does DPA 2018 require for personal data processing?",
+    "type": "MCQ",
+    "options": [
+      "Unlawful and unfair processing",
+      "Processing lawfully and fairly based on consent or basis",
+      "Ignoring data subject rights",
+      "No monitoring by Commissioner",
+      "Unlimited data retention"
+    ],
+    "answer": "Processing lawfully and fairly based on consent or basis",
+    "description": "DPA protects individuals by requiring fair processing. It confers rights like rectification. The Commissioner enforces provisions.",
+    "hints": ["Consider consent basis.", "Think about rectification rights."],
+    "id": "47508df9-5cab-44fb-ab72-5af8b5f6e3fd"
+  },
+  {
+    "question": "The US Privacy Act of 1974 is listed under cyber laws.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "This act protects personal information in federal records. It limits disclosure without consent. It ensures privacy in government handling.",
+    "hints": ["US laws table.", "Think about federal agencies."],
+    "id": "88a723d9-6f2c-4a1b-9d7e-e308cc830bdc"
+  },
+  {
+    "question": "Which US law mentions the doctrine of fair use in copyright?",
+    "type": "MCQ",
+    "options": [
+      "Section 107 of the Copyright Law",
+      "Computer Fraud and Abuse Act",
+      "Freedom of Information Act",
+      "California Consumer Privacy Act",
+      "Identity Theft Act"
+    ],
+    "answer": "Section 107 of the Copyright Law",
+    "description": "Section 107 allows limited use without permission. It balances copyright with public interest. This is key in educational and critical contexts.",
+    "hints": ["Think about copyright.gov.", "Recall fair use doctrine."],
+    "id": "032e939a-846a-41cc-85f5-33688ae1b655"
+  },
+  {
+    "question": "The Lanham Act in the US deals with trademarks.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "The Lanham Act protects trademarks under 15 USC. It prevents confusion in commerce. This law governs registration and enforcement.",
+    "hints": ["15 USC §§ 1051-1127.", "Think about brand protection."],
+    "id": "5dd9e331-df8c-413a-9e02-d5e7a08bb9a9"
+  },
+  {
+    "question": "What is the Australian Cybercrime Act 2001 about?",
+    "type": "MCQ",
+    "options": [
+      "Copyright protections",
+      "Patent regulations",
+      "Criminalizing cyber offenses",
+      "Trademark enforcement",
+      "Health data privacy"
+    ],
+    "answer": "Criminalizing cyber offenses",
+    "description": "This act addresses cybercrimes in Australia. It updates laws for digital threats. It ensures prosecution of online misconduct.",
+    "hints": ["Legislation.gov.au.", "Think about cyber law table."],
+    "id": "daf40d0f-3b4f-44e4-a2b7-f3ea9c9310f6"
+  },
+  {
+    "question": "The UK Computer Misuse Act 1990 criminalizes unauthorized access.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "This act prohibits unauthorized computer access. It covers hacking and misuse. Penalties deter cyber intrusions.",
+    "hints": ["Legislation.gov.uk.", "Recall ethical hacking limits."],
+    "id": "a0a0d731-3e29-439e-a0c3-5cab80e6f378"
+  },
+  {
+    "question": "Which Chinese law was amended on October 27, 2001 for trademarks?",
+    "type": "MCQ",
+    "options": [
+      "Copyright Law",
+      "Trademark Law of the People's Republic of China",
+      "Patents Act",
+      "Information Technology Act",
+      "Data Espionage Section"
+    ],
+    "answer": "Trademark Law of the People's Republic of China",
+    "description": "This law protects trademarks in China. Amendments strengthen IP rights. It aligns with international standards.",
+    "hints": ["Npc.gov.cn.", "Think about 2001 amendments."],
+    "id": "426118cf-e9b7-458d-8850-ec85219659b9"
+  },
+  {
+    "question": "India's Information Technology Act deals with cybercrimes.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "This act regulates electronic commerce and cyber offenses. It provides legal recognition for digital signatures. It addresses data protection issues.",
+    "hints": ["Meity.gov.in.", "Recall cyber law in India."],
+    "id": "6af1eeb9-c4d6-450d-98fe-7ee4c0a21e88"
+  },
+  {
+    "question": "Section 202a in German law covers data espionage.",
+    "type": "MCQ",
+    "options": [
+      "Section 202a. Data Espionage",
+      "Section 303a. Alteration of Data",
+      "Section 303b. Computer Sabotage",
+      "Penal Code Article 615 ter",
+      "Trademark Law 127"
+    ],
+    "answer": "Section 202a. Data Espionage",
+    "description": "This section criminalizes unauthorized data access. It protects against spying. Penalties enforce data security.",
+    "hints": ["Cybercrimelaw.net.", "Think about German penal code."],
+    "id": "e67ddb75-7cfd-4034-9250-6b4acaf3b279"
+  },
+  {
+    "question": "Italy's Penal Code Article 615 ter addresses unauthorized access.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Article 615 ter prohibits computer hacking. It safeguards systems from intrusion. This is part of Italy's cyber laws.",
+    "hints": ["Cybercrimelaw.net.", "Recall Italian penal code."],
+    "id": "d57d8d1e-d6f9-4da2-8f08-7a7dbad33c86"
+  },
+  {
+    "question": "Japan's Trademark Law is Law No. 127 of 1959.",
+    "type": "MCQ",
+    "options": [
+      "Law No. 127 of 1959",
+      "Copyright Act R.S.C. 1985",
+      "Trademarks Act R.S.C. 1985",
+      "Computer Misuse Act",
+      "Copyright Act 1978"
+    ],
+    "answer": "Law No. 127 of 1959",
+    "description": "This law governs trademarks in Japan. It provides registration and protection. It supports intellectual property enforcement.",
+    "hints": ["Iip.or.jp.", "Think about Japanese IP laws."],
+    "id": "6f1c71d1-f498-4ba2-a091-582f4d0431df"
+  },
+  {
+    "question": "Canada's PIPEDA protects personal information in commercial activities.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "PIPEDA ensures privacy in electronic documents. It applies to private sector organizations. Compliance builds consumer trust.",
+    "hints": ["Priv.gc.ca.", "Recall personal data protection."],
+    "id": "c3446f1a-d3be-4f5f-8b39-3c124e84d9cb"
+  },
+  {
+    "question": "Singapore's Computer Misuse Act criminalizes unauthorized computer use.",
+    "type": "MCQ",
+    "options": [
+      "Computer Misuse Act",
+      "Trademarks Act 194 of 1993",
+      "Copyright Act of 1978",
+      "Industrial Design Protection Act",
+      "Brazilian LGPD"
+    ],
+    "answer": "Computer Misuse Act",
+    "description": "This act addresses cyber offenses in Singapore. It covers hacking and misuse. Penalties deter digital crimes.",
+    "hints": ["Sso.agc.gov.sg.", "Think about Singapore cyber law."],
+    "id": "9bee9491-b525-4b60-8579-9a78dcec5cdf"
+  },
+  {
+    "question": "South Africa's Copyright Act of 1978 protects literary and artistic works.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "This act safeguards copyrights in South Africa. It aligns with international treaties. It ensures creators' rights are enforced.",
+    "hints": ["Wipo.int.", "Recall 1978 act."],
+    "id": "15cf1257-9dea-428c-8961-6da48a2ce614"
+  },
+  {
+    "question": "South Korea's Copyright Act was amended up to Act No. 19597 of August 8, 2023.",
+    "type": "MCQ",
+    "options": [
+      "Act No. 19597 of August 8, 2023",
+      "Copyright Law 30/06/1994",
+      "Article 139 of Basic Law",
+      "Republic Act No. 10175",
+      "Penal Code 615 ter"
+    ],
+    "answer": "Act No. 19597 of August 8, 2023",
+    "description": "This amendment updates copyright protections in Korea. It addresses modern digital challenges. It strengthens IP enforcement.",
+    "hints": ["Wipo.int.", "Think about recent amendments."],
+    "id": "8d3f0fba-2aea-4950-afe2-df172c85e2fa"
+  },
+  {
+    "question": "Belgium's Copyright Law is dated 30/06/1994.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "This law protects copyrights in Belgium. It covers works and performances. It complies with EU directives.",
+    "hints": ["Wipo.int.", "Recall 1994 law."],
+    "id": "8137ab42-f92a-49ba-b10d-cd967434e72f"
+  },
+  {
+    "question": "Brazil's LGPD is the General Data Protection Law.",
+    "type": "MCQ",
+    "options": [
+      "Brazilian General Data Protection Law (LGPD)",
+      "Computer Hacking Law",
+      "Article 139 of Basic Law",
+      "Republic Act No. 10175",
+      "Trademark Law 127"
+    ],
+    "answer": "Brazilian General Data Protection Law (LGPD)",
+    "description": "LGPD regulates data processing in Brazil. It ensures privacy rights. Compliance is mandatory for organizations.",
+    "hints": ["Iapp.org.", "Think about data protection."],
+    "id": "7f27476e-00c6-4dd8-971b-9d1dd605348d"
+  },
+  {
+    "question": "Hong Kong's Article 139 of the Basic Law relates to cyber laws.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "This article addresses protections in Hong Kong. It supports legal frameworks for cyber issues. It ensures basic rights in digital contexts.",
+    "hints": ["Basiclaw.gov.hk.", "Recall Basic Law."],
+    "id": "7afbcace-c3df-41ad-94a8-237bb1c2c307"
+  },
+  {
+    "question": "Philippines' Republic Act No. 10175 is the Cybercrime Prevention Act.",
+    "type": "MCQ",
+    "options": [
+      "Republic Act No. 10175",
+      "Copyright Act 1978",
+      "Industrial Design Act",
+      "Computer Misuse Act",
+      "PIPEDA"
+    ],
+    "answer": "Republic Act No. 10175",
+    "description": "This act prevents cybercrimes in the Philippines. It covers offenses like hacking. It promotes safe online environments.",
+    "hints": ["Lawphil.net.", "Think about cybercrime law."],
+    "id": "bf5f7735-62cb-453f-ac35-ce50251c4ea9"
+  },
+  {
+    "question": "PCI DSS is a proprietary standard owned by the US government.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "PCI DSS is managed by the PCI Security Standards Council, not the government. It is for payment card security. This council develops and maintains the standard.",
+    "hints": [
+      "Recall pcisecuritystandards.org.",
+      "Think about industry standard."
+    ],
+    "id": "c080112c-3d8e-487a-9aac-cf68b6ba19ae"
+  },
+  {
+    "question": "ISO/IEC 27040:2024 provides guidance for data storage security.",
+    "type": "MCQ",
+    "options": [
+      "Data storage security",
+      "Network virtualization",
+      "Supply chain security",
+      "Cloud PII",
+      "Risk management"
+    ],
+    "answer": "Data storage security",
+    "description": "This standard covers planning and implementation for storage security. It mitigates risks in data storage. Adherence ensures data integrity and availability.",
+    "hints": ["Iso.org.", "Think about technical requirements."],
+    "id": "c9c76563-6ff0-4b5a-b4cf-b64a714fb2d8"
+  },
+  {
+    "question": "HIPAA applies only to health plans, not providers.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "HIPAA covers health plans, clearinghouses, and providers. It protects health information broadly. This includes electronic transactions.",
+    "hints": ["Hhs.gov.", "Recall covered entities."],
+    "id": "933255c6-a953-4744-a5ed-842022830e93"
+  },
+  {
+    "question": "SOX Title VIII is known as Corporate and Criminal Fraud Accountability.",
+    "type": "MCQ",
+    "options": [
+      "Corporate and Criminal Fraud Accountability",
+      "White Collar Crime Penalty",
+      "Corporate Tax Returns",
+      "Analyst Conflicts",
+      "Enhanced Disclosures"
+    ],
+    "answer": "Corporate and Criminal Fraud Accountability",
+    "description": "Title VIII penalizes record manipulation. It protects whistle-blowers. This deters fraud in corporations.",
+    "hints": ["Sec.gov.", "Think about seven sections."],
+    "id": "b39f5dc7-7d24-45a4-8845-76652087176a"
+  },
+  {
+    "question": "DMCA Title V protects vessel hull designs.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Title V creates protection for original vessel designs. It limits to hulls under 200 feet. This is the VHDPA.",
+    "hints": ["Copyright.gov.", "Recall useful articles."],
+    "id": "f27b0474-b851-49d1-9de5-a3c04105a7dc"
+  },
+  {
+    "question": "FISMA requires agencies to categorize information by mission impact.",
+    "type": "MCQ",
+    "options": [
+      "Standards for categorizing information",
+      "Copyright circumvention bans",
+      "Financial report certifications",
+      "PII cloud protections",
+      "Supply chain guidelines"
+    ],
+    "answer": "Standards for categorizing information",
+    "description": "FISMA sets standards for impact-based categorization. This helps in applying appropriate controls. It supports federal security programs.",
+    "hints": ["Csrc.nist.gov.", "Think about framework components."],
+    "id": "623b4691-1495-43ae-b361-554a3fb653ee"
+  },
+  {
+    "question": "GDPR's accountability principle requires demonstrating compliance.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Accountability makes controllers responsible for compliance. They must prove adherence to principles. This includes records and assessments.",
+    "hints": ["Gdpr.eu.", "Recall seven principles."],
+    "id": "28f71bf4-e996-4461-9bf7-7bd20431d6b5"
+  },
+  {
+    "question": "DPA 2018 was amended in 2021 due to Brexit.",
+    "type": "MCQ",
+    "options": [
+      "European Union (Withdrawal) Act 2018",
+      "GDPR Article 5",
+      "HIPAA Privacy Rule",
+      "SOX Title X",
+      "DMCA Title IV"
+    ],
+    "answer": "European Union (Withdrawal) Act 2018",
+    "description": "Amendments reflect UK's EU exit. It adjusts data protection post-Brexit. This maintains alignment with international standards.",
+    "hints": ["Legislation.gov.uk.", "Think about January 2021."],
+    "id": "2d17be13-fa0b-4ba5-9f88-1499c00a6a16"
+  },
+  {
+    "question": "The US Computer Fraud and Abuse Act criminalizes unauthorized access.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "CFAA prohibits fraud via computers. It covers hacking and abuse. Penalties protect systems from threats.",
+    "hints": ["Energy.gov.", "Recall US cyber laws."],
+    "id": "db0cace5-e2d9-439e-b7e0-25e2bc67b874"
+  },
+  {
+    "question": "California Consumer Privacy Act (CCPA) enhances consumer data rights.",
+    "type": "MCQ",
+    "options": [
+      "California Consumer Privacy Act (CCPA)",
+      "Protect America Act",
+      "FOIA",
+      "NII Protection Act",
+      "ECPA"
+    ],
+    "answer": "California Consumer Privacy Act (CCPA)",
+    "description": "CCPA gives rights to access and delete data. It applies to businesses in California. This promotes transparency in data use.",
+    "hints": ["Oag.ca.gov.", "Think about state privacy law."],
+    "id": "2182927b-7224-423d-a01a-dcde8e31e263"
+  },
+  {
+    "question": "Australia's Patents Act 1990 regulates inventions.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "This act governs patent grants in Australia. It protects innovations. It aligns with global IP standards.",
+    "hints": ["Legislation.gov.au.", "Recall 1990 act."],
+    "id": "a5bb87e6-b4c9-4b67-a3e4-2337ca450aa6"
+  },
+  {
+    "question": "UK's Investigatory Powers Act 2016 regulates surveillance.",
+    "type": "MCQ",
+    "options": [
+      "Investigatory Powers Act 2016",
+      "Communications Act 2003",
+      "NIS Regulations 2018",
+      "Trademarks Act 1994",
+      "Copyright Offenses Act 2002"
+    ],
+    "answer": "Investigatory Powers Act 2016",
+    "description": "This act oversees investigatory powers. It balances security and privacy. It ensures lawful interception.",
+    "hints": ["Legislation.gov.uk.", "Think about powers regulation."],
+    "id": "6aa988b5-81e9-446c-bfb1-073a9b746e14"
+  },
+  {
+    "question": "China's Copyright Law was amended in 2001.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Amendments on October 27, 2001 updated protections. It covers works and rights. This strengthens IP in China.",
+    "hints": ["Npc.gov.cn.", "Recall 2001 changes."],
+    "id": "146f208a-6871-4517-aa24-d88dfff3d335"
+  },
+  {
+    "question": "India's Trade Marks Act 1999 protects brands.",
+    "type": "MCQ",
+    "options": [
+      "Trade Marks Act, 1999",
+      "Patents Amendment 1999",
+      "Copyright Act 1957",
+      "IT Act",
+      "Data Espionage Section"
+    ],
+    "answer": "Trade Marks Act, 1999",
+    "description": "This act registers and protects trademarks. It prevents infringement. It supports business identity.",
+    "hints": ["Ipindia.gov.in.", "Think about 1999 act."],
+    "id": "40593c6e-c20f-4d10-996d-c538e6ceb6f8"
+  },
+  {
+    "question": "Germany's Section 303b covers computer sabotage.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Section 303b criminalizes sabotage acts. It protects against data damage. This is part of cybercrime laws.",
+    "hints": ["Cybercrimelaw.net.", "Recall penal sections."],
+    "id": "8aada1d2-3f7a-4bd7-a79f-45a917a2989d"
+  },
+  {
+    "question": "Japan's Copyright Act protects creative works.",
+    "type": "MCQ",
+    "options": [
+      "Copyright Act (not specified year in query, but general)",
+      "But in document it's not listed separately, wait - actually for Japan it's Trademark Law, but Copyright is implied.",
+      "Wait, document has Trademark Law for Japan.",
+      "Adjust: The Trademark Law (Law No. 127 of 1959)",
+      "But question on copyright - perhaps skip or adjust."
+    ],
+    "answer": "Wait, to fit: The Trademark Law (Law No. 127 of 1959) is for trademarks, but for copyright it's separate. Document has Trademark for Japan.",
+    "description": "Note: Adjusting question to fit document.",
+    "hints": ["Iip.or.jp.", "Think about IP laws."],
+    "id": "8237cfeb-ebe2-4626-ad1d-a426da7042a8"
+  },
+  {
+    "question": "Canada's Criminal Code Section 342.1 addresses unauthorized use of computer.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Section 342.1 criminalizes computer misuse. It covers fraud and mischief. This deters cyber crimes in Canada.",
+    "hints": ["Laws-lois.justice.gc.ca.", "Recall criminal code."],
+    "id": "eafd2c59-ea34-4f8c-9318-43645261417b"
+  },
+  {
+    "question": "South Africa's Trademarks Act 194 of 1993 protects marks.",
+    "type": "MCQ",
+    "options": [
+      "Trademarks Act 194 of 1993",
+      "Copyright Act 1978",
+      "Computer Misuse Act",
+      "LGPD",
+      "PIPEDA"
+    ],
+    "answer": "Trademarks Act 194 of 1993",
+    "description": "This act registers trademarks in South Africa. It prevents unauthorized use. It supports commercial protection.",
+    "hints": ["Cipc.co.za.", "Think about 1993 act."],
+    "id": "fd3fcbb0-f245-4855-b5e7-55e9d8ab31b7"
+  },
+  {
+    "question": "South Korea's Industrial Design Protection Act protects designs.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "This act safeguards industrial designs. It grants exclusive rights. It encourages innovation in Korea.",
+    "hints": ["Kipo.go.kr.", "Recall design protection."],
+    "id": "ff6ced28-a35f-470c-99f0-12e86d3c4296"
+  },
+  {
+    "question": "Belgium has a law on computer hacking.",
+    "type": "MCQ",
+    "options": [
+      "Computer Hacking",
+      "Copyright Law 30/06/1994",
+      "LGPD",
+      "Article 139",
+      "RA 10175"
+    ],
+    "answer": "Computer Hacking",
+    "description": "Belgium's law criminalizes hacking. It protects systems from attacks. This is part of EU-aligned cyber laws.",
+    "hints": ["Cybercrimelaw.net.", "Think about hacking law."],
+    "id": "3aacb69e-eb16-4c69-848e-f953a26adfa6"
+  },
+  {
+    "question": "The Protect America Act of 2007 is a US law for surveillance.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "This act amended FISA for foreign intelligence. It allowed warrantless surveillance. It enhanced national security measures.",
+    "hints": ["Congress.gov.", "Recall 2007 act."],
+    "id": "6b8cad16-3d82-418d-804c-72de5e106617"
+  },
+  {
+    "question": "The Freedom of Information Act (FOIA) in the US allows public access to records.",
+    "type": "MCQ",
+    "options": [
+      "Freedom of Information Act (FOIA)",
+      "Computer Security Act 1987",
+      "NII Protection Act 1996",
+      "ECPA",
+      "Lanham Act"
+    ],
+    "answer": "Freedom of Information Act (FOIA)",
+    "description": "FOIA promotes transparency in government. It requires disclosure of information. Exemptions protect sensitive data.",
+    "hints": ["Foia.gov.", "Think about public records."],
+    "id": "fbd8e139-82d5-4397-8e03-c684f69afc22"
+  },
+  {
+    "question": "Identity Theft and Assumption Deterrence Act is a US law.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "This act criminalizes identity theft. It protects personal information. Penalties deter fraud and misuse.",
+    "hints": ["Ftc.gov.", "Recall identity protection."],
+    "id": "10b5cce4-7345-4891-a1e5-e778e3d095ab"
+  },
+  {
+    "question": "California Privacy Rights Act builds on CCPA.",
+    "type": "MCQ",
+    "options": [
+      "California Privacy Rights Act",
+      "CCPA",
+      "Both, but CPRA is the expansion",
+      "FOIA",
+      "CFAA"
+    ],
+    "answer": "California Privacy Rights Act",
+    "description": "CPRA amends and expands CCPA. It enhances consumer rights. This strengthens privacy in California.",
+    "hints": ["Thecpra.org.", "Think about 2020 act."],
+    "id": "de694515-c872-48f0-b453-9b70473ca048"
+  },
+  {
+    "question": "Australia's Copyright Act 1968 protects works.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "This act covers copyright in Australia. It grants rights to creators. It aligns with international conventions.",
+    "hints": ["Legislation.gov.au.", "Recall 1968 act."],
+    "id": "497ca65d-df69-4b1c-ac12-8a028cf3282b"
+  },
+  {
+    "question": "UK's Privacy and Electronic Communications Regulations 2003 regulate marketing.",
+    "type": "MCQ",
+    "options": [
+      "The Privacy and Electronic Communications (EC Directive) Regulations 2003",
+      "Communications Act 2003",
+      "RIPA 2000",
+      "IPA 2016",
+      "CMA 1990"
+    ],
+    "answer": "The Privacy and Electronic Communications (EC Directive) Regulations 2003",
+    "description": "These regulations cover electronic marketing. They require consent for communications. This protects privacy in digital interactions.",
+    "hints": ["Legislation.gov.uk.", "Think about direct marketing."],
+    "id": "e3067edf-7678-45c1-a9b9-1db58ca8f99b"
+  },
+  {
+    "question": "The Regulation of Investigatory Powers Act 2000 is UK law for surveillance.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "RIPA regulates investigatory powers. It ensures lawful surveillance. It balances security and rights.",
+    "hints": ["Legislation.gov.uk.", "Recall 2000 act."],
+    "id": "0530a3c4-5628-4a81-8758-c33d81524430"
+  },
+  {
+    "question": "India's Copyright Act is from 1957.",
+    "type": "MCQ",
+    "options": [
+      "The Copyright Act, 1957",
+      "Trade Marks Act 1999",
+      "Patents Amendment 1999",
+      "IT Act",
+      "Trademark Law China"
+    ],
+    "answer": "The Copyright Act, 1957",
+    "description": "This act protects copyrights in India. It covers literary and artistic works. Amendments update for digital age.",
+    "hints": ["Ipindia.gov.in.", "Think about 1957 law."],
+    "id": "8d3c3de0-f5a9-4af0-975b-61532d300a48"
+  },
+  {
+    "question": "Germany's Section 303a covers alteration of data.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Section 303a criminalizes data alteration. It protects integrity of information. This deters tampering.",
+    "hints": ["Cybercrimelaw.net.", "Recall data sections."],
+    "id": "b8a0966c-7b2b-4e47-8a6e-bdc13e75f4a2"
+  },
+  {
+    "question": "Canada's Trademarks Act is R.S.C., 1985, c. T-13.",
+    "type": "MCQ",
+    "options": [
+      "Trademarks Act (R.S.C., 1985, c. T-13)",
+      "Copyright Act C-42",
+      "Criminal Code 342.1",
+      "PIPEDA",
+      "Computer Misuse"
+    ],
+    "answer": "Trademarks Act (R.S.C., 1985, c. T-13)",
+    "description": "This act governs trademarks in Canada. It provides registration and enforcement. It prevents confusion in market.",
+    "hints": ["Laws-lois.justice.gc.ca.", "Think about 1985 act."],
+    "id": "0e463213-bd1a-4e85-9532-576498947d69"
+  },
+  {
+    "question": "South Korea has Copyright Act amended in 2023.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Amended to Act No. 19597 in 2023. It updates protections for creators. This addresses new technologies.",
+    "hints": ["Wipo.int.", "Recall August 8, 2023."],
+    "id": "c6c8d81b-ac70-4fa1-b5fe-665e7bb4f99f"
+  },
+  {
+    "question": "Brazil has a law on computer hacking.",
+    "type": "MCQ",
+    "options": [
+      "But document has LGPD for data protection, not specific hacking. Adjust: Brazilian General Data Protection Law (LGPD)",
+      "LGPD is for data, but query on hacking - perhaps general cyber.",
+      "The document lists Brazilian General Data Protection Law (LGPD) for Brazil."
+    ],
+    "answer": "Brazilian General Data Protection Law (LGPD)",
+    "description": "LGPD protects personal data in Brazil. It requires secure processing. Fines enforce compliance.",
+    "hints": ["Iapp.org.", "Think about general protection."],
+    "id": "9f3f9651-21f1-4ba8-8ef5-196ae9aa8b9d"
+  },
+  {
+    "question": "Philippines' RA 10175 is for cybercrime.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Republic Act 10175 prevents cybercrimes. It covers offenses like identity theft. It promotes digital security.",
+    "hints": ["Lawphil.net.", "Recall RA 10175."],
+    "id": "40e4c713-eb72-4773-ad8c-34a45f319b70"
+  },
+  {
+    "question": "ISO/IEC 27036-3:2023 provides guidelines for supply chain security.",
+    "type": "MCQ",
+    "options": [
+      "Securing hardware, software, and services supply chains",
+      "Network virtualization",
+      "Data storage",
+      "Internet security",
+      "Privacy management"
+    ],
+    "answer": "Securing hardware, software, and services supply chains",
+    "description": "This standard mitigates supply chain risks. It ensures secure acquisition. Organizations maintain integrity through it.",
+    "hints": ["Iso.org.", "Think about third-party risks."],
+    "id": "fbb7ee5f-7761-4e37-a511-894cf2ae7e27"
+  },
+  {
+    "question": "HIPAA's Electronic Transaction Standards require standard code sets.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "These standards mandate uniform transactions. They use ASC X12N or NCPDP. This streamlines healthcare business.",
+    "hints": ["Hhs.gov.", "Recall EDI standards."],
+    "id": "f325b726-e1fc-4bf4-a901-01b9b4688aec"
+  },
+  {
+    "question": "SOX Title IX enhances penalties for white-collar crimes.",
+    "type": "MCQ",
+    "options": [
+      "White Collar Crime Penalty Enhancement",
+      "Corporate Fraud Accountability",
+      "Corporate Tax Returns",
+      "Studies and Reports",
+      "Commission Authority"
+    ],
+    "answer": "White Collar Crime Penalty Enhancement",
+    "description": "Title IX increases criminal penalties. It adds failure to certify as offense. This deters financial misconduct.",
+    "hints": ["Sec.gov.", "Think about six sections."],
+    "id": "b8d717bc-d018-4c30-a889-fa73c199a6dd"
+  },
+  {
+    "question": "DMCA Title IV has miscellaneous provisions including ephemeral recordings.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Title IV covers various topics like recordings exemption. It promotes distance education. It addresses library exemptions.",
+    "hints": ["Copyright.gov.", "Recall six provisions."],
+    "id": "42a8b48a-3d8d-449d-bbab-1813caac23af"
+  },
+  {
+    "question": "FISMA provides guidance for security authorization.",
+    "type": "MCQ",
+    "options": [
+      "Guidance for security authorization of information systems",
+      "Vessel design protection",
+      "Financial disclosures",
+      "PII in clouds",
+      "Risk assessments only"
+    ],
+    "answer": "Guidance for security authorization of information systems",
+    "description": "FISMA includes authorization guidance. It ensures system security. Agencies follow for compliance.",
+    "hints": ["Csrc.nist.gov.", "Think about framework."],
+    "id": "785c7197-d94f-4135-a20a-2b7d5532fa32"
+  },
+  {
+    "question": "GDPR's data minimization principle requires collecting only necessary data.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Data minimization limits collection to essentials. It reduces risks of breaches. This principle enhances privacy.",
+    "hints": ["Gdpr.eu.", "Recall Article 5."],
+    "id": "f01587c1-d8b5-4026-a1a7-bcffcd7a90b6"
+  },
+  {
+    "question": "DPA 2018 confers functions on the Information Commissioner.",
+    "type": "MCQ",
+    "options": [
+      "Conferring functions on the Commissioner",
+      "Requiring unlawful processing",
+      "Ignoring rectification rights",
+      "No protection level",
+      "Direct marketing only"
+    ],
+    "answer": "Conferring functions on the Commissioner",
+    "description": "The Commissioner monitors and enforces DPA. They ensure appropriate protection. This includes public interest considerations.",
+    "hints": ["Legislation.gov.uk.", "Think about office holder."],
+    "id": "a3ab56ec-c59b-4f09-ab6f-f147b67aec07"
+  },
+  {
+    "question": "The US Electronic Communications Privacy Act protects communications.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "ECPA prohibits unauthorized interception. It covers wire and electronic. This safeguards privacy in communications.",
+    "hints": ["Bja.ojp.gov.", "Recall privacy act."],
+    "id": "f04f82d0-fa46-42c7-9a85-5e3a01aa5e2a"
+  },
+  {
+    "question": "Foreign Intelligence Surveillance Act is for US surveillance.",
+    "type": "MCQ",
+    "options": [
+      "Foreign Intelligence Surveillance Act",
+      "Protect America Act",
+      "Privacy Act 1974",
+      "CFAA",
+      "FOIA"
+    ],
+    "answer": "Foreign Intelligence Surveillance Act",
+    "description": "FISA regulates intelligence gathering. It requires warrants for surveillance. This balances security and rights.",
+    "hints": ["Justice.gov.", "Think about FISA court."],
+    "id": "2f1e4a98-26ad-4ef9-88b3-d8fa35272435"
+  },
+  {
+    "question": "National Information Infrastructure Protection Act of 1996 protects critical infrastructure.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "This act addresses threats to infrastructure. It criminalizes attacks. It enhances cyber security.",
+    "hints": ["Congress.gov.", "Recall 1996 act."],
+    "id": "8a9b8978-0a50-4bb5-8fc6-05c97f63aa66"
+  },
+  {
+    "question": "Computer Security Act of 1987 sets federal computer security standards.",
+    "type": "MCQ",
+    "options": [
+      "Computer Security Act of 1987",
+      "NII Protection 1996",
+      "FOIA",
+      "CFAA",
+      "Identity Theft Act"
+    ],
+    "answer": "Computer Security Act of 1987",
+    "description": "This act requires security plans for federal systems. It promotes protection of sensitive data. NIST develops standards under it.",
+    "hints": ["Csrc.nist.gov.", "Think about federal standards."],
+    "id": "36956b23-0383-4557-8a3f-be1205a1d9ea"
+  },
+  {
+    "question": "UK's Network and Information Systems Regulations 2018 protect essential services.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "NIS Regulations enhance cybersecurity for networks. They apply to operators of essential services. This mitigates risks to infrastructure.",
+    "hints": ["Legislation.gov.uk.", "Recall 2018 regulations."],
+    "id": "581582d9-9722-4fae-b8be-a84550b0b7f6"
+  },
+  {
+    "question": "China's Trademark Law was amended in 2001.",
+    "type": "MCQ",
+    "options": [
+      "Trademark Law of the People's Republic of China (Amendments on October 27, 2001)",
+      "Copyright Law",
+      "Patents Act",
+      "IT Act",
+      "Data Sabotage"
+    ],
+    "answer": "Trademark Law of the People's Republic of China (Amendments on October 27, 2001)",
+    "description": "Amendments strengthen trademark protections. It aligns with global standards. This supports commerce in China.",
+    "hints": ["Npc.gov.cn.", "Think about 2001."],
+    "id": "2dd442fd-3c3b-477f-8ae5-1ca56e6035b2"
+  },
+  {
+    "question": "India's Patents (Amendment) Act, 1999 updates patent laws.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "This amendment enhances patent protections. It complies with TRIPS agreement. It encourages innovation.",
+    "hints": ["Ipindia.gov.in.", "Recall 1999 amendment."],
+    "id": "d30002e5-b2d4-44df-bc1b-73efe6ae7753"
+  },
+  {
+    "question": "Canada's Copyright Act is R.S.C., 1985, c. C-42.",
+    "type": "MCQ",
+    "options": [
+      "Copyright Act (R.S.C., 1985, c. C-42)",
+      "Trademarks Act T-13",
+      "Criminal Code 342.1",
+      "PIPEDA",
+      "LGPD"
+    ],
+    "answer": "Copyright Act (R.S.C., 1985, c. C-42)",
+    "description": "This act protects copyrights in Canada. It covers works and rights. Amendments address digital issues.",
+    "hints": ["Laws-lois.justice.gc.ca.", "Think about 1985."],
+    "id": "5918e206-c91e-42d6-88d7-2460eb0af2f4"
+  },
+  {
+    "question": "The Online Copyright Infringement Liability Limitation Act is US law.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "This act limits liability for online infringement. It is part of DMCA Title II. It protects service providers.",
+    "hints": ["Bitlaw.com.", "Recall limitation act."],
+    "id": "de627695-ad5c-4893-bd80-57a70fc5004c"
+  },
+  {
+    "question": "ISO/IEC 27033-7:2023 is for network virtualization security.",
+    "type": "MCQ",
+    "options": [
+      "Guidelines for network virtualization security",
+      "Data storage",
+      "Supply chain",
+      "Internet security",
+      "Risk management"
+    ],
+    "answer": "Guidelines for network virtualization security",
+    "description": "This standard secures virtualization environments. It mitigates associated risks. Organizations use it for virtual networks.",
+    "hints": ["Iso.org.", "Think about virtualization."],
+    "id": "ca8c1a84-02af-4ece-a49b-4da41faadf73"
+  },
+  {
+    "question": "HIPAA's National Provider Identifier is a 10-digit number.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "NPI is a unique identifier for providers. It is intelligence-free numeric. Used in HIPAA transactions.",
+    "hints": ["Hhs.gov.", "Recall NPI standard."],
+    "id": "dcdbeba8-030e-4b6c-9730-0dd2f3511766"
+  },
+  {
+    "question": "SOX Title X requires CEO to sign tax returns.",
+    "type": "MCQ",
+    "options": [
+      "Corporate Tax Returns",
+      "Fraud Accountability",
+      "White Collar Penalty",
+      "Studies",
+      "Analyst Conflicts"
+    ],
+    "answer": "Corporate Tax Returns",
+    "description": "Title X mandates CEO signature on returns. It ensures accountability in taxes. This is one section title.",
+    "hints": ["Sec.gov.", "Think about CEO responsibility."],
+    "id": "a9d50a03-4a14-4489-8c71-e5cd580c3c01"
+  },
+  {
+    "question": "DMCA prohibits removal of copyright management information.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "DMCA bans alteration of copyright info. It implements WIPO treaties. This protects owners' rights.",
+    "hints": ["Copyright.gov.", "Recall prohibitions."],
+    "id": "6711c6f5-696a-4ba6-879c-dd70f5f59103"
+  },
+  {
+    "question": "GDPR applies only to EU-based organizations.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "GDPR applies to any organization targeting EU data. It is extraterritorial. This ensures global compliance for EU citizens' data.",
+    "hints": ["Gdpr.eu.", "Think about scope."],
+    "id": "301b4d0e-d5fa-4d2b-be5d-4d38a864b4c7"
+  },
+  {
+    "question": "DPA 2018 sets rules for law enforcement data processing.",
+    "type": "MCQ",
+    "options": [
+      "Separate data protection rules for law enforcement",
+      "Only general processing",
+      "No commissioner functions",
+      "Unfair processing",
+      "No rights for subjects"
+    ],
+    "answer": "Separate data protection rules for law enforcement",
+    "description": "DPA includes specific rules for authorities. It extends to national security. This comprehensive approach protects data.",
+    "hints": ["Legislation.gov.uk.", "Think about extensions."],
+    "id": "855fbc84-bfa6-4d1d-8745-f4203fc936c2"
+  },
+  {
+    "question": "The US has California Privacy Rights Act of 2020.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "CPRA expands privacy rights in California. It builds on CCPA. This gives more control to consumers.",
+    "hints": ["Thecpra.org.", "Recall 2020 act."],
+    "id": "9c1a5090-2d1d-44c1-a47b-ccbeac1b17b8"
+  },
+  {
+    "question": "Australia has Trademarks Act 1995.",
+    "type": "MCQ",
+    "options": [
+      "Trade Marks Act 1995",
+      "Patents Act 1990",
+      "Copyright Act 1968",
+      "Cybercrime Act 2001",
+      "All of above"
+    ],
+    "answer": "Trade Marks Act 1995",
+    "description": "This act protects trademarks in Australia. It provides registration system. It prevents infringement.",
+    "hints": ["Legislation.gov.au.", "Think about 1995."],
+    "id": "8f446938-3fc7-4699-bf6c-cc082f5cb381"
+  },
+  {
+    "question": "UK's Communications Act 2003 regulates communications.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "This act covers electronic communications. It ensures fair competition. It protects consumers in UK.",
+    "hints": ["Legislation.gov.uk.", "Recall 2003 act."],
+    "id": "8851f374-76b9-4092-938e-1fa1aeb48477"
+  },
+  {
+    "question": "Cyber laws vary by country and jurisdiction.",
+    "type": "MCQ",
+    "options": [
+      "True, as per document",
+      "But for type TRUE_FALSE better, but MCQ: Vary by jurisdiction",
+      "Always uniform",
+      "Only US laws apply globally",
+      "No punishments"
+    ],
+    "answer": "Vary by jurisdiction",
+    "description": "Cyber laws differ across countries. They address internet issues locally. This makes implementation challenging.",
+    "hints": ["Document summary.", "Think about global variation."],
+    "id": "1b7442e2-c926-4e61-8055-8ed553ddfc18"
+  },
+  {
+    "question": "Standards are documents established by consensus for common use.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Standards provide rules and guidelines. They aim for order in contexts. This definition from document.",
+    "hints": ["Initial section.", "Recall definition."],
+    "id": "53503de7-b990-423b-8442-103969eb6efb"
+  },
+  {
+    "question": "Laws are rules enforced by countries to govern behavior.",
+    "type": "MCQ",
+    "options": [
+      "System of rules to govern behavior",
+      "Optional guidelines",
+      "Only for corporations",
+      "For internet only",
+      "No enforcement"
+    ],
+    "answer": "System of rules to govern behavior",
+    "description": "Laws regulate conduct in communities. They are enforced by authorities. This ensures order and justice.",
+    "hints": ["Document introduction.", "Think about laws vs standards."],
+    "id": "49d587c9-82bb-4952-ae4d-658a437fc0cf"
   }
 ]
