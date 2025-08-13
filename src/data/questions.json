@@ -1,68 +1,2478 @@
 [
   {
-    "id": "q1",
-    "question": "Which phase of ethical hacking involves gathering information about a target without directly interacting with the target's systems?",
+    "question": "Which of the following is NOT an element of information security?",
     "type": "MCQ",
-    "options": ["Scanning", "Gaining Access", "Reconnaissance", "Maintaining Access"],
-    "answer": "Reconnaissance",
-    "description": "Reconnaissance (or footprinting) is the preparatory phase where an attacker gathers as much information as possible about a target prior to launching an attack. This can be passive (not interacting with target) or active.",
-    "hints": ["Think about the very first step before any active engagement.", "This phase is like intelligence gathering."]
+    "options": [
+      "Confidentiality",
+      "Integrity",
+      "Authenticity",
+      "Non-repudiation",
+      "Accountability"
+    ],
+    "answer": "Accountability",
+    "description": "The five main elements are Confidentiality, Integrity, Availability, Authenticity, and Non-repudiation. Accountability is related but not one of the core elements.",
+    "hints": [
+      "Think CIA + two additional components.",
+      "Accountability is often achieved through logging, not a core element."
+    ],
+    "id": "d7d92e51-5116-4665-a709-03835d6e2681"
   },
   {
-    "id": "q2",
-    "question": "Nmap is primarily used for network scanning and host discovery.",
-    "type": "TF",
-    "answer": true,
-    "description": "Nmap (Network Mapper) is a free and open-source utility for network discovery and security auditing. Many systems and network administrators also find it useful for tasks such as network inventory, managing service upgrade schedules, and monitoring host or service uptime.",
-    "hints": ["Consider what Nmap stands for.", "It's a very popular tool in cybersecurity."]
-  },
-  {
-    "id": "q3",
-    "question": "The three main goals of security are Confidentiality, __________, and Availability (CIA Triad).",
-    "type": "FILL_IN",
-    "answer": ["Integrity"],
-    "description": "The CIA Triad (Confidentiality, Integrity, Availability) is a model designed to guide policies for information security within an organization. Integrity means maintaining the consistency, accuracy, and trustworthiness of data over its entire lifecycle.",
-    "hints": ["It starts with the letter 'I'.", "It refers to the trustworthiness and accuracy of data."]
-  },
-  {
-    "id": "q4",
-    "question": "What is the common term for a malicious software that encrypts a user's files and demands payment for their release?",
-    "type": "INPUT",
-    "answer": "Ransomware",
-    "description": "Ransomware is a type of malware that threatens to publish the victim's personal data or perpetually block access to it unless a ransom is paid. More advanced malware uses a technique called cryptoviral extortion.",
-    "hints": ["It often involves a 'ransom' note.", "Think of holding data hostage."]
-  },
-  {
-    "id": "q5",
-    "question": "Which of the following is NOT a type of phishing attack?",
+    "question": "Which of the following best describes Confidentiality?",
     "type": "MCQ",
-    "options": ["Spear Phishing", "Whaling", "Smishing", "Port Scanning"],
-    "answer": "Port Scanning",
-    "description": "Spear phishing targets specific individuals, whaling targets high-profile executives, and smishing is phishing via SMS. Port scanning is a reconnaissance technique, not a type of phishing.",
-    "hints": ["Phishing involves social engineering to trick users.", "One of these options is a technical network probing technique."]
+    "options": [
+      "Ensuring systems are available when required",
+      "Ensuring information is accessible only to authorized individuals",
+      "Ensuring messages cannot be denied by sender or receiver",
+      "Ensuring information remains accurate and unaltered"
+    ],
+    "answer": "Ensuring information is accessible only to authorized individuals",
+    "description": "Confidentiality ensures that sensitive data is accessible only to those authorized to view it.",
+    "hints": [
+      "Think data classification and encryption.",
+      "Not about accuracy; it's about secrecy."
+    ],
+    "id": "fd0da9ee-802d-44fa-8ee3-e0815f9eb5e4"
   },
   {
-    "id": "q6",
-    "question": "A SYN flood attack is a type of Denial of Service (DoS) attack.",
-    "type": "TF",
-    "answer": true,
-    "description": "In a SYN flood attack, an attacker sends a succession of SYN requests to a target's system in an attempt to consume enough server resources to make the system unresponsive to legitimate traffic.",
-    "hints": ["Consider what 'flood' implies in an attack context.", "This attack exploits the TCP three-way handshake."]
+    "question": "True or False: Integrity ensures that data remains accurate and unaltered by unauthorized parties.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Integrity guarantees accuracy and consistency of data by preventing unauthorized changes.",
+    "hints": ["Checksums verify this.", "Think about preventing tampering."],
+    "id": "c9debbfd-9f88-4064-85cc-4be3679effb4"
   },
   {
-    "id": "q7",
-    "question": "The process of converting data into a format that is unreadable without a decryption key is called _________.",
-    "type": "FILL_IN",
-    "answer": ["Encryption"],
-    "description": "Encryption is the process of encoding information. This process converts the original representation of the information, known as plaintext, into an alternative form known as ciphertext. Ideally, only authorized parties can decipher a ciphertext back to plaintext and access the original information.",
-    "hints": ["It's the opposite of decryption.", "It's a fundamental concept in data protection."]
+    "question": "Which of the following mechanisms helps maintain Availability?",
+    "type": "MCQ",
+    "options": [
+      "Checksum validation",
+      "Disk arrays for redundancy",
+      "Biometric authentication",
+      "Digital signatures"
+    ],
+    "answer": "Disk arrays for redundancy",
+    "description": "Disk arrays ensure system availability through redundancy, which prevents downtime during disk failures.",
+    "hints": [
+      "High availability solutions aim for this.",
+      "Redundancy prevents downtime."
+    ],
+    "id": "85e55b0e-6bd3-4e22-8d77-fa732abbc96f"
   },
   {
-    "id": "q8",
-    "question": "What command-line tool in Windows is used to display TCP/IP network configuration values?",
-    "type": "INPUT",
-    "answer": "ipconfig",
-    "description": "The `ipconfig` command in Windows displays all current TCP/IP network configuration values and can modify Dynamic Host Configuration Protocol (DHCP) and Domain Name System (DNS) settings. The equivalent command in Linux/macOS is `ifconfig` or `ip addr`.",
-    "hints": ["It's similar to `ifconfig` on Linux systems.", "It shows IP address, subnet mask, default gateway, etc."]
+    "question": "What element ensures that users and data are genuine and not tampered with?",
+    "type": "MCQ",
+    "options": ["Authenticity", "Integrity", "Availability", "Confidentiality"],
+    "answer": "Authenticity",
+    "description": "Authenticity confirms that users and data are genuine and unaltered.",
+    "hints": [
+      "Biometrics or digital certificates support this.",
+      "Ensures genuineness."
+    ],
+    "id": "fe6ead5d-b107-4195-a588-9049fe3b73d2"
+  },
+  {
+    "question": "True or False: Non-repudiation guarantees that the sender cannot deny sending a message and the receiver cannot deny receiving it.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Non-repudiation is enforced through mechanisms like digital signatures to prevent denial.",
+    "hints": [
+      "Think legal proof.",
+      "Digital signatures provide this assurance."
+    ],
+    "id": "f3ccd089-ca80-494c-a4b0-96a64611b7ab"
+  },
+  {
+    "question": "Which of the following is NOT a motive for an information security attack?",
+    "type": "MCQ",
+    "options": [
+      "Stealing information",
+      "Causing financial loss",
+      "Regular system maintenance",
+      "Damaging reputation"
+    ],
+    "answer": "Regular system maintenance",
+    "description": "System maintenance is a legitimate activity, not a malicious motive.",
+    "hints": [
+      "Attack motives are malicious.",
+      "Maintenance is positive, not harmful."
+    ],
+    "id": "b6d072d9-345f-40fa-8efc-2c966a6705ec"
+  },
+  {
+    "question": "True or False: Disrupting business continuity is a common motive behind cyberattacks.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Attackers often aim to disrupt business operations to create chaos or cause financial losses.",
+    "hints": [
+      "Think ransomware attacks.",
+      "Business continuity is a prime target."
+    ],
+    "id": "e0d222a9-0775-48b9-9053-23855879adec"
+  },
+  {
+    "question": "Which component of TTPs refers to the overall attack strategy?",
+    "type": "MCQ",
+    "options": ["Tactics", "Techniques", "Procedures", "Plans"],
+    "answer": "Tactics",
+    "description": "Tactics define the overall approach or strategy for an attack.",
+    "hints": ["Big picture plan.", "Techniques are specific methods."],
+    "id": "6f262fbc-a41d-4c38-9c0e-ab7cc1073760"
+  },
+  {
+    "question": "True or False: Techniques in TTPs describe the tools used to achieve intermediate results.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Techniques represent the technical methods used during the attack.",
+    "hints": ["Techniques = methods.", "Tools are part of techniques."],
+    "id": "2f23f738-591d-4642-abe7-412170781fb4"
+  },
+  {
+    "question": "An attacker observes network traffic without altering it. Which attack type is this?",
+    "type": "MCQ",
+    "options": [
+      "Active attack",
+      "Passive attack",
+      "Close-in attack",
+      "Insider attack"
+    ],
+    "answer": "Passive attack",
+    "description": "Passive attacks involve monitoring without changing data, such as sniffing.",
+    "hints": ["No modification involved.", "Think eavesdropping."],
+    "id": "fc282fef-d4d0-4e06-82e1-35a888c554a4"
+  },
+  {
+    "question": "Which of the following is an example of an active attack?",
+    "type": "MCQ",
+    "options": [
+      "Traffic sniffing",
+      "DNS poisoning",
+      "Footprinting",
+      "Eavesdropping"
+    ],
+    "answer": "DNS poisoning",
+    "description": "Active attacks modify data or disrupt services, and DNS poisoning changes resolution data.",
+    "hints": ["Tampering indicates active.", "Passive = observe only."],
+    "id": "8f0a3f2e-e03d-4d2d-b70f-6e1b9bd5f5fd"
+  },
+  {
+    "question": "True or False: Close-in attacks require physical proximity to the target.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Close-in attacks involve being physically near the system, like shoulder surfing.",
+    "hints": ["Physical access matters.", "Think social engineering on-site."],
+    "id": "74e02055-1d54-49ab-8b94-54f4922f6d5d"
+  },
+  {
+    "question": "Which type of attack involves privileged users misusing their access rights?",
+    "type": "MCQ",
+    "options": [
+      "Insider attack",
+      "Active attack",
+      "Close-in attack",
+      "Distribution attack"
+    ],
+    "answer": "Insider attack",
+    "description": "Insider attacks are carried out by individuals with authorized access who exploit it maliciously.",
+    "hints": [
+      "Trusted individuals pose this risk.",
+      "Privileged access misused."
+    ],
+    "id": "f8939ba8-12d1-43e0-a321-09a6f2255080"
+  },
+  {
+    "question": "Which attack involves tampering with hardware before deployment?",
+    "type": "MCQ",
+    "options": [
+      "Insider attack",
+      "Passive attack",
+      "Distribution attack",
+      "Active attack"
+    ],
+    "answer": "Distribution attack",
+    "description": "Distribution attacks compromise hardware or software at the source or in transit.",
+    "hints": ["Think supply chain risks.", "Occurs before installation."],
+    "id": "cca20a65-576f-46ad-a5bc-4a69d38ff9db"
+  },
+  {
+    "question": "True or False: Vulnerabilities only exist due to hardware design flaws.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Vulnerabilities also arise from misconfigurations, poor coding, and user carelessness.",
+    "hints": ["Multiple causes exist.", "Not just hardware-related."],
+    "id": "3da0c26b-8db3-45a8-9a45-bc5b89a48993"
+  },
+  {
+    "question": "Which of these is an example of a configuration vulnerability?",
+    "type": "MCQ",
+    "options": [
+      "Unpatched operating system",
+      "Weak passwords for user accounts",
+      "TCP/IP protocol weaknesses",
+      "Browser zero-day exploit"
+    ],
+    "answer": "Weak passwords for user accounts",
+    "description": "Weak passwords represent a misconfiguration of account settings, making them a configuration vulnerability.",
+    "hints": [
+      "Configuration = incorrect settings.",
+      "Passwords fall under configuration issues."
+    ],
+    "id": "4056efbd-a5a7-4983-8b3c-a15a94324efc"
+  },
+  {
+    "question": "Which of these represents a technological vulnerability?",
+    "type": "MCQ",
+    "options": [
+      "Leaving default router passwords",
+      "Insecure TCP/IP protocols",
+      "Unrestricted physical access",
+      "Poor firewall rule design"
+    ],
+    "answer": "Insecure TCP/IP protocols",
+    "description": "Insecure protocols like FTP and HTTP are technological weaknesses.",
+    "hints": ["Technology-based weakness.", "Not about settings or humans."],
+    "id": "f9872330-6fd8-4295-b40f-e28be38fabe1"
+  },
+  {
+    "question": "True or False: End-user carelessness can create vulnerabilities within a system.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Users sharing credentials or clicking phishing links can expose systems to attacks.",
+    "hints": [
+      "Social engineering exploits this.",
+      "Human error is a major factor."
+    ],
+    "id": "f8161891-92d3-44f7-a56e-35301206ff4d"
+  },
+  {
+    "question": "What type of warfare uses propaganda to demoralize an opponent?",
+    "type": "MCQ",
+    "options": [
+      "Psychological warfare",
+      "Electronic warfare",
+      "Cyber warfare",
+      "Economic warfare"
+    ],
+    "answer": "Psychological warfare",
+    "description": "Psychological warfare aims to influence or demoralize adversaries through propaganda or fear tactics.",
+    "hints": ["Affects human psychology.", "Not purely technical."],
+    "id": "1a9d31b7-400a-4446-9f7e-e9fe2c6244a4"
+  },
+  {
+    "question": "What does confidentiality in information security ensure?",
+    "type": "MCQ",
+    "options": [
+      "The information is accessible only to authorized users",
+      "The trustworthiness of data in terms of preventing unauthorized changes",
+      "Systems are accessible when required by authorized users",
+      "The quality of being genuine",
+      "Guarantee that sender cannot deny sending a message"
+    ],
+    "answer": "The information is accessible only to authorized users",
+    "description": "Confidentiality ensures that information is accessible only to those authorized, preventing unauthorized access through measures like encryption and data classification.",
+    "hints": [
+      "Think about protecting sensitive data from unauthorized eyes.",
+      "Common controls include encryption and access controls."
+    ],
+    "id": "130592e5-095f-43b0-9913-e3a5d5e43c07"
+  },
+  {
+    "question": "Integrity refers to the prevention of improper or unauthorized changes to data.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Integrity assures the trustworthiness and accuracy of data by preventing unauthorized modifications, using tools like checksums and access controls.",
+    "hints": [
+      "Relates to data accuracy and reliability.",
+      "Involves mechanisms like hashing for verification."
+    ],
+    "id": "b398cc89-2678-47ef-938f-d4570016d905"
+  },
+  {
+    "question": "Which element of information security ensures that systems responsible for delivering information are accessible when needed?",
+    "type": "MCQ",
+    "options": [
+      "Confidentiality",
+      "Integrity",
+      "Availability",
+      "Authenticity",
+      "Non-Repudiation"
+    ],
+    "answer": "Availability",
+    "description": "Availability ensures systems are accessible to authorized users when required, protected by measures like redundant systems and DDoS prevention.",
+    "hints": [
+      "Focus on uptime and access during need.",
+      "Think of defenses against denial-of-service attacks."
+    ],
+    "id": "e2013e88-d281-405b-a1bd-c7cc0b2733c2"
+  },
+  {
+    "question": "Authenticity confirms that a user or data is genuine.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Authenticity ensures the genuineness of communications or data, using controls like biometrics and digital certificates.",
+    "hints": [
+      "Relates to verifying identity.",
+      "Involves tools like smart cards."
+    ],
+    "id": "6ecc29c9-1f2d-4c53-aa62-e21aa6de08a7"
+  },
+  {
+    "question": "What does non-repudiation provide in information security?",
+    "type": "MCQ",
+    "options": [
+      "Assurance of data accuracy",
+      "Guarantee that sender cannot deny sending a message",
+      "Accessibility to authorized users",
+      "Genuineness of data",
+      "Protection against tampering"
+    ],
+    "answer": "Guarantee that sender cannot deny sending a message",
+    "description": "Non-repudiation ensures that parties cannot deny sending or receiving messages, achieved through digital signatures.",
+    "hints": [
+      "Think about accountability in transactions.",
+      "Commonly uses public key infrastructure (PKI)."
+    ],
+    "id": "e691b7c8-1552-4ded-8956-5eb7c3c4b043"
+  },
+  {
+    "question": "Information security relies on five major elements: confidentiality, integrity, availability, authenticity, and non-repudiation.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "These five elements form the core of information security, extending beyond the traditional CIA triad.",
+    "hints": [
+      "Extends CIA to include verification aspects.",
+      "Key for comprehensive security policies."
+    ],
+    "id": "e5ad9caf-c93c-4946-b7fd-8c38e8067240"
+  },
+  {
+    "question": "Which control is commonly used to maintain confidentiality?",
+    "type": "MCQ",
+    "options": [
+      "Checksums",
+      "Disk arrays",
+      "Data encryption",
+      "Digital signatures",
+      "Clustered machines"
+    ],
+    "answer": "Data encryption",
+    "description": "Data encryption protects confidentiality by making information unreadable to unauthorized parties.",
+    "hints": [
+      "Focus on hiding data content.",
+      "Think of symmetric or asymmetric keys."
+    ],
+    "id": "98459ae2-a075-4b88-ad5c-7dd4beb9b3d4"
+  },
+  {
+    "question": "Availability can be maintained using antivirus software to combat malware.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Antivirus software helps ensure availability by preventing malware that could disrupt system access.",
+    "hints": [
+      "Relates to preventing downtime.",
+      "Part of broader redundancy strategies."
+    ],
+    "id": "caef5e0f-7f0e-401b-ad97-32d542d53194"
+  },
+  {
+    "question": "What is a common method to ensure authenticity?",
+    "type": "MCQ",
+    "options": [
+      "Biometrics",
+      "Checksums",
+      "Redundant systems",
+      "DDoS prevention",
+      "Access controls"
+    ],
+    "answer": "Biometrics",
+    "description": "Biometrics verify the genuineness of users through unique physical traits.",
+    "hints": [
+      "Involves user verification.",
+      "Alternatives include smart cards."
+    ],
+    "id": "041e4c31-38b0-4bdc-8720-e2fc787e1875"
+  },
+  {
+    "question": "Non-repudiation is achieved solely through encryption.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Non-repudiation is primarily achieved through digital signatures, not just encryption.",
+    "hints": [
+      "Think beyond confidentiality.",
+      "Involves asymmetric cryptography."
+    ],
+    "id": "86ee3de3-48ed-4230-bf98-afd07afe601f"
+  },
+  {
+    "question": "Which formula represents an information security attack?",
+    "type": "MCQ",
+    "options": [
+      "Attack = Motive + Vulnerability",
+      "Attack = Motive (Goal) + Method (TTP) + Vulnerability",
+      "Attack = TTP + Vulnerability",
+      "Attack = Goal + Method",
+      "Attack = Vulnerability + Exploit"
+    ],
+    "answer": "Attack = Motive (Goal) + Method (TTP) + Vulnerability",
+    "description": "Attacks combine motive, tactics/techniques/procedures, and exploitable weaknesses.",
+    "hints": [
+      "Components of threat modeling.",
+      "From CEH attack conceptualization."
+    ],
+    "id": "fd4f8880-6160-4f7c-9c54-ccb7ecad6687"
+  },
+  {
+    "question": "Disrupting business continuity is a motive behind information security attacks.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Motives include disrupting operations, stealing data, or causing financial loss.",
+    "hints": ["Think of attacker goals.", "Common in ransomware or DoS."],
+    "id": "f1b845c1-a89b-4db5-a15d-49c0101b8807"
+  },
+  {
+    "question": "Which is NOT a typical motive for information security attacks?",
+    "type": "MCQ",
+    "options": [
+      "Disrupting business continuity",
+      "Stealing information",
+      "Improving system performance",
+      "Causing financial loss",
+      "Damaging reputation"
+    ],
+    "answer": "Improving system performance",
+    "description": "Motives are malicious, such as disruption or theft, not benevolent improvements.",
+    "hints": ["Focus on harmful intentions.", "Review listed motives in CEH."],
+    "id": "f6e9deb3-69fd-4de9-822e-ed0804135caa"
+  },
+  {
+    "question": "Propagating religious or political beliefs can be a motive for attacks.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Hacktivism often involves attacks for ideological reasons.",
+    "hints": [
+      "Think of state-sponsored or activist attacks.",
+      "Part of broader goals."
+    ],
+    "id": "ad8fcfda-b395-4eeb-b3ef-6943da179a2e"
+  },
+  {
+    "question": "What does TTP stand for in the context of attacks?",
+    "type": "MCQ",
+    "options": [
+      "Tools, Techniques, Procedures",
+      "Tactics, Techniques, Procedures",
+      "Threats, Tools, Protocols",
+      "Tactics, Threats, Procedures",
+      "Techniques, Threats, Patterns"
+    ],
+    "answer": "Tactics, Techniques, Procedures",
+    "description": "TTPs describe patterns of attacker behavior for threat analysis.",
+    "hints": ["Used in threat intelligence.", "Helps profile adversaries."],
+    "id": "8d8e7477-8044-4271-8679-5fbd77b29439"
+  },
+  {
+    "question": "Tactics refer to the technical methods used by attackers to achieve intermediate results.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Tactics are the overall strategy; techniques are the technical methods.",
+    "hints": ["Distinguish from techniques.", "Part of TTP breakdown."],
+    "id": "ac910e3d-f6f3-41e0-a078-3af078744992"
+  },
+  {
+    "question": "Which component of TTP involves a systematic approach adopted by threat actors?",
+    "type": "MCQ",
+    "options": ["Tactics", "Techniques", "Procedures", "Tools", "Patterns"],
+    "answer": "Procedures",
+    "description": "Procedures outline the step-by-step approach in launching attacks.",
+    "hints": [
+      "Think of operational steps.",
+      "Used to identify attacker methods."
+    ],
+    "id": "b45d8915-e0ee-4e81-96d4-5d57577cbb97"
+  },
+  {
+    "question": "Understanding TTPs helps in strengthening an organization's security infrastructure.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Analyzing TTPs allows prediction and defense against threats.",
+    "hints": ["Key for proactive security.", "Involves threat profiling."],
+    "id": "52611599-722b-4b68-89e2-ee911d5d820e"
+  },
+  {
+    "question": "What is a vulnerability in information security?",
+    "type": "MCQ",
+    "options": [
+      "A weakness in an asset that can be exploited",
+      "A motive for an attack",
+      "A technique used by attackers",
+      "A goal of threat actors",
+      "A defensive measure"
+    ],
+    "answer": "A weakness in an asset that can be exploited",
+    "description": "Vulnerabilities are flaws in design or implementation exploitable by threats.",
+    "hints": ["Part of risk assessment.", "Scanned using tools like Nessus."],
+    "id": "66b04006-cb7c-4229-aff8-d4cf7fb936bb"
+  },
+  {
+    "question": "Hardware or software misconfiguration is a common reason for vulnerabilities.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Misconfigurations create security loopholes, leading to intrusions.",
+    "hints": ["Think of default settings.", "Common in audits."],
+    "id": "5f88965e-7075-40c3-9a83-e7219b18eab4"
+  },
+  {
+    "question": "Which is NOT a common reason for the existence of vulnerabilities?",
+    "type": "MCQ",
+    "options": [
+      "Hardware or software misconfiguration",
+      "Insecure network design",
+      "Inherent technology weaknesses",
+      "End-user carelessness",
+      "Strong encryption practices"
+    ],
+    "answer": "Strong encryption practices",
+    "description": "Encryption strengthens security, unlike the other factors that weaken it.",
+    "hints": ["Focus on weakness causes.", "Review CEH vulnerability types."],
+    "id": "147fe7df-567f-4067-aa2d-56bcbc9b4b90"
+  },
+  {
+    "question": "Intentional end-user acts, like ex-employees misusing access, can lead to vulnerabilities.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Such acts exploit insider access, causing data loss.",
+    "hints": ["Relates to insider threats.", "Part of human factors."],
+    "id": "35dee354-f0fb-4eb5-9aa5-da0cced9eecd"
+  },
+  {
+    "question": "Which protocol is mentioned as inherently insecure in technological vulnerabilities?",
+    "type": "MCQ",
+    "options": ["HTTPS", "FTP", "SSH", "SFTP", "TLS"],
+    "answer": "FTP",
+    "description": "FTP transmits data in clear text, making it vulnerable.",
+    "hints": ["Think of unencrypted protocols.", "Common in network vulns."],
+    "id": "dfe1d088-82c3-42c1-bf1b-99f8bb32f112"
+  },
+  {
+    "question": "Operating systems are vulnerable only if they are inherently insecure.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Vulnerabilities also arise from lack of patches or updates.",
+    "hints": ["Consider patching importance.", "Beyond design flaws."],
+    "id": "17434809-7458-438d-9f46-0deefc240d43"
+  },
+  {
+    "question": "What vulnerability originates from weak passwords for system accounts?",
+    "type": "MCQ",
+    "options": [
+      "Technological",
+      "Configuration",
+      "Hardware",
+      "Software",
+      "Network"
+    ],
+    "answer": "Configuration",
+    "description": "Configuration vulnerabilities include poor password practices.",
+    "hints": ["Relates to setup errors.", "Audited in security reviews."],
+    "id": "a42f1b20-2546-496c-9fa2-13752599ac1d"
+  },
+  {
+    "question": "Passive attacks involve tampering with data in transit.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Passive attacks monitor without altering data, like sniffing.",
+    "hints": ["No modification involved.", "Hard to detect."],
+    "id": "aa64acb4-016d-460c-833f-d6a13e244535"
+  },
+  {
+    "question": "Which attack classification includes sniffing and eavesdropping?",
+    "type": "MCQ",
+    "options": ["Active", "Passive", "Close-in", "Insider", "Distribution"],
+    "answer": "Passive",
+    "description": "Passive attacks intercept traffic without tampering.",
+    "hints": ["Involves reconnaissance.", "Uses tools like Wireshark."],
+    "id": "2ce1b711-7a74-400b-bce5-97e3122541d0"
+  },
+  {
+    "question": "Active attacks are difficult to detect because they do not send traffic.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Active attacks send traffic and can be detected, unlike passive ones.",
+    "hints": ["Involves disruption.", "Examples like DoS."],
+    "id": "d7854315-d593-4934-94a2-6f6508cc9121"
+  },
+  {
+    "question": "What is an example of an active attack?",
+    "type": "MCQ",
+    "options": [
+      "Sniffing",
+      "DoS",
+      "Shoulder surfing",
+      "Theft of devices",
+      "Backdoor installation at source"
+    ],
+    "answer": "DoS",
+    "description": "DoS disrupts services by tampering with communication.",
+    "hints": [
+      "Aims to bypass or break systems.",
+      "Involves direct interaction."
+    ],
+    "id": "f6d6e754-5da0-4c36-b94e-c995d19b132b"
+  },
+  {
+    "question": "Close-in attacks require physical proximity to the target.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "They involve being near the target for methods like eavesdropping.",
+    "hints": ["Social engineering often used.", "Not remote."],
+    "id": "fff18103-9558-4e0c-9472-52311a41c2e0"
+  },
+  {
+    "question": "Which attack type involves trusted persons violating rules using privileged access?",
+    "type": "MCQ",
+    "options": ["Passive", "Active", "Close-in", "Insider", "Distribution"],
+    "answer": "Insider",
+    "description": "Insider attacks exploit internal access to harm systems.",
+    "hints": ["Hard to detect internally.", "Examples include data theft."],
+    "id": "16706e8f-9ea2-4d92-85b0-7a83a25fed0a"
+  },
+  {
+    "question": "Distribution attacks tamper with hardware or software after installation.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "They tamper prior to installation, at source or in transit.",
+    "hints": ["Supply chain attacks.", "Like pre-installed backdoors."],
+    "id": "9625c33c-f4f5-400f-bdd4-d7fe7b59b73c"
+  },
+  {
+    "question": "Footprinting is an example of a passive attack.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Footprinting gathers information without direct interaction.",
+    "hints": ["Part of reconnaissance.", "No data alteration."],
+    "id": "374d566e-14e9-4bd1-a1f4-46b5f63d7556"
+  },
+  {
+    "question": "Man-in-the-Middle is classified as a passive attack.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "MITM is active as it tampers with data in transit.",
+    "hints": ["Involves interception and modification.", "Uses ARP poisoning."],
+    "id": "dc859d9b-23b4-4047-8826-5d6b4762b57a"
+  },
+  {
+    "question": "Social engineering such as shoulder surfing is a close-in attack.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "It requires physical proximity to observe information.",
+    "hints": ["Non-technical method.", "Gathers info directly."],
+    "id": "849494cd-06d4-49b5-b079-e20fc1aec41a"
+  },
+  {
+    "question": "Insider attacks can include planting keyloggers.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Insiders use privileged access for malicious actions like keylogging.",
+    "hints": ["Exploits trust.", "Impacts CIA triad."],
+    "id": "802d273c-4fc3-4cd4-be64-20df1b056d9d"
+  },
+  {
+    "question": "What is information warfare?",
+    "type": "MCQ",
+    "options": [
+      "Use of ICT for competitive advantage over opponents",
+      "Physical destruction of systems",
+      "Only defensive strategies",
+      "Limited to hacking",
+      "Economic sanctions"
+    ],
+    "answer": "Use of ICT for competitive advantage over opponents",
+    "description": "InfoWar leverages technology like viruses and jamming for advantages.",
+    "hints": ["Broad ICT use.", "Includes offensive and defensive."],
+    "id": "ad304c89-eb87-4477-a2bf-cfc4a652b912"
+  },
+  {
+    "question": "Defensive information warfare involves attacks against ICT assets.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Defensive focuses on protection, like prevention and response.",
+    "hints": ["Strategies to defend.", "Opposite of offensive."],
+    "id": "1d27f32d-a0fa-4794-8064-b5722a1963f6"
+  },
+  {
+    "question": "Which category of information warfare involves control over compromised systems?",
+    "type": "MCQ",
+    "options": [
+      "Intelligence-based",
+      "Electronic",
+      "Command and control (C2)",
+      "Psychological",
+      "Hacker"
+    ],
+    "answer": "Command and control (C2)",
+    "description": "C2 warfare refers to attacker control over networks.",
+    "hints": ["Think of botnets.", "In security context."],
+    "id": "08396fb4-06b7-4bb0-882e-1cdc2e801689"
+  },
+  {
+    "question": "Intelligence-based warfare corrupts technological systems using sensors.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "It uses sensor tech to dominate battlespace knowledge.",
+    "hints": ["Focus on information denial.", "Per Libicki's definition."],
+    "id": "035f453e-4eb7-4b1b-ab55-3cfe76563e46"
+  },
+  {
+    "question": "Electronic warfare uses radio-electronic techniques to degrade communication.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "It targets physical and cryptographic means of info transmission.",
+    "hints": ["Jamming examples.", "Disrupts signals."],
+    "id": "43bc4de6-fe54-4471-aa16-ba8f648b2918"
+  },
+  {
+    "question": "Psychological warfare includes propaganda to demoralize adversaries.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Aims to influence mindset for battle success.",
+    "hints": ["Non-kinetic methods.", "Terror techniques."],
+    "id": "449ecf56-690b-4c4f-8c51-76db2c8276b3"
+  },
+  {
+    "question": "Hacker warfare can involve theft of information using viruses and sniffers.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Includes system shutdowns, data theft, and monitoring.",
+    "hints": ["Common cyber tools.", "Libicki category."],
+    "id": "a66e349f-97bf-4911-82f2-775a28a93f08"
+  },
+  {
+    "question": "Economic information warfare blocks the flow of information to affect economies.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Targets business or national economies digitally.",
+    "hints": ["Impacts digital trade.", "Broad economic disruption."],
+    "id": "4fd7c80a-6c67-4b0d-8ebc-804952ddc53c"
+  },
+  {
+    "question": "Cyberwarfare is the broadest form of information warfare.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Includes terrorism, semantic attacks, and simulated warfare.",
+    "hints": ["Against virtual personas.", "Encompasses all."],
+    "id": "9337d862-0e00-416d-88ef-3eda13d905e9"
+  },
+  {
+    "question": "Offensive information warfare refers to strategies to defend ICT assets.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Offensive involves attacks on opponent assets.",
+    "hints": ["Aggressive actions.", "Contrast with defensive."],
+    "id": "b001885e-e37a-4d65-88b7-7db2484bae88"
+  },
+  {
+    "question": "Which is an example of a technological vulnerability?",
+    "type": "MCQ",
+    "options": [
+      "TCP/IP protocol weaknesses",
+      "Weak passwords",
+      "Misconfigured IIS",
+      "Default settings",
+      "User account details transmission"
+    ],
+    "answer": "TCP/IP protocol weaknesses",
+    "description": "Inherent insecurities in protocols like HTTP or SNMP.",
+    "hints": ["Built-in flaws.", "Not configuration-based."],
+    "id": "cf184f59-e758-42cd-803f-9e3fd2463cd7"
+  },
+  {
+    "question": "Network device vulnerabilities can arise from lack of password protection.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Routers and switches without auth are vulnerable.",
+    "hints": ["Common in hardware.", "Insecure routing."],
+    "id": "0fd60059-eee3-4076-91f4-73f8339020be"
+  },
+  {
+    "question": "Configuration vulnerabilities include enabling JavaScript insecurely.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Misconfiguring services like IIS or FTP creates risks.",
+    "hints": ["Setup errors.", "Internet services."],
+    "id": "c24ad8e9-04dd-49e3-b7dd-da2d12b27690"
+  },
+  {
+    "question": "End-user carelessness impacts network security through social engineering.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Sharing credentials or connecting to insecure networks leads to breaches.",
+    "hints": ["Human factor.", "Exploitable behavior."],
+    "id": "123f98fc-e852-47c6-b92b-7c36d747e33b"
+  },
+  {
+    "question": "Which motive involves creating fear by disrupting critical infrastructures?",
+    "type": "MCQ",
+    "options": [
+      "Financial loss",
+      "Chaos and fear",
+      "Revenge",
+      "Ransom",
+      "Military objectives"
+    ],
+    "answer": "Chaos and fear",
+    "description": "Aims to destabilize through infrastructure attacks.",
+    "hints": ["Terrorism-related.", "Beyond theft."],
+    "id": "57e9125c-4bb9-4f18-8c14-a510b02a716a"
+  },
+  {
+    "question": "Demanding ransom is not a motive for attacks.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Ransomware attacks demand payment for data release.",
+    "hints": ["Common in cybercrime.", "Financial motive."],
+    "id": "7833f66f-77de-4e78-834c-0ec43032e18a"
+  },
+  {
+    "question": "Techniques in TTP are the strategy from beginning to end of an attack.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Techniques are intermediate technical methods; tactics are the strategy.",
+    "hints": ["Breakdown of TTP.", "Intermediate results."],
+    "id": "ed1a6c58-5d69-42b3-9cef-fdc48c2e47ae"
+  },
+  {
+    "question": "Procedures help identify what attackers are looking for in infrastructure.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Analyzing procedures reveals targets and methods.",
+    "hints": ["Systematic approach.", "Defensive insight."],
+    "id": "42b78295-8a36-439c-ac5d-8a5dddb35184"
+  },
+  {
+    "question": "Insecure design of applications is a reason for vulnerabilities.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Poor design exposes networks to threats like data loss.",
+    "hints": ["Beyond misconfig.", "Firewall/VPN issues."],
+    "id": "c132b83c-e1dd-47e3-98e1-da92ba6cda8b"
+  },
+  {
+    "question": "Old web browsers are prone to distributed attacks due to inherent weaknesses.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Unupdated tech lacks defenses against DoS or MITM.",
+    "hints": ["Technology flaws.", "Update importance."],
+    "id": "e9451727-bdb5-42a0-b181-dcd270643e86"
+  },
+  {
+    "question": "Which is an example of a passive attack?",
+    "type": "MCQ",
+    "options": [
+      "Decryption of weakly encrypted traffic",
+      "SQL injection",
+      "Session hijacking",
+      "Malware infection",
+      "Privilege escalation"
+    ],
+    "answer": "Decryption of weakly encrypted traffic",
+    "description": "Involves monitoring without alteration.",
+    "hints": ["No tampering.", "Recon tools."],
+    "id": "c4733275-c1cb-422a-8a47-8152a2b0e08b"
+  },
+  {
+    "question": "Active attacks include modification of information.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "They tamper with data or disrupt services.",
+    "hints": ["Detectable traffic.", "Spoofing examples."],
+    "id": "7033e0bf-023d-4b34-ad8c-4095f029568a"
+  },
+  {
+    "question": "Dumpster diving is a close-in attack.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Requires proximity to gather discarded info.",
+    "hints": ["Social eng.", "Physical access."],
+    "id": "0aebb82e-8768-4739-880d-c3cf069ee0da"
+  },
+  {
+    "question": "Insider attacks are easy to detect due to external nature.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Difficult as they use legitimate access.",
+    "hints": ["Internal threat.", "Bypass rules."],
+    "id": "b1eec4df-a96a-4059-932d-ffe7bc206f47"
+  },
+  {
+    "question": "Distribution attacks include modifying software during production.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Tampering at source or transit.",
+    "hints": ["Supply chain.", "Vendor backdoors."],
+    "id": "4c101314-f047-421f-ba97-fc004029b4f3"
+  },
+  {
+    "question": "Pod slurping is an example of a distribution attack.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Involves unauthorized data transfer, but in context, it's listed under distribution.",
+    "hints": ["Hardware tampering.", "Pre-installation."],
+    "id": "bf288375-ef05-4e24-ae5d-817a10327d9d"
+  },
+  {
+    "question": "Command and control warfare is limited to defensive strategies.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "It's part of info warfare categories, involving control over compromised assets.",
+    "hints": ["Attacker possession.", "Security industry term."],
+    "id": "b53d7879-299a-4b31-957a-fa14c9517bb6"
+  },
+  {
+    "question": "Psychological warfare uses techniques like terror to succeed in battle.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Demoralizes adversaries through propaganda.",
+    "hints": ["Influence mindset.", "Non-physical."],
+    "id": "b66bb015-ef85-4c45-bfeb-5cf53e5822e5"
+  },
+  {
+    "question": "Economic warfare affects only physical economies.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Blocks digital information flow impacting businesses.",
+    "hints": ["Digital disruption.", "Nation or org level."],
+    "id": "07ea1858-e3b3-4449-80af-4f624a3c91c3"
+  },
+  {
+    "question": "Cyberwarfare includes semantic attacks where systems are taken over without detection.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Maintains perception of normal operation while controlled.",
+    "hints": ["Broad category.", "Virtual targets."],
+    "id": "db1c05b7-001c-47c4-8dd2-2973dc5a225d"
+  },
+  {
+    "question": "Confidentiality breaches can occur due to hacking attempts.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Unauthorized access via hacks violates confidentiality.",
+    "hints": ["Improper handling.", "Data classification."],
+    "id": "aea137ee-b48e-4486-87b1-64e0aa0434d1"
+  },
+  {
+    "question": "Integrity is maintained using access controls to prevent unauthorized updates.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Ensures only authorized changes to data.",
+    "hints": ["Checksum verification.", "Data trustworthiness."],
+    "id": "55ec148a-c7e7-49e5-aab7-89111ff2bd44"
+  },
+  {
+    "question": "Availability measures include clustered machines for redundancy.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Provides failover to maintain access.",
+    "hints": ["Against downtime.", "DDoS systems."],
+    "id": "cc045298-e5ee-42a3-9531-57e37e662d31"
+  },
+  {
+    "question": "Authenticity does not involve confirming user genuineness.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Core role is verifying authenticity of users and data.",
+    "hints": ["Biometrics use.", "Digital certs."],
+    "id": "93159341-95d2-4d40-bcca-28e41bd377e5"
+  },
+  {
+    "question": "Non-repudiation uses digital signatures for guarantees.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Prevents denial of message sending or receiving.",
+    "hints": ["Transaction accountability.", "PKI based."],
+    "id": "c05c2cb2-1c48-4ce5-b8be-89b5a0d96577"
+  },
+  {
+    "question": "Attacks involve exploiting vulnerabilities to breach security.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Conceptualized as motive + method + vulnerability.",
+    "hints": ["IT system breach.", "Malicious actions."],
+    "id": "34100ad7-591d-4e04-b4df-622ed8fd85f0"
+  },
+  {
+    "question": "Motives depend on attacker's resources and capabilities.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Goals vary based on attacker's state and means.",
+    "hints": ["Valuable targets.", "Threat modeling."],
+    "id": "57915693-2b86-47f5-83b8-5956cd429b8e"
+  },
+  {
+    "question": "Manipulating data is not a motive for attacks.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Listed as a key motive alongside theft and disruption.",
+    "hints": ["Integrity attacks.", "Common goal."],
+    "id": "30e2be62-2e08-4ed4-80e3-f1b79dba2ab3"
+  },
+  {
+    "question": "TTPs are patterns associated with specific threat actors.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Help in threat analysis and profiling.",
+    "hints": ["Adversary methods.", "Security strengthening."],
+    "id": "2f58e00d-d58a-45ec-b1a2-e78e08dd198a"
+  },
+  {
+    "question": "Vulnerabilities are only due to software misconfiguration.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Include hardware, design, tech weaknesses, and user factors.",
+    "hints": ["Multiple causes.", "Broad scope."],
+    "id": "8ed41f71-f70d-4794-aaa7-4882a89d3a38"
+  },
+  {
+    "question": "SNMP is inherently insecure as a technological vulnerability.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Listed alongside HTTP, FTP, etc.",
+    "hints": ["Protocol flaws.", "Network management."],
+    "id": "11d4c811-e23a-4032-94b7-ae26476aa95d"
+  },
+  {
+    "question": "Default passwords on network devices are configuration vulnerabilities.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Leaving defaults creates easy access points.",
+    "hints": ["Common oversight.", "Security basics."],
+    "id": "18dd7c27-6d05-433b-98ee-ec369f25bd5f"
+  },
+  {
+    "question": "Passive attacks are easy to detect due to active interaction.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "No interaction makes them hard to detect.",
+    "hints": ["Monitoring only.", "No traffic sent."],
+    "id": "9f36f5b0-e7f8-4512-8f22-4c32591a737e"
+  },
+  {
+    "question": "SQL injection is an active attack.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Tampers with data to bypass security.",
+    "hints": ["Web app exploit.", "Direct breach."],
+    "id": "bc6c0bda-03b6-4398-a1b2-859d927b439c"
+  },
+  {
+    "question": "Wiretapping is an insider attack example.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Uses privileged access for eavesdropping.",
+    "hints": ["Internal eavesdrop.", "Data spoliation."],
+    "id": "f9655cf5-c407-47d2-a6f9-c304faf0afb5"
+  },
+  {
+    "question": "Information warfare weapons include Trojan horses and logic bombs.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Part of ICT tools for advantage.",
+    "hints": ["Cyber weapons.", "Penetration exploits."],
+    "id": "904b524b-e202-4ac4-a7e2-d1b42331ac5a"
+  },
+  {
+    "question": "Simula-warfare involves acquiring weapons for demonstration only.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Simulated war in cyberwarfare.",
+    "hints": ["Perception management.", "Not actual use."],
+    "id": "f31cc1cc-aa80-4cf6-a354-a8ab14fea39d"
+  },
+  {
+    "question": "Defensive warfare includes emergency preparedness and response.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Strategies like prevention, detection, and alerts.",
+    "hints": ["Protect ICT.", "Against attacks."],
+    "id": "30586cd4-b1dc-4281-b844-baaf7e64cfd7"
+  },
+  {
+    "question": "Which element assures accurate information for its purpose?",
+    "type": "MCQ",
+    "options": ["Confidentiality", "Integrity", "Availability", "Authenticity"],
+    "answer": "Integrity",
+    "description": "Prevents improper changes for data reliability.",
+    "hints": ["Accuracy focus.", "Checksums used."],
+    "id": "2a64ff34-87ff-4bd5-bd22-12367eb5418b"
+  },
+  {
+    "question": "Achieving state's military objectives is a motive.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Part of espionage or cyberwar motives.",
+    "hints": ["Nation-state attacks.", "Strategic goals."],
+    "id": "91b0e290-73b5-4867-ac30-4e6fd4fb5893"
+  },
+  {
+    "question": "Vulnerability exists due to careless end users sharing credentials.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Human errors lead to exploitation.",
+    "hints": ["Social eng vector.", "Training needed."],
+    "id": "f4823b08-0012-4bd3-87c1-ba8ddd052d90"
+  },
+  {
+    "question": "Firewall vulnerabilities are technological.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Part of network device vulns.",
+    "hints": ["Inherent or config.", "Protection flaws."],
+    "id": "b8a15dc1-8b92-4f30-a356-214f541879d2"
+  },
+  {
+    "question": "Replay attacks are active.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Tamper with communication by replaying data.",
+    "hints": ["Session disruption.", "Crypto weakness."],
+    "id": "6496fef4-b12c-45b9-a8df-1d6fbd0aa421"
+  },
+  {
+    "question": "Backdoor access is an insider attack example.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Planted by insiders for unauthorized entry.",
+    "hints": ["Privilege abuse.", "Malware planting."],
+    "id": "fd07be59-d851-4636-9071-5f6855dd7640"
+  },
+  {
+    "question": "Electronic jamming is a weapon in information warfare.",
+    "type": "MCQ",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Disrupts communications.",
+    "hints": ["EW category.", "Radio techniques."],
+    "id": "92e18b8f-f36b-4413-849f-2496766b116f"
+  },
+  {
+    "question": "What does hacking primarily involve in computer security?",
+    "type": "MCQ",
+    "options": [
+      "Installing software updates",
+      "Exploiting system vulnerabilities and compromising security controls",
+      "Blocking unauthorized network connections",
+      "Monitoring user activity for compliance"
+    ],
+    "answer": "Exploiting system vulnerabilities and compromising security controls",
+    "description": "Hacking refers to exploiting system vulnerabilities and bypassing security mechanisms to gain unauthorized access to systems or data. It is done using techniques like password cracking, malware creation, and DoS attacks.",
+    "hints": [
+      "Think about gaining access without permission.",
+      "Focus on the misuse of system weaknesses."
+    ],
+    "id": "07a3f565-d95a-451d-8b94-0556f9e50cce"
+  },
+  {
+    "question": "True or False: Hacking only refers to malicious activities aimed at financial gain.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Hacking is not limited to financial gain. It can also be done for thrill, knowledge, curiosity, or social and political motives.",
+    "hints": [
+      "Motives can include thrill or activism.",
+      "Not all hackers seek money."
+    ],
+    "id": "8582be76-2b2d-4f5f-afed-6749213dffd5"
+  },
+  {
+    "question": "Which of the following is an example of a network hacking technique?",
+    "type": "MCQ",
+    "options": [
+      "Checksum validation",
+      "Creating botnets",
+      "Regular software patching",
+      "Two-factor authentication"
+    ],
+    "answer": "Creating botnets",
+    "description": "Network hacking techniques include botnet creation, phishing, DoS attacks, and packet sniffing, all aimed at compromising network systems.",
+    "hints": [
+      "Botnets are used in DDoS attacks.",
+      "Think about malicious network control."
+    ],
+    "id": "60f862e9-74d7-49cc-b7cd-9f1233183cab"
+  },
+  {
+    "question": "What is the primary motivation for most script kiddies?",
+    "type": "MCQ",
+    "options": [
+      "Improving corporate security",
+      "Gaining thrill, recognition, or fun",
+      "Performing industrial espionage",
+      "Protecting national security"
+    ],
+    "answer": "Gaining thrill, recognition, or fun",
+    "description": "Script kiddies are inexperienced individuals who use pre-made tools without understanding them, mainly for fun or bragging rights rather than financial gain or security improvement.",
+    "hints": [
+      "They lack deep technical skills.",
+      "Their goal is attention, not money."
+    ],
+    "id": "feb06aa9-e91c-4e37-be56-2b9a4be04acc"
+  },
+  {
+    "question": "Which hacker class is legally authorized to identify vulnerabilities and improve security?",
+    "type": "MCQ",
+    "options": [
+      "Black Hat Hacker",
+      "White Hat Hacker",
+      "Gray Hat Hacker",
+      "Red Hat Hacker"
+    ],
+    "answer": "White Hat Hacker",
+    "description": "White Hat Hackers are ethical hackers who perform penetration testing and vulnerability assessments with the owner's consent to improve security.",
+    "hints": [
+      "Also called ethical hackers.",
+      "They operate with legal permission."
+    ],
+    "id": "e04f54ad-016f-45cc-9aa5-d6b378a1a956"
+  },
+  {
+    "question": "True or False: Black hat hackers are known for using their skills for ethical security assessments.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Black hat hackers use their skills for malicious purposes such as financial theft, data breaches, and spreading malware.",
+    "hints": ["They focus on illegal activities.", "Opposite of White Hats."],
+    "id": "e523d155-c7d9-41c1-aedb-e088ef93a66d"
+  },
+  {
+    "question": "Which type of hacker works both offensively and defensively without clear authorization?",
+    "type": "MCQ",
+    "options": [
+      "Gray Hat Hacker",
+      "Blue Hat Hacker",
+      "Hacktivist",
+      "Green Hat Hacker"
+    ],
+    "answer": "Gray Hat Hacker",
+    "description": "Gray hats operate between ethical and unethical lines, finding vulnerabilities without permission and sometimes reporting them to vendors.",
+    "hints": [
+      "Neither fully ethical nor criminal.",
+      "They may disclose issues after discovery."
+    ],
+    "id": "365de4f5-c473-4563-96a1-1d2858b51aa0"
+  },
+  {
+    "question": "What is the main motivation for hacktivists?",
+    "type": "MCQ",
+    "options": [
+      "Financial profit",
+      "Political or social causes",
+      "Testing product security",
+      "Learning technical skills"
+    ],
+    "answer": "Political or social causes",
+    "description": "Hacktivists perform hacking activities to promote social or political agendas, often defacing websites or leaking confidential data.",
+    "hints": [
+      "Think activism combined with hacking.",
+      "Targets are often government or corporations."
+    ],
+    "id": "01af1b10-a1c6-4af2-a0f3-b9c153dd74e4"
+  },
+  {
+    "question": "True or False: State-sponsored hackers primarily work for financial gain.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "State-sponsored hackers work for national security objectives, espionage, and political purposes, not for personal profit.",
+    "hints": [
+      "Government employs them.",
+      "Their goal is intelligence gathering."
+    ],
+    "id": "cd9ef90c-c7fb-48fd-b5f8-aa8b984744db"
+  },
+  {
+    "question": "Which hacker category focuses on stealing business secrets like formulas and product designs?",
+    "type": "MCQ",
+    "options": [
+      "Cyber Terrorists",
+      "Corporate Spies",
+      "Script Kiddies",
+      "Green Hat Hackers"
+    ],
+    "answer": "Corporate Spies",
+    "description": "Corporate or industrial spies aim to steal trade secrets and proprietary data for competitive advantage.",
+    "hints": [
+      "Corporate competition drives this.",
+      "Think about industrial espionage."
+    ],
+    "id": "3b9f14e0-f47e-4e0b-9714-c321585bbbe9"
+  },
+  {
+    "question": "Which hacker type is hired temporarily by organizations to test systems before release?",
+    "type": "MCQ",
+    "options": [
+      "Red Hat Hacker",
+      "Blue Hat Hacker",
+      "Green Hat Hacker",
+      "Gray Hat Hacker"
+    ],
+    "answer": "Blue Hat Hacker",
+    "description": "Blue hat hackers are external professionals engaged by companies to perform vulnerability assessments before product deployment.",
+    "hints": [
+      "Think pre-release security testing.",
+      "Not permanent employees."
+    ],
+    "id": "c50afae9-5416-497b-9d99-da1605bb22fd"
+  },
+  {
+    "question": "What do Red Hat Hackers mainly target?",
+    "type": "MCQ",
+    "options": [
+      "Hacktivists",
+      "Black Hat Hackers",
+      "Government agencies",
+      "Script Kiddies"
+    ],
+    "answer": "Black Hat Hackers",
+    "description": "Red Hat Hackers act as vigilantes, using aggressive methods to neutralize black hat hackers and their infrastructure.",
+    "hints": [
+      "They fight cybercrime aggressively.",
+      "Similar to vigilantes in cyberspace."
+    ],
+    "id": "2cc0d259-1546-4212-8b28-edf041fcb1dc"
+  },
+  {
+    "question": "True or False: Green Hat Hackers are experts in advanced hacking techniques.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Green Hat Hackers are beginners who are eager to learn and practice hacking skills, often participating in forums.",
+    "hints": [
+      "They are learners, not experts.",
+      "Compare to White Hats for contrast."
+    ],
+    "id": "74e89e18-2655-4555-a45c-a158c13d5212"
+  },
+  {
+    "question": "Which hacker type sacrifices personal safety for large-scale attacks and does not fear punishment?",
+    "type": "MCQ",
+    "options": [
+      "Cyber Terrorists",
+      "Suicide Hackers",
+      "Hacktivists",
+      "Organized Hackers"
+    ],
+    "answer": "Suicide Hackers",
+    "description": "Suicide hackers prioritize their cause over personal safety, similar to suicide bombers in ideology but in the cyber domain.",
+    "hints": ["Think of risk-taking for a cause.", "No fear of consequences."],
+    "id": "42f56fcb-8745-4029-8cea-b2b4897d4064"
+  },
+  {
+    "question": "Which group of hackers usually operates in a structured, hierarchical manner to commit crimes?",
+    "type": "MCQ",
+    "options": [
+      "Script Kiddies",
+      "Organized Hackers",
+      "Hacktivists",
+      "Blue Hats"
+    ],
+    "answer": "Organized Hackers",
+    "description": "Organized hackers are well-structured groups that plan and execute attacks using rented devices and advanced tools.",
+    "hints": [
+      "Hierarchy and planning are key.",
+      "Often associated with big cybercrime operations."
+    ],
+    "id": "d03862c6-f3f5-4633-96d5-b10c851b40e3"
+  },
+  {
+    "question": "True or False: Criminal syndicates exploit victims across different jurisdictions to evade law enforcement.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Criminal syndicates operate globally, making it difficult for authorities to track and prosecute them.",
+    "hints": [
+      "They work across borders.",
+      "Their main aim is financial gain through crime."
+    ],
+    "id": "d59b398e-dbec-46b3-a7cd-db8e53646ea0"
+  },
+  {
+    "question": "Which hacker class is considered a beginner who learns hacking through online communities?",
+    "type": "MCQ",
+    "options": [
+      "Green Hat Hacker",
+      "Blue Hat Hacker",
+      "Script Kiddie",
+      "Gray Hat Hacker"
+    ],
+    "answer": "Green Hat Hacker",
+    "description": "Green hats are newcomers to hacking who actively learn and experiment without malicious intent.",
+    "hints": [
+      "Learning is their primary goal.",
+      "Not the same as script kiddies who rely on tools."
+    ],
+    "id": "abcbc959-700a-4749-b5ad-f7366ab5efc4"
+  },
+  {
+    "question": "What is the main activity of cyber terrorists?",
+    "type": "MCQ",
+    "options": [
+      "Performing penetration tests",
+      "Stealing competitor secrets",
+      "Launching attacks on critical infrastructure",
+      "Testing product security before launch"
+    ],
+    "answer": "Launching attacks on critical infrastructure",
+    "description": "Cyber terrorists aim to create fear and disruption by attacking vital services and public infrastructure for political or ideological purposes.",
+    "hints": [
+      "Think large-scale chaos.",
+      "Targets include government systems."
+    ],
+    "id": "5e16e5c5-a8e0-491f-9ece-290cfab6a6e5"
+  },
+  {
+    "question": "True or False: Hacktivists usually operate within legal boundaries when spreading their political message.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Hacktivists gain unauthorized access to systems and perform acts like defacing websites, which is illegal even if politically motivated.",
+    "hints": [
+      "Unauthorized access = illegal.",
+      "Intentions don’t make it legal."
+    ],
+    "id": "6c37d539-b3b3-4c76-987c-2665ba73ad8b"
+  },
+  {
+    "question": "Which hacker type is most likely to engage in espionage for national security objectives?",
+    "type": "MCQ",
+    "options": [
+      "State-Sponsored Hacker",
+      "Corporate Spy",
+      "Red Hat Hacker",
+      "Organized Hacker"
+    ],
+    "answer": "State-Sponsored Hacker",
+    "description": "State-sponsored hackers work for government entities to gather intelligence and compromise enemy infrastructure.",
+    "hints": [
+      "Governments employ them.",
+      "Focus on espionage and cyber warfare."
+    ],
+    "id": "e62a4c3a-8b5f-4f0f-876d-43b5d8047ae4"
+  },
+  {
+    "question": "Which hacker category uses aggressive counter-hacking methods to take down cybercriminals?",
+    "type": "MCQ",
+    "options": [
+      "Red Hat Hacker",
+      "Gray Hat Hacker",
+      "Hacktivist",
+      "White Hat Hacker"
+    ],
+    "answer": "Red Hat Hacker",
+    "description": "Red hats act as vigilantes who use offensive tactics to dismantle malicious hacker infrastructure.",
+    "hints": [
+      "Aggressive justice in cyberspace.",
+      "They don’t follow ethical boundaries strictly."
+    ],
+    "id": "3de66485-a724-40ba-bf16-9173521f3dfd"
+  },
+  {
+    "question": "True or False: Script Kiddies develop advanced malware for cyber espionage.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Script Kiddies rely on pre-made tools without understanding how they work and lack the expertise to create advanced malware.",
+    "hints": ["They use tools, not create them.", "Skill level is very low."],
+    "id": "a57cafd2-f1b2-40a3-891a-332ccb9688ab"
+  },
+  {
+    "question": "Which of the following best describes a hacker team?",
+    "type": "MCQ",
+    "options": [
+      "A group of amateurs learning hacking",
+      "A consortium of skilled hackers with resources and funding",
+      "Individuals performing hacking for fun",
+      "A temporary security audit team"
+    ],
+    "answer": "A consortium of skilled hackers with resources and funding",
+    "description": "Hacker teams are well-organized groups with resources and expertise, capable of executing complex cyber operations.",
+    "hints": [
+      "Think advanced, organized group.",
+      "They develop tools and research new exploits."
+    ],
+    "id": "51e2a008-0acd-4fc0-b387-b50d2352b205"
+  },
+  {
+    "question": "Which of the following activities is commonly associated with script kiddies?",
+    "type": "MCQ",
+    "options": [
+      "Creating zero-day exploits",
+      "Running pre-made attack scripts",
+      "Performing vulnerability research",
+      "Developing advanced malware"
+    ],
+    "answer": "Running pre-made attack scripts",
+    "description": "Script kiddies rely on pre-made scripts or tools created by others, without understanding the underlying code or techniques.",
+    "hints": [
+      "They do not create tools.",
+      "Their focus is on quantity, not quality."
+    ],
+    "id": "89409c3c-bc98-414a-aec5-ffd684ab4b3e"
+  },
+  {
+    "question": "True or False: Hacktivists often use DDoS attacks as part of their protest campaigns.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Hacktivists use various techniques, including DDoS attacks, to disrupt government or corporate websites to promote their agenda.",
+    "hints": [
+      "Think about service disruption.",
+      "Protests often involve taking down websites."
+    ],
+    "id": "52d57cd1-9e16-431d-a130-1569c3a38016"
+  },
+  {
+    "question": "What is a common cyber activity of black hat hackers?",
+    "type": "MCQ",
+    "options": [
+      "Conducting vulnerability assessments with permission",
+      "Performing ransomware attacks",
+      "Testing product security before release",
+      "Spreading security awareness"
+    ],
+    "answer": "Performing ransomware attacks",
+    "description": "Black hat hackers engage in malicious acts like ransomware attacks to extort money or cause damage.",
+    "hints": ["They operate illegally.", "Focus on profit and harm."],
+    "id": "5c688087-b53d-4e72-a7c9-d58a810ff4f3"
+  },
+  {
+    "question": "Which type of hacker is most likely to perform industrial espionage?",
+    "type": "MCQ",
+    "options": [
+      "Corporate Spies",
+      "Red Hat Hackers",
+      "Hacktivists",
+      "Green Hat Hackers"
+    ],
+    "answer": "Corporate Spies",
+    "description": "Corporate spies steal trade secrets and confidential business data for competitive advantage.",
+    "hints": [
+      "They target competitors.",
+      "Motivation = financial gain and advantage."
+    ],
+    "id": "8effa31c-0d78-4f7f-879a-8b844fdf16b3"
+  },
+  {
+    "question": "True or False: Blue Hat Hackers are usually insiders working permanently within an organization.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Blue hats are external security professionals temporarily hired for testing purposes, not permanent employees.",
+    "hints": [
+      "They work on contracts.",
+      "Pre-release product security testing."
+    ],
+    "id": "08d9343a-41b4-4bac-84ad-0d9a9f15c5c5"
+  },
+  {
+    "question": "Which hacker type operates aggressively like black hats but for a defensive purpose?",
+    "type": "MCQ",
+    "options": [
+      "White Hat Hacker",
+      "Red Hat Hacker",
+      "Gray Hat Hacker",
+      "Blue Hat Hacker"
+    ],
+    "answer": "Red Hat Hacker",
+    "description": "Red hats use offensive tactics to fight cybercriminals, often destroying their infrastructure.",
+    "hints": [
+      "Think vigilantes of cyberspace.",
+      "They take the fight to black hats."
+    ],
+    "id": "cff3dc17-5019-4adc-9ee7-53392e2bbe2d"
+  },
+  {
+    "question": "Which hacker group is hired by governments for cyber espionage and sabotage?",
+    "type": "MCQ",
+    "options": [
+      "Hacktivists",
+      "State-Sponsored Hackers",
+      "Organized Hackers",
+      "Criminal Syndicates"
+    ],
+    "answer": "State-Sponsored Hackers",
+    "description": "These hackers work for governments to infiltrate enemy systems, steal intelligence, or disrupt operations.",
+    "hints": [
+      "Governments use them for cyber warfare.",
+      "Espionage is a key activity."
+    ],
+    "id": "50374a2f-2cda-4416-881f-4ef1352f532c"
+  },
+  {
+    "question": "True or False: Suicide hackers care about staying undetected and avoiding legal consequences.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Suicide hackers are willing to sacrifice their safety for their cause, regardless of detection or punishment.",
+    "hints": ["They are like cyber extremists.", "No fear of consequences."],
+    "id": "77dea8ac-c18d-4a9c-ae7b-953345e706c1"
+  },
+  {
+    "question": "Which hacker type is most likely to participate in online communities to learn hacking skills?",
+    "type": "MCQ",
+    "options": [
+      "Green Hat Hacker",
+      "Gray Hat Hacker",
+      "Blue Hat Hacker",
+      "Hacktivist"
+    ],
+    "answer": "Green Hat Hacker",
+    "description": "Green hats are beginners motivated by curiosity and learning rather than malicious intent.",
+    "hints": [
+      "They are learners, not attackers.",
+      "Often seen in forums and training sites."
+    ],
+    "id": "fb91583f-2363-41ce-bb20-59158b6082d3"
+  },
+  {
+    "question": "Which hacker group focuses on causing fear and disruption in society?",
+    "type": "MCQ",
+    "options": [
+      "Corporate Spies",
+      "Cyber Terrorists",
+      "Hacktivists",
+      "Script Kiddies"
+    ],
+    "answer": "Cyber Terrorists",
+    "description": "Cyber terrorists target critical infrastructure to spread fear and chaos for ideological or political reasons.",
+    "hints": [
+      "Think large-scale attacks.",
+      "Goal = psychological impact on people."
+    ],
+    "id": "d4b6a7ac-7034-46b4-aec7-6c5b5fa2fc4f"
+  },
+  {
+    "question": "True or False: Criminal syndicates usually conduct attacks for political motives.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Criminal syndicates conduct attacks for organized financial gain, not political motives.",
+    "hints": [
+      "Money, not politics, drives them.",
+      "They engage in planned criminal activities."
+    ],
+    "id": "1bc16a23-a0e0-4b44-95ea-b682caca469d"
+  },
+  {
+    "question": "Which hacker group uses hierarchical structures and crimeware services for attacks?",
+    "type": "MCQ",
+    "options": [
+      "Organized Hackers",
+      "Hacktivists",
+      "Green Hat Hackers",
+      "Blue Hat Hackers"
+    ],
+    "answer": "Organized Hackers",
+    "description": "Organized hackers are structured groups with resources and management layers for executing large-scale cybercrime.",
+    "hints": [
+      "Think mafia-style cybercrime.",
+      "They often rent infrastructure for attacks."
+    ],
+    "id": "aff2669c-4c46-4933-93ed-dc32076a51ec"
+  },
+  {
+    "question": "What is the primary motive behind hacktivism?",
+    "type": "MCQ",
+    "options": [
+      "Financial profit",
+      "Promoting social or political causes",
+      "Testing corporate security",
+      "Corporate espionage"
+    ],
+    "answer": "Promoting social or political causes",
+    "description": "Hacktivists hack into systems to spread awareness or support their social and political agendas.",
+    "hints": [
+      "Activism is their core driver.",
+      "Illegal acts done for ideology."
+    ],
+    "id": "0ff20276-b3b2-42b7-85ec-efc5a90f0d9e"
+  },
+  {
+    "question": "True or False: Red Hat Hackers strictly follow ethical hacking rules.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Red hats often use unethical and aggressive methods to fight black hats, making them vigilantes rather than ethical hackers.",
+    "hints": [
+      "Their methods are offensive.",
+      "They break traditional ethical rules."
+    ],
+    "id": "002704fd-6448-4060-94e1-d5b7fa8ffa28"
+  },
+  {
+    "question": "Which hacker type is most likely to launch botnets for financial gain?",
+    "type": "MCQ",
+    "options": [
+      "Black Hat Hacker",
+      "White Hat Hacker",
+      "Blue Hat Hacker",
+      "Hacktivist"
+    ],
+    "answer": "Black Hat Hacker",
+    "description": "Black hats use botnets to perform DDoS attacks, spam campaigns, and ransomware attacks for monetary benefit.",
+    "hints": ["They monetize attacks.", "Botnets = malicious network control."],
+    "id": "2e0e62e9-40e2-4c29-89fd-967eae7fc58e"
+  },
+  {
+    "question": "Which hacker group is typically motivated by corporate advantage through spying?",
+    "type": "MCQ",
+    "options": [
+      "State-Sponsored Hackers",
+      "Corporate Spies",
+      "Organized Hackers",
+      "Hacktivists"
+    ],
+    "answer": "Corporate Spies",
+    "description": "Corporate spies steal trade secrets and sensitive data to give their employer a competitive edge.",
+    "hints": [
+      "Focus is business-related, not political.",
+      "Think of industrial espionage."
+    ],
+    "id": "f6fbbc2d-2d46-452c-84b4-6535b85a5a78"
+  },
+  {
+    "question": "True or False: Hacktivists often aim to damage corporate reputation.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Hacktivists deface websites or leak sensitive data to harm organizations they perceive as unethical.",
+    "hints": ["Reputation damage = common goal.", "Used as a form of protest."],
+    "id": "8567a4fd-bb5c-4ab9-9bf2-127ee9fc6dc2"
+  },
+  {
+    "question": "Which hacker category includes individuals performing attacks as part of extremist beliefs?",
+    "type": "MCQ",
+    "options": [
+      "Cyber Terrorists",
+      "Green Hat Hackers",
+      "Organized Hackers",
+      "Script Kiddies"
+    ],
+    "answer": "Cyber Terrorists",
+    "description": "Cyber terrorists hack to spread fear, disrupt systems, and promote extremist ideologies.",
+    "hints": [
+      "Religious or political motivations.",
+      "Targets include public infrastructure."
+    ],
+    "id": "5e0fe7d1-ac05-4be9-8d59-7540a0139acf"
+  },
+  {
+    "question": "What is a hacker team primarily known for?",
+    "type": "MCQ",
+    "options": [
+      "Performing simple script-based attacks",
+      "Collaborating to develop tools and conduct planned cyber operations",
+      "Learning hacking as a hobby",
+      "Providing temporary product testing services"
+    ],
+    "answer": "Collaborating to develop tools and conduct planned cyber operations",
+    "description": "Hacker teams work together to build advanced tools, share expertise, and launch coordinated cyberattacks.",
+    "hints": [
+      "Think teamwork in cybercrime.",
+      "They share resources for bigger attacks."
+    ],
+    "id": "e9ac171c-0e56-4bc9-90c3-8efc94681301"
+  },
+  {
+    "question": "True or False: Green Hat Hackers typically have years of experience in cybersecurity.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Green hats are newcomers learning hacking techniques, not experienced professionals.",
+    "hints": ["They are beginners.", "Still learning the basics of hacking."],
+    "id": "78755e4a-f761-44ea-895a-87161231413f"
+  },
+  {
+    "question": "Which type of hacker is usually motivated by curiosity and recognition, not financial gain?",
+    "type": "MCQ",
+    "options": [
+      "Gray Hat Hacker",
+      "Corporate Spy",
+      "Criminal Syndicate Member",
+      "Red Hat Hacker"
+    ],
+    "answer": "Gray Hat Hacker",
+    "description": "Gray hats often hack for recognition or curiosity and may disclose vulnerabilities without malicious intent.",
+    "hints": ["They are in the ethical gray area.", "Not focused on profit."],
+    "id": "80c2fa81-a5ba-4e0b-b60f-ebcb21b16bbd"
+  },
+  {
+    "question": "True or False: Organized hackers often use their own devices to avoid detection.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Organized hackers typically use rented infrastructure, botnets, and proxy networks to conceal their identity.",
+    "hints": ["They avoid personal exposure.", "Anonymity is key for them."],
+    "id": "13edfce9-4339-413b-b691-43dcd70980ac"
+  },
+  {
+    "question": "Which hacker class typically uses tools without understanding how they work?",
+    "type": "MCQ",
+    "options": [
+      "Script Kiddies",
+      "White Hat Hackers",
+      "Red Hat Hackers",
+      "Hacktivists"
+    ],
+    "answer": "Script Kiddies",
+    "description": "Script Kiddies rely on pre-built scripts and tools developed by others, without understanding their internal mechanisms.",
+    "hints": [
+      "They lack deep technical skills.",
+      "Often motivated by thrill and recognition."
+    ],
+    "id": "c2ed5fe8-e6c5-4549-9e93-046ec7e4f8fe"
+  },
+  {
+    "question": "True or False: White Hat Hackers always have authorization before conducting security tests.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "White Hat Hackers perform penetration tests and security assessments only after receiving permission from the system owner.",
+    "hints": ["They are ethical hackers.", "Legal authorization is mandatory."],
+    "id": "41cc4158-ca4d-41d4-b0b8-d76da0bd277f"
+  },
+  {
+    "question": "Which hacker type works for governments to conduct cyber espionage operations?",
+    "type": "MCQ",
+    "options": [
+      "State-Sponsored Hackers",
+      "Hacktivists",
+      "Corporate Spies",
+      "Blue Hat Hackers"
+    ],
+    "answer": "State-Sponsored Hackers",
+    "description": "State-Sponsored Hackers perform cyber attacks for espionage, intelligence gathering, and infrastructure sabotage on behalf of governments.",
+    "hints": ["Cyber warfare agents.", "Goal is national security."],
+    "id": "b974e277-46b1-4e6b-b58a-67fda43e5a43"
+  },
+  {
+    "question": "What is the main purpose of Red Hat Hackers in the hacking ecosystem?",
+    "type": "MCQ",
+    "options": [
+      "To test software before deployment",
+      "To attack black hat hackers and dismantle their systems",
+      "To steal data for financial gain",
+      "To advocate social causes"
+    ],
+    "answer": "To attack black hat hackers and dismantle their systems",
+    "description": "Red Hat Hackers are vigilantes who take aggressive action against malicious hackers, often using offensive methods.",
+    "hints": [
+      "They fight fire with fire.",
+      "They operate outside ethical rules."
+    ],
+    "id": "7e2529dc-b353-4f08-bb45-910b45c1d55c"
+  },
+  {
+    "question": "True or False: Gray Hat Hackers only act with legal consent.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Gray Hats often find vulnerabilities without permission and sometimes inform vendors later, which makes their actions semi-legal.",
+    "hints": ["They operate in a gray area.", "Not always authorized."],
+    "id": "a614ccf8-653c-4053-a90e-767ed618969e"
+  },
+  {
+    "question": "Which hacker type commonly targets critical infrastructure like power grids and transport systems?",
+    "type": "MCQ",
+    "options": [
+      "Cyber Terrorists",
+      "Corporate Spies",
+      "Script Kiddies",
+      "Blue Hat Hackers"
+    ],
+    "answer": "Cyber Terrorists",
+    "description": "Cyber Terrorists launch attacks on essential services to create panic, often driven by political or ideological motives.",
+    "hints": [
+      "Motivated by fear and disruption.",
+      "Focus on large-scale impact."
+    ],
+    "id": "1a7b21d8-eb56-4c26-9920-4094c60bc74f"
+  },
+  {
+    "question": "Which hacker type is responsible for organized, planned, and long-term cybercrimes for profit?",
+    "type": "MCQ",
+    "options": [
+      "Hacktivists",
+      "Organized Hackers",
+      "Green Hat Hackers",
+      "Blue Hat Hackers"
+    ],
+    "answer": "Organized Hackers",
+    "description": "Organized Hackers operate like cybercrime syndicates, conducting sophisticated and well-planned attacks for financial gain.",
+    "hints": [
+      "They function like a mafia.",
+      "Often use hierarchical structures."
+    ],
+    "id": "cb728453-5604-478d-8425-d468aa94b071"
+  },
+  {
+    "question": "True or False: Hacktivists usually engage in hacking to improve security systems.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Hacktivists hack to protest or promote an agenda, not to improve security. They often deface websites or leak data.",
+    "hints": ["Their motive is activism.", "Not security enhancement."],
+    "id": "dfd13bac-409b-4b09-b822-9e02493c3b3f"
+  },
+  {
+    "question": "Which hacker class is mainly motivated by learning and experimenting without malicious intent?",
+    "type": "MCQ",
+    "options": [
+      "Green Hat Hackers",
+      "Red Hat Hackers",
+      "Corporate Spies",
+      "Black Hat Hackers"
+    ],
+    "answer": "Green Hat Hackers",
+    "description": "Green Hats are beginners who want to develop skills in ethical hacking, often engaging in harmless experiments.",
+    "hints": [
+      "They are learners, not attackers.",
+      "Similar to White Hats but inexperienced."
+    ],
+    "id": "85f270a4-1e5e-4485-b038-6244928023ac"
+  },
+  {
+    "question": "Which hacker group often uses phishing campaigns to achieve financial gain?",
+    "type": "MCQ",
+    "options": [
+      "Black Hat Hackers",
+      "State-Sponsored Hackers",
+      "Green Hat Hackers",
+      "Hacktivists"
+    ],
+    "answer": "Black Hat Hackers",
+    "description": "Black Hats use phishing, ransomware, and malware to steal sensitive data and extort money.",
+    "hints": ["Their goal is profit.", "Think criminal motives."],
+    "id": "9dd4a737-0ffe-4ced-9f60-054ff97e49ce"
+  },
+  {
+    "question": "True or False: Criminal Syndicates use short-term attacks and rarely collaborate with others.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Criminal Syndicates plan long-term cybercrime campaigns, often collaborating across jurisdictions for large-scale operations.",
+    "hints": ["They operate globally.", "Use organized crime models."],
+    "id": "bccf9029-95df-4dd2-82b7-49788f3dc92b"
+  },
+  {
+    "question": "Which hacker type is known for promoting political or social agendas through cyber attacks?",
+    "type": "MCQ",
+    "options": [
+      "Hacktivists",
+      "Red Hat Hackers",
+      "Organized Hackers",
+      "Suicide Hackers"
+    ],
+    "answer": "Hacktivists",
+    "description": "Hacktivists hack as a form of protest to promote political or social ideologies, targeting corporations and governments.",
+    "hints": ["Digital activism.", "Often involves DDoS or defacement."],
+    "id": "241f3a7b-3e40-48cb-9b25-59366879adcd"
+  },
+  {
+    "question": "What is the primary motivation behind corporate spies?",
+    "type": "MCQ",
+    "options": [
+      "Gaining competitive advantage",
+      "Promoting social justice",
+      "Testing product security",
+      "Fighting black hat hackers"
+    ],
+    "answer": "Gaining competitive advantage",
+    "description": "Corporate Spies conduct industrial espionage to steal sensitive data like designs, strategies, and trade secrets.",
+    "hints": ["Think about business competition.", "Data theft for profit."],
+    "id": "40fd6437-b591-4a98-aa44-26e6eeb6a386"
+  },
+  {
+    "question": "True or False: Blue Hat Hackers are hired to perform penetration tests before a product release.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Blue Hat Hackers are external experts brought in to test systems and applications for vulnerabilities before launch.",
+    "hints": ["Temporary consultants.", "Focus on pre-release security."],
+    "id": "4de23743-0621-4d1b-bdd8-c17d924b46ed"
+  },
+  {
+    "question": "Which hacker category uses aggressive tactics to counter cybercriminals?",
+    "type": "MCQ",
+    "options": [
+      "Red Hat Hackers",
+      "Gray Hat Hackers",
+      "Blue Hat Hackers",
+      "White Hat Hackers"
+    ],
+    "answer": "Red Hat Hackers",
+    "description": "Red Hats employ offensive methods to dismantle black hat operations, sometimes crossing legal boundaries.",
+    "hints": [
+      "Cyber vigilantes.",
+      "They break black hats, not rules of defense only."
+    ],
+    "id": "e978c76e-9e09-4a00-8329-bfc8b9a11f79"
+  },
+  {
+    "question": "Which hacker class is similar to ethical hackers but operates without official permission?",
+    "type": "MCQ",
+    "options": [
+      "Gray Hat Hackers",
+      "Green Hat Hackers",
+      "Hacktivists",
+      "Corporate Spies"
+    ],
+    "answer": "Gray Hat Hackers",
+    "description": "Gray Hats identify vulnerabilities without consent and sometimes report them, operating in a semi-legal zone.",
+    "hints": [
+      "They are in the gray area.",
+      "Not authorized but not always malicious."
+    ],
+    "id": "d8dfad28-afed-4daf-b3c5-598f7310244a"
+  },
+  {
+    "question": "True or False: State-sponsored hackers often aim to manipulate election systems or critical infrastructure.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Such hackers target strategic assets like power grids, voting systems, and defense networks for political advantage.",
+    "hints": ["Think cyber warfare.", "Government-backed espionage."],
+    "id": "494f1ddf-94b3-44db-bb0b-1dc05244213f"
+  },
+  {
+    "question": "Which hacker type may deliberately plant backdoors during a cyber attack?",
+    "type": "MCQ",
+    "options": [
+      "Black Hat Hackers",
+      "Script Kiddies",
+      "Green Hat Hackers",
+      "Blue Hat Hackers"
+    ],
+    "answer": "Black Hat Hackers",
+    "description": "Black Hats often install backdoors for persistent access after compromising a system.",
+    "hints": ["Persistent threat methods.", "Done for repeated access."],
+    "id": "989e573d-0d28-4c49-8f2c-686451491df2"
+  },
+  {
+    "question": "What distinguishes criminal syndicates from individual black hat hackers?",
+    "type": "MCQ",
+    "options": [
+      "They act for ideology only",
+      "They operate alone without funding",
+      "They work in organized groups with resources",
+      "They only perform short-term attacks"
+    ],
+    "answer": "They work in organized groups with resources",
+    "description": "Criminal Syndicates plan and fund large-scale attacks, using organizational structure and resources for profit.",
+    "hints": ["Cybercrime mafia-like groups.", "Not lone wolves."],
+    "id": "9345cd9a-50c5-4738-a847-737364d873a1"
+  },
+  {
+    "question": "True or False: Red Hat Hackers always follow the law while countering black hats.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Red Hats use illegal or aggressive measures to combat cybercriminals, often crossing legal and ethical boundaries.",
+    "hints": [
+      "They prioritize results over legality.",
+      "Aggressive counter-attacks."
+    ],
+    "id": "e0e631d3-fa6c-4007-ac34-5398a172e89b"
+  },
+  {
+    "question": "Which hacker type would most likely deface a government website as an act of protest?",
+    "type": "MCQ",
+    "options": [
+      "Hacktivists",
+      "Corporate Spies",
+      "State-Sponsored Hackers",
+      "Green Hat Hackers"
+    ],
+    "answer": "Hacktivists",
+    "description": "Hacktivists use cyber attacks to send political messages, often defacing websites of governments or corporations.",
+    "hints": ["Digital protests.", "Activism + hacking = hacktivism."],
+    "id": "0fd9b05c-5644-4b1b-bf5b-1cf66c9c1878"
+  },
+  {
+    "question": "Which hacker type would most likely be employed by a company for pre-release vulnerability testing?",
+    "type": "MCQ",
+    "options": [
+      "Blue Hat Hacker",
+      "Green Hat Hacker",
+      "Hacktivist",
+      "Red Hat Hacker"
+    ],
+    "answer": "Blue Hat Hacker",
+    "description": "Blue Hat Hackers are external professionals hired to test security of applications or products before they are publicly released.",
+    "hints": [
+      "Pre-release security testing.",
+      "Temporary engagement, not full-time staff."
+    ],
+    "id": "90f3f7c1-7cbf-47d4-89ea-a5e3626bb3a6"
+  },
+  {
+    "question": "True or False: Gray Hat Hackers always notify system owners before testing their systems.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Gray Hats typically act without prior permission, though they may report vulnerabilities after finding them.",
+    "hints": [
+      "Acting without consent is common.",
+      "They live in the ethical gray zone."
+    ],
+    "id": "5ebe4384-fff9-44e8-b38c-0fb86d3f3fcd"
+  },
+  {
+    "question": "Which hacker group uses botnets for large-scale DDoS attacks?",
+    "type": "MCQ",
+    "options": [
+      "Black Hat Hackers",
+      "White Hat Hackers",
+      "Hacktivists",
+      "Green Hat Hackers"
+    ],
+    "answer": "Black Hat Hackers",
+    "description": "Black Hats use botnets to flood targets with traffic, making services unavailable for users.",
+    "hints": [
+      "Goal is disruption or extortion.",
+      "Botnets = compromised devices network."
+    ],
+    "id": "b1641e0c-1378-4251-9d58-9d50df898aee"
+  },
+  {
+    "question": "Which hacker type primarily focuses on exposing vulnerabilities without causing damage?",
+    "type": "MCQ",
+    "options": [
+      "Gray Hat Hackers",
+      "Hacktivists",
+      "Corporate Spies",
+      "Suicide Hackers"
+    ],
+    "answer": "Gray Hat Hackers",
+    "description": "Gray Hats often expose security flaws and sometimes inform the vendors, even though they act without permission.",
+    "hints": [
+      "They walk a fine ethical line.",
+      "Neither malicious nor fully legal."
+    ],
+    "id": "5a1f9478-ffaf-4c3c-b804-9257cea35079"
+  },
+  {
+    "question": "True or False: State-Sponsored Hackers may engage in election system manipulation as part of cyber warfare.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Such hackers aim to influence national security, politics, or infrastructure stability, including manipulating voting systems.",
+    "hints": ["Goal is political advantage.", "Part of cyber warfare tactics."],
+    "id": "457e4eef-c944-4179-9264-7f74fa9b9483"
+  },
+  {
+    "question": "Which hacker class is primarily involved in cybercrime for monetary gain and organized structure?",
+    "type": "MCQ",
+    "options": [
+      "Criminal Syndicates",
+      "Hacktivists",
+      "Blue Hat Hackers",
+      "Green Hat Hackers"
+    ],
+    "answer": "Criminal Syndicates",
+    "description": "Criminal syndicates operate like mafia organizations, orchestrating cybercrime for large-scale financial gain.",
+    "hints": [
+      "Organized cybercriminal groups.",
+      "They work globally for profit."
+    ],
+    "id": "56c0261f-f07c-4647-91ea-8630c51679d8"
+  },
+  {
+    "question": "What makes a Suicide Hacker unique compared to other hacker classes?",
+    "type": "MCQ",
+    "options": [
+      "They prioritize profit over safety",
+      "They attack without fear of consequences",
+      "They work for governments",
+      "They always report vulnerabilities"
+    ],
+    "answer": "They attack without fear of consequences",
+    "description": "Suicide Hackers are motivated by ideology or causes and do not care about legal or personal risks.",
+    "hints": [
+      "They are the extremists of cyberspace.",
+      "Consequences don’t matter to them."
+    ],
+    "id": "3487e239-e763-40f9-99c9-1d024d883ad0"
+  },
+  {
+    "question": "True or False: Hacktivists often target corporations and government sites to spread awareness of their cause.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Hacktivists use cyberattacks like website defacement and DDoS to publicize their political or social agendas.",
+    "hints": ["Protest through hacking.", "Targets are symbolic institutions."],
+    "id": "ed60cad5-47a4-4fb6-91bf-9aa3a2f482cc"
+  },
+  {
+    "question": "Which hacker class focuses on revenge or personal vendetta rather than profit?",
+    "type": "MCQ",
+    "options": [
+      "Gray Hat Hackers",
+      "Hacktivists",
+      "Black Hat Hackers",
+      "Insiders"
+    ],
+    "answer": "Insiders",
+    "description": "Insider threats often originate from disgruntled employees seeking revenge, making them particularly dangerous.",
+    "hints": [
+      "They already have privileged access.",
+      "Motivation can be anger or dissatisfaction."
+    ],
+    "id": "e1d107b8-c66a-4bdb-8e84-a5a7ce6f0d3a"
+  },
+  {
+    "question": "Which hacker type typically participates in forums and communities to improve skills?",
+    "type": "MCQ",
+    "options": [
+      "Green Hat Hackers",
+      "White Hat Hackers",
+      "Red Hat Hackers",
+      "Blue Hat Hackers"
+    ],
+    "answer": "Green Hat Hackers",
+    "description": "Green Hats are newcomers who spend time in communities to learn and practice hacking skills.",
+    "hints": ["Learning phase hackers.", "Not yet advanced professionals."],
+    "id": "910c1036-fb8f-4dc1-8ce5-108a3101f6ca"
+  },
+  {
+    "question": "True or False: Organized Hackers usually operate independently without group structure.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Organized Hackers work in structured teams with defined roles to execute cybercrime efficiently.",
+    "hints": [
+      "Hierarchy exists in such groups.",
+      "Often compared to corporate structures."
+    ],
+    "id": "e9bd4137-f1f7-4e4b-9000-646b4348f7b4"
+  },
+  {
+    "question": "Which hacker type uses hacking as a hobby without malicious intent, often exploring systems?",
+    "type": "MCQ",
+    "options": [
+      "White Hat Hackers",
+      "Green Hat Hackers",
+      "Hacktivists",
+      "Gray Hat Hackers"
+    ],
+    "answer": "Green Hat Hackers",
+    "description": "Green Hats learn hacking out of curiosity and for skill development rather than for harm or activism.",
+    "hints": [
+      "Beginners in hacking communities.",
+      "Intent is knowledge, not destruction."
+    ],
+    "id": "23dc097f-4236-4da8-9dce-50ccaa758c72"
+  },
+  {
+    "question": "Which hacker category acts as cyber vigilantes against black hats?",
+    "type": "MCQ",
+    "options": [
+      "Red Hat Hackers",
+      "Gray Hat Hackers",
+      "Hacktivists",
+      "Organized Hackers"
+    ],
+    "answer": "Red Hat Hackers",
+    "description": "Red Hats actively fight against malicious hackers by dismantling their systems using aggressive tactics.",
+    "hints": ["Think vigilante justice.", "Not limited to defensive methods."],
+    "id": "94aa7ca8-2cba-4d8c-9805-e742d97089de"
+  },
+  {
+    "question": "True or False: Corporate spies rely heavily on advanced persistent threats to remain undetected.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "True",
+    "description": "Corporate spies use stealthy techniques like APTs and social engineering to steal valuable trade secrets over time.",
+    "hints": [
+      "They prioritize stealth and persistence.",
+      "Often target R&D and business strategies."
+    ],
+    "id": "2d009dbb-2301-4e86-83cc-4bab20e631c9"
+  },
+  {
+    "question": "Which hacker class primarily performs defacement of websites to send messages?",
+    "type": "MCQ",
+    "options": [
+      "Hacktivists",
+      "Criminal Syndicates",
+      "Green Hat Hackers",
+      "Suicide Hackers"
+    ],
+    "answer": "Hacktivists",
+    "description": "Hacktivists commonly deface websites as part of their campaigns to raise awareness about social or political issues.",
+    "hints": [
+      "Website graffiti with a cause.",
+      "Often seen in political protests online."
+    ],
+    "id": "d151c32c-f2a8-4285-99b1-e46035d20873"
+  },
+  {
+    "question": "Which hacker type is often seen testing software security for companies on a contractual basis?",
+    "type": "MCQ",
+    "options": [
+      "Blue Hat Hackers",
+      "Gray Hat Hackers",
+      "Hacktivists",
+      "Organized Hackers"
+    ],
+    "answer": "Blue Hat Hackers",
+    "description": "Blue Hats perform security tests for organizations before releasing products, often hired as external consultants.",
+    "hints": [
+      "Pre-launch testers.",
+      "Not internal employees but temporary hires."
+    ],
+    "id": "dc90831c-d30a-4246-afd5-677324b19ec8"
+  },
+  {
+    "question": "True or False: State-Sponsored Hackers only target individuals and small businesses.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "State-sponsored hackers typically target governments, critical infrastructure, and large corporations for espionage.",
+    "hints": [
+      "They aim at high-value targets.",
+      "Geopolitical objectives drive them."
+    ],
+    "id": "0f59fa47-e391-46ce-b0f9-e3f360379707"
+  },
+  {
+    "question": "Which hacker class is known for aggressive retaliation against cybercriminal networks?",
+    "type": "MCQ",
+    "options": [
+      "Red Hat Hackers",
+      "White Hat Hackers",
+      "Blue Hat Hackers",
+      "Hacktivists"
+    ],
+    "answer": "Red Hat Hackers",
+    "description": "Red Hats dismantle black hat networks using offensive cyber tactics, acting as vigilantes.",
+    "hints": [
+      "Active defenders, not passive observers.",
+      "Operate outside normal rules."
+    ],
+    "id": "4fca3cdd-68e8-4704-8c62-658f0774c5e4"
+  },
+  {
+    "question": "What is a common motivation behind insider threats?",
+    "type": "MCQ",
+    "options": [
+      "Patriotism",
+      "Personal vendetta or financial gain",
+      "Promoting social activism",
+      "Learning cybersecurity"
+    ],
+    "answer": "Personal vendetta or financial gain",
+    "description": "Insiders often misuse their privileged access for revenge or to sell sensitive data for money.",
+    "hints": ["They already have access.", "Motivated by anger or greed."],
+    "id": "66ab70f2-4991-44e5-a966-e486139e8f3d"
+  },
+  {
+    "question": "True or False: Script Kiddies often develop their own malware for cyber attacks.",
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": "False",
+    "description": "Script Kiddies lack technical skills and rely on ready-made tools for hacking.",
+    "hints": [
+      "They execute tools, not create them.",
+      "Beginners with limited understanding."
+    ],
+    "id": "ad7724ce-f4d4-4112-822e-0e173998de66"
+  },
+  {
+    "question": "Which hacker category conducts cyberattacks mainly to create widespread fear for ideological purposes?",
+    "type": "MCQ",
+    "options": [
+      "Cyber Terrorists",
+      "Hacktivists",
+      "Corporate Spies",
+      "Red Hat Hackers"
+    ],
+    "answer": "Cyber Terrorists",
+    "description": "Cyber Terrorists attack critical systems to spread panic and promote political or religious ideologies.",
+    "hints": ["Think chaos as a weapon.", "Motivation is ideology-driven."],
+    "id": "a83bcc57-cf5b-41ef-a7fd-137148de01a9"
   }
 ]
